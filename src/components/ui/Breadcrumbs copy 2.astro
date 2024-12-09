@@ -5,7 +5,18 @@
 // Properties:
 // - Classes: additional classes
 
+// Reference: https://wind-ui.com/components/breadcrumbs/
+
+// Components
+// - UI
+
 import { Icon } from 'astro-icon/components';
+
+// URL Parsing and breadcrumb generation
+// const url = new URL(Astro.request.url);
+// const pathname = url.pathname;
+// const segments = pathname.split('/').filter(Boolean);
+// const breadcrumbs = ['Home', ...segments];
 
 // URL Parsing and breadcrumb generation
 const url = new URL(Astro.request.url);
@@ -13,23 +24,11 @@ const pathname = url.pathname;
 const segments = pathname.split('/').filter(Boolean);
 
 // Add 'Blog' before the current path segments
-const breadcrumbs = ['Home', 'Blog'];
-
-// Extract dynamic tag from frontmatter
-const { tags } = Astro.props; // Ensure tags is passed as a prop from the frontmatter
-
-// Check if tags exist and add the first one if available
-if (tags && tags.length > 0) {
-    breadcrumbs.push(tags[0]); // Only add the first tag if it exists
-}
-
-// Add current URL segment(s)
-breadcrumbs.push(...segments);
+const breadcrumbs = ['Home', 'Blog', ...segments];
 
 // Props
 type Props = {
     classes?: string;
-    tags?: string[]; // Add type for tags if not already defined
 };
 const { classes } = Astro.props;
 ---
@@ -38,7 +37,7 @@ const { classes } = Astro.props;
     <ol class="breadcrumbs__list">
         {breadcrumbs.map((segment, index) => (
             <li class="breadcrumbs__list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <a href={`/${index === 1 ? 'blog' : index === 2 ? 'blog/' + segment : segments.slice(0, index).join('/')}`} class="breadcrumbs__item-link" itemprop="item">
+                <a href={`/${index === 1 ? 'blog' : segments.slice(0, index).join('/')}`} class="breadcrumbs__item-link" itemprop="item">
                     <span itemprop="name">{index === 0 ? segment : segment.replace(/-/g, ' ')}</span>
                 </a>
                 <meta itemprop="position" content={(index + 1).toString()} />
@@ -49,6 +48,7 @@ const { classes } = Astro.props;
         ))}
     </ol>
 </nav>
+
 
 <style>
     .breadcrumbs {
