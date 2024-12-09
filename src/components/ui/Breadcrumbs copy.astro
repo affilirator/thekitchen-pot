@@ -13,18 +13,10 @@
 import { Icon } from 'astro-icon/components';
 
 // URL Parsing and breadcrumb generation
-// const url = new URL(Astro.request.url);
-// const pathname = url.pathname;
-// const segments = pathname.split('/').filter(Boolean);
-// const breadcrumbs = ['Home', ...segments];
-
 const url = new URL(Astro.request.url);
 const pathname = url.pathname;
 const segments = pathname.split('/').filter(Boolean);
-
-// Add 'Blog' before the current path segments
-const breadcrumbs = ['Home', 'Blog', ...segments];
-
+const breadcrumbs = ['Home', ...segments];
 
 // Props
 type Props = {
@@ -37,7 +29,7 @@ const { classes } = Astro.props;
     <ol class="breadcrumbs__list">
         {breadcrumbs.map((segment, index) => (
             <li class="breadcrumbs__list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                <a href={`/${index === 1 ? 'blog' : segments.slice(0, index).join('/')}`} class="breadcrumbs__item-link" itemprop="item">
+                <a href={`/${segments.slice(0, index).join('/')}`} class="breadcrumbs__item-link" itemprop="item">
                     <span itemprop="name">{index === 0 ? segment : segment.replace(/-/g, ' ')}</span>
                 </a>
                 <meta itemprop="position" content={(index + 1).toString()} />

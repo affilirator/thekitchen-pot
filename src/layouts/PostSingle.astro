@@ -44,6 +44,7 @@ function formatDate(dateString: string | undefined) {
 }
 
 
+
 const authorData = {
   name: frontmatter.author || 'Anonymous',
   image: '/images/parallax-img-18.png', // Replace with actual author image
@@ -172,11 +173,12 @@ decoding="sync"
     </section>
     </div>
     <AuthorBio
-      name={authorPost.author.name}
-      image={authorPost.author.image}
-      bio={authorPost.author.bio}
+      name={authorPost.author?.name ?? 'Default Name'}
+  image={authorPost.author?.image ?? '/default-image.png'}
+  bio={authorPost.author?.bio ?? 'Default bio.'}
+
       socialLinks={authorData.socialLinks}
-      url={authorPost.author.url}
+      url={authorPost.author?.url ?? "/author/patrick-mahinge"}
     />
 
   </article>
