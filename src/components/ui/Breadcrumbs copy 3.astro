@@ -36,23 +36,17 @@ const { classes } = Astro.props;
 
 <nav aria-label="Breadcrumb" class:list={['breadcrumbs', { [`${classes}`]: classes }]} itemscope itemtype="http://schema.org/BreadcrumbList">
     <ol class="breadcrumbs__list">
-        {breadcrumbs.map((segment, index) => {
-            const isTag = index === 2; // Assuming the tag is at index 2
-            const href = `/${index === 1 ? 'blog' : isTag ? segment : segments.slice(0, index).join('/')}`;
-
-            return (
-                <li class="breadcrumbs__list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-                    <a href={href} class="breadcrumbs__item-link" itemprop="item">
-                        <span itemprop="name">{index === 0 ? segment : segment.replace(/-/g, ' ')}</span>
-                    </a>
-                    <meta itemprop="position" content={(index + 1).toString()} />
-                    <meta itemprop="item" content={href} /> {/* Required item field */}
-                    {index < breadcrumbs.length - 1 && (
-                        <Icon name="chevron-left" class="breadcrumbs__item-icon" />
-                    )}
-                </li>
-            );
-        })}
+        {breadcrumbs.map((segment, index) => (
+            <li class="breadcrumbs__list-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                <a href={`/${index === 1 ? 'blog' : index === 2 ? 'blog/' + segment : segments.slice(0, index).join('/')}`} class="breadcrumbs__item-link" itemprop="item">
+                    <span itemprop="name">{index === 0 ? segment : segment.replace(/-/g, ' ')}</span>
+                </a>
+                <meta itemprop="position" content={(index + 1).toString()} />
+                {index < breadcrumbs.length - 1 && (
+                    <Icon name="chevron-left" class="breadcrumbs__item-icon" />
+                )}
+            </li>
+        ))}
     </ol>
 </nav>
 
