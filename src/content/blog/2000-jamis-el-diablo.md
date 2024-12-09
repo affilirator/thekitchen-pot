@@ -9,9 +9,9 @@ tags: ["Mountain"]
 authorId: "mtbnz_admin"
 ---
 
-![](images/stretch235.gif)
+!["2000 Jamis El Diablo"](images/stretch235.gif)
 
-![](images/el_diablo3.jpg)Looking for a high performance long travel screamer? Look no further!
+!["200 Jamis El Diablo Bike Review"](images/el_diablo3.jpg)Looking for a high performance long travel screamer? Look no further!
 
 Jamis' El Diablo brings "cross country" weights to the "out of bounds" rider!
 
@@ -21,7 +21,7 @@ To find out more about this bike or other more wallet friendly Jamis models chec
 
 ## **The Bike**
 
-## ![](images/diablo_rate.gif)
+## !["el diablo 2000 bike review"](images/diablo_rate.gif)
 
 The El Diablo is an awesome long travel mountain bike which is well worth it's $4000.00 price tag.
 

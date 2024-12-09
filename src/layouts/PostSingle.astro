@@ -8,6 +8,26 @@ import Breadcrumbs from '../components/ui/Breadcrumbs.astro';
 import AuthorBio from '../components/AuthorBio.astro';
 import '../styles/blog-content.css';
 
+// authur import
+import postsWithAuthors from "../lib/postsWithAuthors"; // Assuming you export this logic
+
+const authorPost = postsWithAuthors[0]; // Example for a single post
+
+interface Author {
+    name: string;
+    title: string;
+    image: string;
+    bio: string;
+    credentials: string[];
+    socialLinks: {
+        twitter?: string;
+        linkedin?: string;
+    };
+}
+
+
+// End of Author Import
+
 const { frontmatter, entry } = Astro.props;
 
 function formatDate(dateString: string | undefined) {
@@ -35,9 +55,42 @@ const authorData = {
     website: 'https://authorwebsite.com'
   }
 };
+
+// Schema.org Article markup
+const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: frontmatter.title,
+    description: frontmatter.description,
+    image: frontmatter.image,
+    datePublished: frontmatter.pubDate,
+    dateModified: frontmatter.updatedDate ? frontmatter.updatedDate : frontmatter.pubDate,
+    author: {
+        "@type": "Person",
+        name: authorPost.author?.name,
+        jobTitle: authorPost.author?.jobTitle,
+        description: authorPost.author?.bio,
+    },
+    publisher: {
+        "@type": "Organization",
+        name: "Kenya Forex Firm",
+        logo: {
+            "@type": "ImageObject",
+            url: "https://kenyaforexfirm.com/logo.png",
+        },
+    },
+    mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": Astro.url.href,
+    },
+};
 ---
 
 <Layout title={`${frontmatter.title} - MTBNZ`}>
+  <script
+        type="application/ld+json"
+        set:html={JSON.stringify(articleSchema)}
+    />
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <header class="mb-8">
 
@@ -50,7 +103,7 @@ const authorData = {
           <>
             <span class="mx-2">•</span>
             <Icon name="mdi:account" class="w-5 h-5 mr-2" />
-            <span>{frontmatter.author}</span>
+            <span>{authorPost.author?.name}</span>
           </>
         )}
       </div>

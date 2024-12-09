@@ -1,0 +1,70 @@
+[
+  {
+    "authorId": "mtbnz_admin",
+    "name": "Patrick Mahinge",
+    "bio": "Patrick Mahinge is a seasoned forex trading coach based in Kenya with over a decade of experience in financial markets.",
+    "image": "/Patrick-Mahinge.png",
+    "jobTitle": "Forex Trading Coach",
+    "nationality": "Kenyan",
+    "worksFor": {
+      "name": "Forex Savvy Kenya",
+      "url": "https://forexsavvy.co.ke"
+    },
+    "url": "https://patrickmahinge.com",
+    "sameAs": [
+      "https://twitter.com/patrickmahinge",
+      "twitter",
+      "https://www.linkedin.com/in/patrick-mahinge",
+      "https://www.youtube.com/@patrickmahinge"
+    ],
+    "email": "patrick@forexsavvy.co.ke",
+    "telephone": "+254700000000",
+    "address": {
+      "streetAddress": "123 Forex Street",
+      "addressLocality": "Nairobi",
+      "addressRegion": "Nairobi County",
+      "postalCode": "00100",
+      "addressCountry": "KE"
+    },
+    "alumniOf": [
+      {
+        "name": "University of Nairobi",
+        "url": "https://uonbi.ac.ke"
+      }
+    ],
+    "awards": [
+      "Best Forex Trading Coach in Kenya - 2023",
+      "Top Financial Educator in Africa - 2022"
+    ],
+    "knowsAbout": [
+      "Forex Trading",
+      "Technical Analysis",
+      "Financial Education",
+      "Risk Management"
+    ],
+    "hasCredential": [
+      {
+        "name": "Certified Financial Markets Analyst (CFMA)",
+        "awardingBody": "Institute of Financial Markets"
+      }
+    ],
+    "description": "Patrick Mahinge is a leading expert in forex trading, renowned for his practical coaching sessions and educational content tailored to Kenyan traders."
+  },
+  {
+    "id": "jane-smith",
+    "name": "Jane Smith",
+    "bio": "Jane Smith is a financial analyst and guest contributor specializing in stock market trends and investment strategies.",
+    "image": "/images/authors/jane-smith.jpg",
+    "jobTitle": "Financial Analyst",
+    "nationality": "American",
+    "worksFor": {
+      "name": "InvestPro Global",
+      "url": "https://investproglobal.com"
+    },
+    "url": "https://janesmith.com",
+    "sameAs": [
+      "https://twitter.com/janesmith",
+      "https://www.linkedin.com/in/jane-smith"
+    ]
+  }
+]
