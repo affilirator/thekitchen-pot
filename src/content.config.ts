@@ -16,6 +16,7 @@ const reviews = defineCollection({
     title: z.string(),
     description: z.string(),
     publishDate: z.string(),
+    slug: z.string().optional(),
     updateDate: z.string().optional(),
     author: z.object({
       name: z.string(),

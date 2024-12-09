@@ -1,0 +1,143 @@
+---
+
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { Icon } from 'astro-icon/components';
+import { Image } from 'astro:assets';
+
+
+type Post = { data: { image: string; title: string; pubDate: string; excerpt: string; slug: string; } };
+// Fetch all blog posts
+const allPosts = await getCollection('blog');
+
+// Sort posts by pubDate (newest first)
+const sortedPosts = allPosts.sort((a, b) => {
+  return new Date(b.data.pubDate || '').getTime() - new Date(a.data.pubDate || '').getTime();
+});
+
+// Get unique tags
+const allTags = [...new Set(sortedPosts.flatMap(post => post.data.tags || []))];
+
+// Group posts by tag
+const postsByTag: Record<string, Post[]> = allTags.reduce((acc, tag) => {
+  acc[tag] = sortedPosts.filter(post => post.data.tags?.includes(tag));
+  return acc;
+}, {} as Record<string, Post[]>);
+
+// Pagination
+const postsPerPage = 9;
+const currentPage = Number(Astro.url.searchParams.get('page') || 1);
+const totalPages = Math.ceil(sortedPosts.length / postsPerPage);
+const paginatedPosts = sortedPosts.slice((currentPage - 1) * postsPerPage, currentPage * postsPerPage);
+
+// Helper function to format date
+function formatDate(dateString: string | undefined) {
+  if (!dateString) return '';
+
+  // Split the date string into day, month, and year
+  const [day, month, year] = dateString.split('-').map(Number);
+
+  // Create a new Date object using the year, month (adjusted for 0-indexing), and day
+  const date = new Date(year, month - 1, day);
+
+  // Format the date in the desired format (e.g., "January 1, 2024")
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+
+
+---
+
+<Layout title="Blog - MTBNZ">
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-8 text-center">MTBNZ Blog</h1>
+
+    <!-- Featured Post -->
+    {sortedPosts.length > 0 && (
+      <div class="mb-12">
+        <h2 class="text-2xl font-semibold mb-4">Featured Article</h2>
+        <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+          <Image src={sortedPosts[0].data.image}
+          width={1200}
+          height={620}
+          sizes="(max-width: 768px) 100vw, 1200px" alt={sortedPosts[0].data.title} class="w-full h-64 object-cover" />
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2">{sortedPosts[0].data.title}</h3>
+            <p class="text-teal-600 mb-4">{formatDate(sortedPosts[0].data.pubDate)}</p>
+            <p class="mb-4">{sortedPosts[0].data.excerpt}</p>
+            <a href={`/${sortedPosts[0].data.slug}`} class="inline-block bg-teal-600 text-black px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">Read More</a>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- Tag-based Sections -->
+    {allTags.map(tag => (
+      <div class="mb-12">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-2xl font-semibold">{tag}</h2>
+          <a href={`/blog/tag/${tag}`} class="text-teal-600 hover:text-teal-800 transition-colors">View All</a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          {postsByTag[tag].slice(0, 3).map((post: { data: { image: string; title: string; pubDate: string; excerpt: string; slug: string; } }) => (
+            <article class="bg-white rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-105">
+              <Image src={post.data.image}
+              width={1200} height={620} alt={post.data.title} class="w-full h-48 object-cover" />
+              <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">{post.data.title}</h3>
+                <p class="text-teal-600 mb-4">{formatDate(post.data.pubDate)}</p>
+                <p class="mb-4 line-clamp-3">{post.data.excerpt}</p>
+                <a href={`/blog/${post.data.slug}`} class="inline-block bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">Read More</a>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    ))}
+
+    <!-- Latest Posts (Paginated) -->
+    <div class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">Latest Articles</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {paginatedPosts.map(post => (
+          <article class="bg-white rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-105">
+            <Image src={post.data.image} width={1200} height={620} alt={post.data.title} class="w-full h-48 object-cover" />
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-2">{post.data.title}</h3>
+              <p class="text-teal-600 mb-4">{formatDate(post.data.pubDate)}</p>
+              <p class="mb-4 line-clamp-3">{post.data.excerpt}</p>
+              <a href={`/blog/${post.data.slug}`} class="inline-block bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">Read More</a>
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    {totalPages > 1 && (
+      <div class="flex justify-center items-center space-x-2">
+        {currentPage > 1 && (
+          <a href={`/blog?page=${currentPage - 1}`} class="bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">
+            <Icon name="mdi:chevron-left" class="w-6 h-6" />
+            <span class="sr-only">Previous Page</span>
+          </a>
+        )}
+        {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
+          <a
+            href={`/blog?page=${page}`}
+            class={`px-4 py-2 rounded-full transition-colors ${currentPage === page ? 'bg-teal-600 text-white' : 'bg-white text-teal-600 hover:bg-teal-100'}`}
+          >
+            {page}
+          </a>
+        ))}
+        {currentPage < totalPages && (
+          <a href={`/blog?page=${currentPage + 1}`} class="bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">
+            <Icon name="mdi:chevron-right" class="w-6 h-6" />
+            <span class="sr-only">Next Page</span>
+          </a>
+        )}
+      </div>
+    )}
+  </div>
+</Layout>

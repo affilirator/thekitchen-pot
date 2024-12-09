@@ -1,0 +1,127 @@
+---
+import Layout from './Layout.astro';
+import { Icon } from 'astro-icon/components';
+import { Image } from 'astro:assets';
+import Breadcrumbs from '../components/ui/Breadcrumbs.astro';
+// import { Image } from '@astro/image';
+// import ShareButtons from '../components/ShareButtons.astro';
+import AuthorBio from '../components/AuthorBio.astro';
+import '../styles/blog-content.css';
+
+const { frontmatter, entry } = Astro.props;
+
+function formatDate(dateString: string | undefined) {
+  if (!dateString) return '';
+
+  // Split the date string into day, month, and year
+  const [day, month, year] = dateString.split('-').map(Number);
+
+  // Create a new Date object using the year, month (adjusted for 0-indexing), and day
+  const date = new Date(year, month - 1, day);
+
+  // Format the date in the desired format (e.g., "January 1, 2024")
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+
+const authorData = {
+  name: frontmatter.author || 'Anonymous',
+  image: '/images/parallax-img-18.png', // Replace with actual author image
+  bio: 'A passionate writer and advocate for positive masculinity.',
+  socialLinks: {
+    twitter: 'https://twitter.com/authorhandle',
+    linkedin: 'https://linkedin.com/in/authorprofile',
+    github: 'https://github.com/authorgithub',
+    website: 'https://authorwebsite.com'
+  }
+};
+---
+
+<Layout title={`${frontmatter.title} - V.T.N.M`}>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <header class="mb-8">
+
+      <Breadcrumbs classes="mb-6 mx-auto jusify-center jusify-items-center" />
+      <h1 class="text-4xl sm:text-5xl font-bold mb-4 text-gray-900">{frontmatter.title}</h1>
+      <div class="flex items-center text-gray-600 mb-4">
+        <Icon name="mdi:calendar" class="w-5 h-5 mr-2" />
+        <time datetime={frontmatter.pubDate}>{formatDate(frontmatter.pubDate)}</time>
+        {frontmatter.author && (
+          <>
+            <span class="mx-2">•</span>
+            <Icon name="mdi:account" class="w-5 h-5 mr-2" />
+            <span>{frontmatter.author}</span>
+          </>
+        )}
+      </div>
+      {frontmatter.tags && frontmatter.tags.length > 0 && (
+        <div class="flex flex-wrap gap-2">
+          {frontmatter.tags.map((tag: string) => (
+            <a href={`/blog/tag/${tag}`} class="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm hover:bg-teal-200 transition-colors">
+              {tag}
+            </a>
+          ))}
+        </div>
+      )}
+    </header>
+
+    {frontmatter.image && (
+      <Image
+        src={`/../..${frontmatter.image}`}
+        alt={frontmatter.title}
+        width={768}
+        height={430}
+
+        decoding="async"
+
+        class="w-full h-auto  object-cover rounded-lg mb-8 shadow-lg"
+      />
+    )}
+
+    <div class="blog-content">
+      <slot />
+    </div>
+    <div>
+
+<section class="mt-12 pt-8 border-t border-gray-200" >
+      <div class="flex flex-wrap justify-between items-center">
+        <div class="w-full sm:w-auto mb-4 sm:mb-0">
+          <h2 class="text-xl font-semibold mb-2">Share this article</h2>
+          <div class="flex space-x-4">
+            <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(frontmatter.title)}&url=${encodeURIComponent(String(Astro.url))}`} target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-600 transition-colors">
+    <Icon name="mdi:twitter" class="w-6 h-6" />
+    <span class="sr-only">Share on Twitter</span>
+    </a>
+
+            <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(String(Astro.url))}`} target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 transition-colors">
+  <Icon name="mdi:facebook" class="w-6 h-6" />
+  <span class="sr-only">Share on Facebook</span>
+            </a>
+            <a href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(String(Astro.url))}&title=${encodeURIComponent(frontmatter.title)}`} target="_blank" rel="noopener noreferrer" class="text-blue-700 hover:text-blue-900 transition-colors">
+  <Icon name="mdi:linkedin" class="w-6 h-6" />
+  <span class="sr-only">Share on LinkedIn</span>
+</a>
+          </div>
+        </div>
+        <div class="w-full sm:w-auto">
+          <h2 class="text-xl font-semibold mb-2">Tags</h2>
+          <div class="flex flex-wrap gap-2">
+            {frontmatter.tags && frontmatter.tags.map((tag: string) => (
+              <a href={`/blog/tag/${tag}`} class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm hover:bg-gray-300 transition-colors">
+                {tag}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    <AuthorBio
+      name={authorData.name}
+      image={authorData.image}
+      bio={authorData.bio}
+      socialLinks={authorData.socialLinks}
+    />
+
+  </article>
+</Layout>

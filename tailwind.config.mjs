@@ -65,7 +65,8 @@ export default {
         display: ["Bebas Neue", "sans-serif"],
       },
       backgroundImage: {
-        'hero-pattern': "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1623544726893-be7e56c8f4fc?q=80&w=2070')",
+        "hero-pattern":
+          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1623544726893-be7e56c8f4fc?q=80&w=2070')",
       },
       keyframes: {
         "accordion-down": {
@@ -83,5 +84,5 @@ export default {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
-}
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+};

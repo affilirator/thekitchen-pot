@@ -1,11 +1,11 @@
 ---
 // import { getCollection } from 'astro:content';
-import ReviewLayout from '@/layouts/ReviewLayout.astro';
+import PostLayout from '@/layouts/PostSingle.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
-  const reviews = await getCollection('reviews');
-  return reviews.map(entry => ({
+  const posts = await getCollection('blog');
+  return posts.map(entry => ({
     params: { slug: entry.id },
     props: { entry },
   }));
@@ -19,6 +19,6 @@ const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 ---
 
-<ReviewLayout frontmatter={entry.data} headings={headings}>
+<PostLayout frontmatter={entry.data} headings={headings}>
   <Content />
-</ReviewLayout>
+</PostLayout>
