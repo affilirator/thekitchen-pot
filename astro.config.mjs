@@ -8,9 +8,12 @@ import icon from "astro-icon";
 
 import sitemap from "@astrojs/sitemap";
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://mtbnz.org",
+
   // trailingSlash: "always",
   integrations: [
     react(),
@@ -24,4 +27,6 @@ export default defineConfig({
       lastmod: new Date("2024-12-08"),
     }),
   ],
+
+  adapter: cloudflare(),
 });

@@ -16,16 +16,20 @@ import { Button } from "@/components/ui/button";
         Your ultimate guide to mountain biking in NZ. Expert reviews, latest gear, and trail discoveries.
       </p>
       <div class="flex flex-wrap gap-4">
-        <Button size="lg" class="bg-primary hover:bg-primary/90 text-lg px-8">
+        <a href="/trails/">
+        <Button aria-label="Explore new trails" size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8">
           Explore Trails
         </Button>
-        <Button 
-          size="lg" 
-          variant="outline" 
-          class="bg-white/10 text-white border-white hover:bg-white/20 text-lg px-8"
+        </a>
+        <a href="/reviews/">
+        <Button aria-label="MTB product reviews"
+          size="lg"
+          variant="outline"
+          className="bg-white/10 text-white border-white hover:bg-white/20 text-lg px-8"
         >
           Latest Reviews
         </Button>
+        </a>
       </div>
     </div>
   </div>
