@@ -1,6 +1,6 @@
 ---
-import Header from '@/components/Header.astro';
-import Footer from '@/components/Footer.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import '@fontsource-variable/montserrat';
 import '@fontsource/bebas-neue';
 import '@/styles/globals.css';
@@ -10,7 +10,7 @@ interface Props {
   description?: string;
 }
 
-const { 
+const {
   title,
   description = "MTBNZ - Your ultimate guide to mountain biking in New Zealand. Expert reviews, latest gear, and trail discoveries."
 } = Astro.props;
@@ -25,18 +25,18 @@ const {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title} | MTBNZ</title>
-    
+
     <!-- SEO Meta Tags -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://mtbnz.org" />
     <meta name="twitter:card" content="summary_large_image" />
-    
+
     <!-- Preload Critical Assets -->
-    <link 
-      rel="preload" 
-      href="https://images.unsplash.com/photo-1623544726893-be7e56c8f4fc?q=80&w=2070" 
+    <link
+      rel="preload"
+      href="https://images.unsplash.com/photo-1623544726893-be7e56c8f4fc?q=80&w=2070"
       as="image"
     />
   </head>
