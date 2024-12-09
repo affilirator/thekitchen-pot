@@ -3,7 +3,6 @@ import Layout from './Layout.astro';
 import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
 import Breadcrumbs from '../components/ui/Breadcrumbs.astro';
-// import { Image } from '@astro/image';
 // import ShareButtons from '../components/ShareButtons.astro';
 import AuthorBio from '../components/AuthorBio.astro';
 import '../styles/blog-content.css';
@@ -18,6 +17,7 @@ interface Author {
     title: string;
     image: string;
     bio: string;
+    url:string;
     credentials: string[];
     socialLinks: {
         twitter?: string;
@@ -70,6 +70,7 @@ const articleSchema = {
         name: authorPost.author?.name,
         jobTitle: authorPost.author?.jobTitle,
         description: authorPost.author?.bio,
+        url: authorPost.author?.url,
     },
     publisher: {
         "@type": "Organization",
@@ -171,10 +172,11 @@ decoding="sync"
     </section>
     </div>
     <AuthorBio
-      name={authorData.name}
-      image={authorData.image}
-      bio={authorData.bio}
+      name={authorPost.author.name}
+      image={authorPost.author.image}
+      bio={authorPost.author.bio}
       socialLinks={authorData.socialLinks}
+      url={authorPost.author.url}
     />
 
   </article>
