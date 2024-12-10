@@ -38,9 +38,9 @@ function getCurrentFormattedDate() {
     const isoString = currentDate.toISOString(); // Format: YYYY-MM-DDTHH:mm:ss.sssZ
     const timezoneOffset = currentDate.getTimezoneOffset(); // Get timezone offset in minutes
 
-    // Calculate the timezone in hours and format it
+    // Calculate the timezone in hours
     const timezoneHours = -timezoneOffset / 60;
-    const timezoneString = `UTC${timezoneHours >= 0 ? '+' : ''}${timezoneHours}`;
+    const timezoneString = `UTC${timezoneHours >= 0 ? '+' : ''}${Math.abs(timezoneHours).toString().padStart(2, '0')}:00`;
 
     return {
         dateTimeValue: isoString,
