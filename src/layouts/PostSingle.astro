@@ -33,6 +33,13 @@ interface Author {
 
 const { frontmatter, entry } = Astro.props;
 
+function getCurrentFormattedDate() {
+    const today = new Date();
+    // Use ISO string for simplicity or adjust formatting as necessary
+    return today.toISOString().split('T')[0];
+}
+
+
 function formatDate(dateString: string | undefined) {
   if (!dateString) return '';
 
@@ -68,7 +75,7 @@ const articleSchema = {
     description: frontmatter.description,
     image: frontmatter.image,
     datePublished: frontmatter.pubDate,
-    dateModified: frontmatter.updatedDate ? frontmatter.updatedDate : frontmatter.pubDate,
+    dateModified: getCurrentFormattedDate(),
     author: {
         "@type": "Person",
         name: authorPost.author?.name,
