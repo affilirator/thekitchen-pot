@@ -77,27 +77,10 @@ const organizationSchema = {
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">
 
     <!-- Schema.org Markup -->
-    <script type="application/ld+json">
-      {JSON.stringify({
-         "@context": "https://schema.org",
-         "@type": "Organization",
-         "name": "MTBNZ",
-         "url": baseUrl,
-         "logo": `${baseUrl}/logo.png`,
-         "description": "A blog about mountain biking in New Zealand",
-         "address": {
-             "@type": "PostalAddress",
-             "addressLocality": "Texas",
-             "addressCountry": "US"
-         },
-         "sameAs": [
-             "https://facebook.com/mtbnz",
-             "https://twitter.com/mtbnz",
-             "https://linkedin.com/company/mtbnz",
-             "https://instagram.com/mtbnz"
-         ]
-       })}
-    </script>
+     <script
+        type="application/ld+json"
+        set:html={JSON.stringify(organizationSchema)}
+    />
 </head>
 <body class="antialiased">
     <Header />
