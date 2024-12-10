@@ -6,45 +6,104 @@ import '@fontsource/bebas-neue';
 import '@/styles/globals.css';
 
 interface Props {
-  title: string;
-  description?: string;
+    title: string;
+    description?: string;
+    image?: string;
+    article?: boolean;
 }
 
 const {
   title,
+  image = "/images/default-cover.jpg",
+    article = false,
   description = "MTBNZ - Your ultimate guide to mountain biking in New Zealand. Expert reviews, latest gear, and trail discoveries."
 } = Astro.props;
+
+// Base URL for canonical links and OG images
+// Base URL for canonical links and OG images
+const baseUrl = "https://mtbnz.org";
+const canonicalURL = new URL(Astro.url.pathname, baseUrl).href;
+const socialImageURL = new URL(image, baseUrl).href;
+
+// Organization Schema
+const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "MTBNZ",
+    url: baseUrl,
+    logo: `${baseUrl}/logo.png`,
+    description: "A blog about mountain biking in New Zealand",
+    address: {
+        "@type": "PostalAddress",
+        addressLocality: "Texas",
+        addressCountry: "US",
+    },
+    sameAs: [
+        "https://facebook.com/mtbnz",
+        "https://twitter.com/mtbnz",
+        "https://linkedin.com/company/mtbnz",
+        "https://instagram.com/mtbnz",
+    ],
+};
 ---
 
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" class="scroll-smooth">
+<head>
     <meta charset="UTF-8" />
-    <meta name="description" content={description} />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
     <title>{title} | MTBNZ</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/atom+xml" title={title} href="/rss.xml" />
 
-    <!-- SEO Meta Tags -->
+    <!-- SEO and Social Media Meta Tags -->
+    <meta name="robots" content="index, follow" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://mtbnz.org" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:type" content={article ? "article" : "website"} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={socialImageURL} />
+    <meta property="og:site_name" content="MTBNZ" />
+    <meta property="article:publisher" content="https://mtbnz.org" />
 
-    <!-- Preload Critical Assets -->
-    <link
-      rel="preload"
-      href="https://images.unsplash.com/photo-1623544726893-be7e56c8f4fc?q=80&w=2070"
-      as="image"
-    />
-  </head>
-  <body class="antialiased">
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+
+    <!-- Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">
+
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+      {JSON.stringify({
+         "@context": "https://schema.org",
+         "@type": "Organization",
+         "name": "MTBNZ",
+         "url": baseUrl,
+         "logo": `${baseUrl}/logo.png`,
+         "description": "A blog about mountain biking in New Zealand",
+         "address": {
+             "@type": "PostalAddress",
+             "addressLocality": "Texas",
+             "addressCountry": "US"
+         },
+         "sameAs": [
+             "https://facebook.com/mtbnz",
+             "https://twitter.com/mtbnz",
+             "https://linkedin.com/company/mtbnz",
+             "https://instagram.com/mtbnz"
+         ]
+       })}
+    </script>
+</head>
+<body class="antialiased">
     <Header />
     <main>
       <slot />
     </main>
     <Footer />
-  </body>
+</body>
 </html>
