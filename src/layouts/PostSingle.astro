@@ -12,6 +12,9 @@ import postsWithAuthors from "../lib/postsWithAuthors"; // Assuming you export t
 
 const authorPost = postsWithAuthors[0]; // Example for a single post
 
+let article = true; // Set based on some condition or metadata
+
+
 interface Author {
     name: string;
     title: string;
@@ -75,7 +78,7 @@ const articleSchema = {
     },
     publisher: {
         "@type": "Organization",
-        name: "Kenya Forex Firm",
+        name: "MTBNZ",
         logo: {
             "@type": "ImageObject",
             url: "https://mtbnz.org/logo.png",
@@ -90,7 +93,7 @@ const articleSchema = {
 const { tags } = frontmatter; // Assuming you're using frontmatter to get article data
 ---
 
-<Layout title={`${frontmatter.title} - MTBNZ`}>
+<Layout title={`${frontmatter.title} - MTBNZ`} article={article}>
   <script
         type="application/ld+json"
         set:html={JSON.stringify(articleSchema)}
