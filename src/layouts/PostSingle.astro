@@ -34,9 +34,18 @@ interface Author {
 const { frontmatter, entry } = Astro.props;
 
 function getCurrentFormattedDate() {
-    const today = new Date();
-    // Use ISO string for simplicity or adjust formatting as necessary
-    return today.toISOString().split('T')[0];
+    const currentDate = new Date();
+    const isoString = currentDate.toISOString(); // Format: YYYY-MM-DDTHH:mm:ss.sssZ
+    const timezoneOffset = currentDate.getTimezoneOffset(); // Get timezone offset in minutes
+
+    // Calculate the timezone in hours and format it
+    const timezoneHours = -timezoneOffset / 60;
+    const timezoneString = `UTC${timezoneHours >= 0 ? '+' : ''}${timezoneHours}`;
+
+    return {
+        dateTimeValue: isoString,
+        timezone: timezoneString,
+    };
 }
 
 
@@ -68,6 +77,7 @@ const authorData = {
 };
 
 // Schema.org Article markup
+const currentDateInfo = getCurrentFormattedDate();
 const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -75,7 +85,7 @@ const articleSchema = {
     description: frontmatter.description,
     image: frontmatter.image,
     datePublished: frontmatter.pubDate,
-    dateModified: getCurrentFormattedDate(),
+    dateModified: currentDateInfo.dateTimeValue, // Use datetimevalue for dateModified
     author: {
         "@type": "Person",
         name: authorPost.author?.name,
