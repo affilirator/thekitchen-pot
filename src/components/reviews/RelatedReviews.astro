@@ -12,8 +12,8 @@ const { category, currentId } = Astro.props;
 
 const allReviews = await getCollection('reviews');
 const relatedReviews = allReviews
-  .filter(review => 
-    review.data.category === category && 
+  .filter(review =>
+    review.data.category === category &&
     review.data.product.sku !== currentId
   )
   .slice(0, 3);
@@ -22,7 +22,7 @@ const relatedReviews = allReviews
 <section class="bg-silver py-20">
   <div class="container mx-auto px-4">
     <h2 class="font-display text-3xl mb-8">MORE {category.toUpperCase()} REVIEWS</h2>
-    
+
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {relatedReviews.map(review => (
         <Card className="overflow-hidden group hover:shadow-lg transition-shadow">
@@ -43,8 +43,8 @@ const relatedReviews = allReviews
             <p class="text-muted-foreground mb-4 line-clamp-2">
               {review.data.description}
             </p>
-            <a 
-              href={`/reviews/${review.slug}`}
+            <a
+              href={`/reviews/${review.id}`}
               class="text-secondary font-medium hover:text-primary inline-flex items-center gap-2 transition-colors"
             >
               Read Review
