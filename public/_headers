@@ -1,0 +1,13 @@
+https;//mtbnz-main.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+/images/*
+  Cache-Control: public, max-age=31536000
+  Access-Control-Allow-Origin: *
+https://mtbnz.netlify.app/*
+  X-Robots-Tag: noindex, nofollow
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
