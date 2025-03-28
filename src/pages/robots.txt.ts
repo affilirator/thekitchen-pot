@@ -8,9 +8,11 @@ export const GET: APIRoute = ({ site }) => {
     "/blog/example-post",
     "/category/*",
     "/api/*",
+    "thekitchenpots.netlify.app/*",  // Added Netlify domain
     "/tag/*",
     "/goto/*",
     "/search/*",
+    "dev.thekitchenpot.com/*",  // Added development subdomain
     "/?",
     "*.pages.dev/*",
     "*kff.pages.dev/*",
