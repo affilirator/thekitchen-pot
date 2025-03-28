@@ -6,21 +6,34 @@ import { Icon } from 'astro-icon/components';
 import { Image } from 'astro:assets';
 
 
-type Post = { data: { image: string; title: string; pubDate: string; excerpt: string; slug: string; } };
-// Fetch all blog posts
+// Utility function to generate consistent slugs
+function generateSlug(text: string): string {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[\s_]+/g, '-')     // Replace whitespace and underscores with hyphens
+    .replace(/[^\w\-]+/g, '')    // Remove all non-word chars except hyphens
+    .replace(/\-\-+/g, '-')      // Replace multiple hyphens with single hyphen
+    .replace(/^-+/, '')          // Trim hyphens from start
+    .replace(/-+$/, '');         // Trim hyphens from end
+}
+
+type Post = { data: { image: string; title: string; modDate:string; pubDate: string; excerpt: string; slug: string; category: string; } };
 const allPosts = await getCollection('blog');
 
-// Sort posts by pubDate (newest first)
+// Sort posts by modDate (newest first)
 const sortedPosts = allPosts.sort((a, b) => {
-  return new Date(b.data.pubDate || '').getTime() - new Date(a.data.pubDate || '').getTime();
+  return new Date(b.data.modDate || '').getTime() - new Date(a.data.modDate || '').getTime();
 });
 
 // Get unique tags
-const allTags = [...new Set(sortedPosts.flatMap(post => post.data.tags || []))];
+// Get unique categories
+const allCategories = [...new Set(sortedPosts.map(post => post.data.category || 'Uncategorized'))];
 
 // Group posts by tag
-const postsByTag: Record<string, Post[]> = allTags.reduce((acc, tag) => {
-  acc[tag] = sortedPosts.filter(post => post.data.tags?.includes(tag));
+// Group posts by category
+const postsByCategory: Record<string, Post[]> = allCategories.reduce((acc, category) => {
+  acc[category] = sortedPosts.filter(post => (post.data.category || 'Uncategorized') === category);
   return acc;
 }, {} as Record<string, Post[]>);
 
@@ -33,24 +46,19 @@ const paginatedPosts = sortedPosts.slice((currentPage - 1) * postsPerPage, curre
 // Helper function to format date
 function formatDate(dateString: string | undefined) {
   if (!dateString) return '';
-
-  // Split the date string into day, month, and year
-  const [day, month, year] = dateString.split('-').map(Number);
-
-  // Create a new Date object using the year, month (adjusted for 0-indexing), and day
-  const date = new Date(year, month - 1, day);
-
-  // Format the date in the desired format (e.g., "January 1, 2024")
-  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  return new Date(dateString).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
 }
-
 
 
 ---
 
-<Layout title="Blog - MTBNZ">
+<Layout title="Blog | Latest Articles from The Kitchen Pot Blog" description="Discover expert tips, innovative kitchen solutions, and space-saving techniques for small kitchens. Stay updated with our latest articles on compact cooking, organization hacks, and smart kitchen design." robots="index, follow">
   <div class="container mx-auto px-4 py-8">
-    <h1 class="text-4xl font-bold mb-8 text-center">MTBNZ Blog</h1>
+    <h1 class="text-4xl font-bold mb-8 text-center">The Kitchen Pot Blog</h1>
 
     <!-- Featured Post -->
     {sortedPosts.length > 0 && (
@@ -63,32 +71,35 @@ function formatDate(dateString: string | undefined) {
           sizes="(max-width: 768px) 100vw, 1200px" alt={sortedPosts[0].data.title} class="w-full h-64 object-cover" />
           <div class="p-6">
             <h3 class="text-2xl font-semibold mb-2">{sortedPosts[0].data.title}</h3>
-            <p class="text-teal-600 mb-4">{formatDate(sortedPosts[0].data.pubDate)}</p>
+            <p class="text-teal-600 mb-4">{formatDate(sortedPosts[0].data.modDate)}</p>
             <p class="mb-4">{sortedPosts[0].data.excerpt}</p>
-            <a href={`/${sortedPosts[0].data.slug}/`} class="inline-block bg-teal-600 text-black px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">Read More</a>
+            <a href={`/blog/${sortedPosts[0].data.slug}/`} class="inline-block bg-teal-600 text-black px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">Read More</a>
           </div>
         </div>
       </div>
     )}
 
     <!-- Tag-based Sections -->
-    {allTags.map(tag => (
-      <div class="mb-12">
-        <div class="flex justify-between items-center mb-4">
-          <h2 class="text-2xl font-semibold">{tag}</h2>
-          <a href={`/blog/tag/${tag}/`} class="text-teal-600 hover:text-teal-800 transition-colors">View All</a>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {allCategories.map(category => (
+  <div class="mb-12">
+    <div class="flex justify-between items-center mb-4">
+      <h2 class="text-2xl font-semibold">{category}</h2>
 
-          {postsByTag[tag].slice(0, 3).map((post: { data: { image: string; title: string; pubDate: string; excerpt: string; slug: string; } }) => (
-            <article class="bg-white rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-105">
+<a href={`/blog/category/${generateSlug(category)}/`} class="text-teal-600 hover:text-teal-800 transition-colors">
+  View All
+</a>
+    </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {postsByCategory[category].slice(0, 3).map(post => (
+        <article class="bg-white rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-105">
               <Image src={post.data.image}
               width={1200} height={620} alt={post.data.title} class="w-full h-48 object-cover" />
               <div class="p-6">
                 <h3 class="text-xl font-semibold mb-2">{post.data.title}</h3>
-                <p class="text-teal-600 mb-4">{formatDate(post.data.pubDate)}</p>
+                <p class="text-teal-600 mb-4">{formatDate(post.data.modDate)}</p>
                 <p class="mb-4 line-clamp-3">{post.data.excerpt}</p>
-                <a href={`/${post.data.slug}/`} class="inline-block bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">Read More</a>
+                <a href={`/blog/${post.data.slug}/`} class="inline-block bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">Read More</a>
               </div>
             </article>
           ))}
@@ -105,9 +116,9 @@ function formatDate(dateString: string | undefined) {
             <Image src={post.data.image} width={1200} height={620} alt={post.data.title} class="w-full h-48 object-cover" />
             <div class="p-6">
               <h3 class="text-xl font-semibold mb-2">{post.data.title}</h3>
-              <p class="text-teal-600 mb-4">{formatDate(post.data.pubDate)}</p>
+              <p class="text-teal-600 mb-4">{formatDate(post.data.modDate)}</p>
               <p class="mb-4 line-clamp-3">{post.data.excerpt}</p>
-              <a href={`/${post.data.slug}/`} class="inline-block bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">Read More</a>
+              <a href={`/blog/${post.data.slug}/`} class="inline-block bg-teal-600 text-white px-4 py-2 rounded-full hover:bg-teal-700 transition-colors">Read More</a>
             </div>
           </article>
         ))}

@@ -7,13 +7,13 @@ const navItems = [
   { href: '/', text: 'Home' },
   { href: '/blog/', text: 'Blog' },
   { href: '/about/', text: 'About' },
-  { href: '/contacts/', text: 'Contact' },
+  { href: '/contact-us/', text: 'Contact' },
   {
     text: 'Resources',
     children: [
-      { href: '/resources/articles/', text: 'Articles' },
-      { href: '/resources/podcasts/', text: 'Podcasts' },
-      { href: '/resources/workshops/', text: 'Workshops' },
+      { href: '/blog/category/kitchenware/', text: 'Kitchenware' },
+      { href: '/blog/category/bakeware/', text: 'Bakeware' },
+      { href: '/blog/category/how-to-guides/', text: 'Guides' },
     ]
   },
 ];
@@ -21,9 +21,9 @@ const navItems = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="bg-teal-600 text-white sticky top-0 z-50">
+<header class="bg-teal-700/70 text-white sticky top-0 z-50">
   <div class="container mx-auto px-4 py-4">
-    <div class="flex justify-between items-center">
+    <div class="header-nav flex justify-between items-center">
       <Logo />
 
       <nav class="hidden md:flex space-x-6" aria-label="Main Navigation">
@@ -37,7 +37,7 @@ const currentPath = Astro.url.pathname;
               <ul class="absolute left-0 mt-2 w-48 bg-white text-teal-900 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
                 {item.children.map((child) => (
                   <li>
-                    <a href={child.href} class="block px-4 py-2 hover:bg-teal-100 transition-colors rounded-md" aria-current={currentPath === child.href ? 'page' : undefined}>
+                    <a href={child.href} class="block px-4 py-2 hover:bg-blue-100 transition-colors rounded-md" aria-current={currentPath === child.href ? 'page' : undefined}>
                       {child.text}
                     </a>
                   </li>

@@ -1,5 +1,6 @@
 ---
 import { Facebook, Instagram, Youtube, Twitter } from 'lucide-react';
+import { Icon } from 'astro-icon/components';
 import Logo from "./Logo.astro";
 ---
 
@@ -10,20 +11,21 @@ import Logo from "./Logo.astro";
       <div class="space-y-6">
         <Logo />
         <p class="text-silver/80">
-          Your ultimate guide to mountain biking in New Zealand. Expert reviews, latest gear, and trail discoveries.
+
+          We’re here to help you maximize every inch, gadget, and moment in your compact culinary kingdom. Forget bulky appliances and sprawling setups—we curate only the most space-smart, multifunctional, and apartment-approved kitchen tools on Amazon.
         </p>
         <div class="flex space-x-4">
           <a href="#" class="text-silver hover:text-primary transition-colors">
-            <Facebook className="h-5 w-5" />
+            <Icon name="mdi:facebook" class="h-5 w-5" />
           </a>
           <a href="#" class="text-silver hover:text-primary transition-colors">
-            <Instagram className="h-5 w-5" />
+            <Icon name="mdi:instagram" class="h-5 w-5" />
           </a>
           <a href="#" class="text-silver hover:text-primary transition-colors">
-            <Youtube className="h-5 w-5" />
+            <Icon name="mdi:youtube" class="h-5 w-5" />
           </a>
           <a href="#" class="text-silver hover:text-primary transition-colors">
-            <Twitter className="h-5 w-5" />
+            <Icon name="mdi:twitter" class="h-5 w-5" />
           </a>
         </div>
       </div>
@@ -43,10 +45,10 @@ import Logo from "./Logo.astro";
       <div>
         <h3 class="font-display text-xl mb-6">CATEGORIES</h3>
         <ul class="space-y-4">
-          <li><a href="/bikes" class="text-silver/80 hover:text-primary transition-colors">Bikes</a></li>
+          <li><a href="/bikes" class="text-silver/80 hover:text-primary transition-colors">Bakeware</a></li>
           <li><a href="/gear" class="text-silver/80 hover:text-primary transition-colors">Gear</a></li>
-          <li><a href="/trails" class="text-silver/80 hover:text-primary transition-colors">Trails</a></li>
-          <li><a href="/news" class="text-silver/80 hover:text-primary transition-colors">News</a></li>
+          <li><a href="/trails" class="text-silver/80 hover:text-primary transition-colors">Cookware</a></li>
+          <li><a href="/news" class="text-silver/80 hover:text-primary transition-colors">Kitchenware</a></li>
         </ul>
       </div>
 
@@ -71,7 +73,10 @@ import Logo from "./Logo.astro";
     </div>
 
     <div class="mt-16 pt-8 border-t border-white/10 text-center text-silver/60">
-      <p>&copy; {new Date().getFullYear()} MTBNZ. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} The Kitchen Pot. All rights reserved.</p>
+      <p>The Kitchen Pot (this website and its owners) is a participant in the Amazon Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, we earn from qualifying purchases. This means that we may receive a small commission when you make a purchase through links on our website, at no additional cost to you.</p>
+
+<p>We only recommend products that we believe will add value to our readers. All opinions expressed are our own..</p>
     </div>
   </div>
 </footer>

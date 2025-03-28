@@ -61,7 +61,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["Montserrat Variable", "sans-serif"],
+        sans: ["Open Sans", "sans-serif"],
         display: ["Bebas Neue", "sans-serif"],
       },
       backgroundImage: {

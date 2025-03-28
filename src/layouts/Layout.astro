@@ -3,6 +3,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '@fontsource-variable/montserrat';
 import '@fontsource/bebas-neue';
+import "@fontsource/open-sans";
 import '@/styles/globals.css';
 
 interface Props {
@@ -10,18 +11,19 @@ interface Props {
     description?: string;
     image?: string;
     article?: boolean;
+    robots?: string;
 }
 
 const {
   title,
   image = "/images/default-cover.jpg",
     article = false,
-  description = "MTBNZ - Your ultimate guide to mountain biking in New Zealand. Expert reviews, latest gear, and trail discoveries."
+  description = "The Kitchen Pot - Your ultimate guide to modernizing your kitchen on a budget. Expert reviews, latest cookware, and interesting discoveries."
 } = Astro.props;
 
 // Base URL for canonical links and OG images
 // Base URL for canonical links and OG images
-const baseUrl = "https://mtbnz.org";
+const baseUrl = "https://thekitchenpot.com";
 const canonicalURL = new URL(Astro.url.pathname, baseUrl).href;
 const socialImageURL = new URL(image, baseUrl).href;
 
@@ -29,20 +31,20 @@ const socialImageURL = new URL(image, baseUrl).href;
 const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "MTBNZ",
+    name: "The Kitchen Pot",
     url: baseUrl,
     logo: `${baseUrl}/logo.png`,
-    description: "A blog about mountain biking in New Zealand",
+    description: "A blog about modernizing your kitchen on a budget.",
     address: {
         "@type": "PostalAddress",
         addressLocality: "Texas",
         addressCountry: "US",
     },
     sameAs: [
-        "https://facebook.com/mtbnz",
-        "https://twitter.com/mtbnz",
-        "https://linkedin.com/company/mtbnz",
-        "https://instagram.com/mtbnz",
+        "https://facebook.com/thekitchenpot",
+        "https://twitter.com/thekitchenpot",
+        "https://linkedin.com/company/thekitchenpot",
+        "https://instagram.com/thekitchenpot",
     ],
 };
 ---
@@ -50,8 +52,9 @@ const organizationSchema = {
 <!doctype html>
 <html lang="en" class="scroll-smooth">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
-    <title>{title} | MTBNZ</title>
+    <title>{title} | The Kitchen Pot</title>
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -67,7 +70,7 @@ const organizationSchema = {
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={socialImageURL} />
     <meta property="og:site_name" content="MTBNZ" />
-    <meta property="article:publisher" content="https://mtbnz.org" />
+    <meta property="article:publisher" content="https://thekitchenpot.com" />
 
     <!-- Twitter Card Metadata -->
     <meta name="twitter:card" content="summary_large_image" />
