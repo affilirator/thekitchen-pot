@@ -1,10 +1,10 @@
 [
   {
-    "authorId": "mtbnz_admin",
-    "name": "Patrick Mahinge",
-    "bio": "Patrick Mahinge, the chief editor at MTBNZ.org is a serial webpreneur who also enjoys mountain biking.",
+    "authorId": "kitchenpot1",
+    "name": "Boniface Muriuki",
+    "bio": "Boniface Muriuki understands the unique frustrations—and hidden potential—of tiny kitchens. Over 15 years, he’s transformed cramped countertops across three continents into functional culinary havens, earning recognition as a James Beard Award-nominated innovator and the bestselling author of The Micro Kitchen Manifesto.",
     "image": "/images/Patrick-Mahinge.jpg",
-    "jobTitle": "Mountain Biking Hobbyist",
+    "jobTitle": "Founder & Culinary Space Alchemist",
     "nationality": "Kenyan",
     "worksFor": {
       "name": "MTBNZ",
