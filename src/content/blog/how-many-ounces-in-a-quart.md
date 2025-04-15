@@ -20,13 +20,13 @@ Cooking is all fun until you start encountering unfamiliar measuring units. For 
 
 This article details various conversion units that give cooks a hard time when deciding on the weight/volume of ingredients to use for a specific recipe. Read on for insightful tips.
 
-![How many ounces in a quart?](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How many ounces in a quart?](images/portablegasgrill.jpg)
 
 ## Why Metric Conversion is Important
 
 If you love cooking, you’ll appreciate the importance of hacking the measuring units question. A meal that would otherwise have been scrumptious can become unpalatable because of an excess ingredient!
 
-Yes, if a recipe states that you add 2 tablespoons of **[olive oil](https://thekitchenpot.com/best-oil-for-air-fryer/)** (or any other ingredient), you should be careful to follow the instruction, lest your meal becomes a waste.
+Yes, if a recipe states that you add 2 tablespoons of **[olive oil](https://thekitchenpot.com/blog/best-oil-for-air-fryer//)** (or any other ingredient), you should be careful to follow the instruction, lest your meal becomes a waste.
 
 While following the instruction is the easier part, there is the more complicated assignment of knowing the exact amount of ingredients required when using the measuring units available at your disposal.
 
@@ -52,7 +52,7 @@ While the two measuring units carry the same name, you should never mistake them
 
 For example, if one cup of water equals 8 fluid ounces and weighs 8 ounces. However, this cannot be the same as every other ingredient that occupies the same volume. A cup of flour will measure approximately 4 ounces, while flour paste will measure about 7.8 fluid ounces.
 
-As such, the solid and liquid measurement metrics will always vary depending on their nature, among many other factors. You should, therefore, never use the two units interchangeably - they are different! 
+As such, the solid and liquid measurement metrics will always vary depending on their nature, among many other factors. You should, therefore, never use the two units interchangeably – they are different! 
 
 ### So, How Many Ounces are In a Quart?
 
@@ -62,7 +62,7 @@ According to the [US conversion](https://www.nist.gov/system/files/documents/pml
 
 The British system is a bit different since one Quart will be equal to 40 Oz. However, we’ll work with the US system. 
 
-![How many gallons in a quart?](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How many gallons in a quart?](images/portablegasgrill.jpg)
 
 ## How many Cups in a Pint?
 
@@ -76,9 +76,9 @@ Since a quart equals to 2 pints, which is equivalent to 4 cups. It is correct to
 
 Based on this, you can use the following summary to guide you through the measuring process:
 
-- 1 Quart = 2 Pints = 32 Fluid Ounces = 4 Cups
-- 1 Pint = 2 Cups = 16 Fluid Ounces 
-- 1 Cup = 8 Fluid Ounces
+-   1 Quart = 2 Pints = 32 Fluid Ounces = 4 Cups
+-   1 Pint = 2 Cups = 16 Fluid Ounces 
+-   1 Cup = 8 Fluid Ounces
 
 Therefore, if a recipe asks that you use two pints of milk, you can use 4 cups. If it asks that you use 16 fluid ounces, then use 2 cups of the ingredient. This conversation summary will help you play with the conversion numbers until you achieve one you’re comfortable with. 
 
@@ -88,7 +88,7 @@ Therefore, if a recipe asks that you use two pints of milk, you can use 4 cups. 
 
 **1 Cup = 16 tablespoons**
 
-![How many ounces in a quart?](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How many ounces in a quart?](images/portablegasgrill.jpg)
 
 ### **What is the Difference Between Tablespoon and Teaspoon?**
 

@@ -26,7 +26,7 @@ The appliance is well tested for storage flexibility, temperature consistency, a
 
 If you want to select the best side by side refrigerators, then this article will guide you through every process. It includes a comprehensive list of the best side by side refrigerators in the market today.
 
-![Best Side by Side Refrigerator](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best Side by Side Refrigerator](images/portablegasgrill.jpg)
 
 ## **Description of the Best Side By Side Refrigerator**
 
@@ -34,23 +34,23 @@ The best side by side refrigerator consists of two full-length vertical doors. T
 
 The refrigerator compartment is wider than the freezer compartment. They often have factory-installed ice makers, through door filtered water, and ice dispensers.
 
-The following are some of the best sides by side refrigerators that we'll discuss in the article to guide you when purchasing your refrigerator;
+The following are some of the best sides by side refrigerators that we’ll discuss in the article to guide you when purchasing your refrigerator;
 
-1. Samsung RH25H5611SR
-2. LG LSXS26366S
-3. Frigidaire FGSC 2335TF
-4. Series French door refrigerator(GE profile)
-5. Avanti 31 inch side by side refrigerator
-6. GE PSS28KSH 36 inch side by side refrigerator- Best rated
-7. Frigidaire FFSS 2315 side by side refrigerator
-8. Phiestina side by side refrigerator – Best wine and beverage cooler
-9. LG LSXC 22396D
+1.  Samsung RH25H5611SR
+2.  LG LSXS26366S
+3.  Frigidaire FGSC 2335TF
+4.  Series French door refrigerator(GE profile)
+5.  Avanti 31 inch side by side refrigerator
+6.  GE PSS28KSH 36 inch side by side refrigerator- Best rated
+7.  Frigidaire FFSS 2315 side by side refrigerator
+8.  Phiestina side by side refrigerator – Best wine and beverage cooler
+9.  LG LSXC 22396D
 
 ## **9 Best Side By Side Refrigerators**
 
 ### **1\. [Samsung RH25H 5611SR](https://www.amazon.com/Samsung-RH25H5611SR-Stainless-Steel-Refrigerator/dp/B00SKJRQ1E/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8?tag=kitchenpot-20)**
 
-![Best Side by Side Refrigerator](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best Side by Side Refrigerator](images/portablegasgrill.jpg)
 
 This is one unique appliance. The Samsung RH25H5611SR comes with door-in-door storage, on the right side that allows you to access seasonings and beverages without letting the cold air out of the rest of the fridge.
 
@@ -62,17 +62,17 @@ If your fridge runs hot at 37 degrees Fahrenheit, then you can comfortably adjus
 
 **Pros** 
 
-- The fridge offers door-in-door storage
-- It has through-door ice and water dispensers
-- Fits in most kitchen cutouts
+-   The fridge offers door-in-door storage
+-   It has through-door ice and water dispensers
+-   Fits in most kitchen cutouts
 
 **Cons**
 
-- Fridge temperatures can run a little warm
+-   Fridge temperatures can run a little warm
 
 ### **2\. [LG LSXS26366S Stainless Steel Side by Side Refrigerator](https://www.amazon.com/LG-LSXS26366S-Freestanding-Refrigerator-Stainless/dp/B00QVZS9HE/?tag=bestofthe-20?tag=kitchenpot-20)**
 
-![Side by Side Refrigerators -Why You Should Own One](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Side by Side Refrigerators -Why You Should Own One](images/portablegasgrill.jpg)
 
 If you want a side by side refrigerator that is proficient in offering high-quality food preservation, then you got it all in this awesome cool LG LSXS26366S.
 
@@ -82,17 +82,17 @@ This feature allows you to grab the products you require frequently without hamp
 
 **Pros**
 
-- Has a unique three-door design
-- Door-in-door storage 
-- The fridge can maintain consistent temperatures
+-   Has a unique three-door design
+-   Door-in-door storage 
+-   The fridge can maintain consistent temperatures
 
 **Cons**
 
-- It’s a high-cost refrigerator
+-   It’s a high-cost refrigerator
 
 ### **3\. [Frigidaire FGSC 2335TF](https://www.amazon.com/Frigidaire-Gallery-Counter-Depth-Side-Refrigerator/dp/B075H14LBW?tag=kitchenpot-20)**
 
-![Best side by side refrigerator](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best side by side refrigerator](images/portablegasgrill.jpg)
 
 The Frigidaire FGSC 2335TF has amazing features like a through-door water ice dispenser and stainless steel finish on the outside which makes the fridge look very attractive.
 
@@ -104,21 +104,21 @@ Additionally, when both the freezer and the fridge heats up, you can bump the te
 
 **Pros** 
 
-- The fridge has a temperature-controlled drawer
-- Through-door-ice and water dispensers
-- Has wine and bottle holders
+-   The fridge has a temperature-controlled drawer
+-   Through-door-ice and water dispensers
+-   Has wine and bottle holders
 
 **Cons**
 
-- Fridge temperatures can run a little warm
+-   Fridge temperatures can run a little warm
 
 ### **4\. [Series French Door Refrigerator (GE profile)](https://www.amazon.com/Profile-Energy-Counter-depth-French-door-Refrirator/dp/B01H68RWMM?tag=kitchenpot-20)**
 
-![Side by Side Refrigerator ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Side by Side Refrigerator ](images/portablegasgrill.jpg)
 
 This is one of the top notch refrigerators that you can buy. It has amazing features that can only leave you in awe.
 
-One of the most unique features is that it's WI-FI enabled. Once you download the app it’s easy to adjust the settings to get alerts. If the door is open, you can pre-heat water for some hot coffee.
+One of the most unique features is that it’s WI-FI enabled. Once you download the app it’s easy to adjust the settings to get alerts. If the door is open, you can pre-heat water for some hot coffee.
 
 The GE profile series also comes with a unique feature as compared to traditional refrigerators, it comes a Keurig k-cup brewing system so for coffee lovers this is yours to go refrigerator.
 
@@ -126,19 +126,19 @@ The appliance also has temperature maintenance and uniformity. The only issue yo
 
 **Pros** 
 
-- The fridge has WI-FI enabled settings
-- It has an in-built coffee maker in the door
-- It has balanced temperature maintenance and uniformity
-- Has a variety of finishes for example black slate, slate, black stainless, and stainless steel.
-- The fridge is energy star certified
+-   The fridge has WI-FI enabled settings
+-   It has an in-built coffee maker in the door
+-   It has balanced temperature maintenance and uniformity
+-   Has a variety of finishes for example black slate, slate, black stainless, and stainless steel.
+-   The fridge is energy star certified
 
 **Cons**
 
-- It’s a high-cost appliance 
+-   It’s a high-cost appliance 
 
 ### **5\. [Avanti 31 Inch Side-By-Side Refrigerator- Best Small Sized](https://www.amazon.com/Avanti-Model-RMS550PS-SIDE-SIDE/dp/B00GHIJNY8?tag=kitchenpot-20)** 
 
-![Best Side by Side Refrigerator](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best Side by Side Refrigerator](images/portablegasgrill.jpg)
 
 Looking for a small-sized side by side refrigerator to fit well in your kitchen space? Well, look no further Avanti has one of the best small-sized refrigerators you can dream off.
 
@@ -152,12 +152,12 @@ The 2-liter refrigerator door bins are well designed which is a unique factor yo
 
  **Pros**
 
-- Crisper drawer
-- Energy-star certified
-- The fridge has two adjustable shelves 
-- The Avanti 31 inch fridge has a flush, inset design
-- 3 door bins
-- 23-inch depth
+-   Crisper drawer
+-   Energy-star certified
+-   The fridge has two adjustable shelves 
+-   The Avanti 31 inch fridge has a flush, inset design
+-   3 door bins
+-   23-inch depth
 
 **Cons**
 
@@ -165,11 +165,11 @@ Freestanding only
 
 ### **6\. [GE PSS28KSH 36 Inch Side by Side Refrigerator](https://www.amazon.com/dp/B00Q640HSE?tag=kitchenpot-20)**
 
-![Best Side by Side Refrigerator](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best Side by Side Refrigerator](images/portablegasgrill.jpg)
 
 The appliance is one of the best-rated refrigerators we have in the market, the features of the GE PSS28KSH value is worth the price. Ice maker and freezer never let you down.
 
-**The refrigerator**\- the appliance has amazing features which include; a capacity of 28 cubic feet which is bigger than most French door fridges, four shelves among three are adjustable, one is a sliding shelf, and two have raised spill-proof edges.
+**The refrigerator**– the appliance has amazing features which include; a capacity of 28 cubic feet which is bigger than most French door fridges, four shelves among three are adjustable, one is a sliding shelf, and two have raised spill-proof edges.
 
 Another feature much relished in the refrigerator is the extra-bright lighting. More so the middle crisper has low and high humidity control, and the lower one is just a seal crisper.
 
@@ -185,22 +185,22 @@ Additionally, there are two more glass shelves and three slanting door bins. The
 
 **Pros** 
 
-- The fridge has one sliding shelf 
-- Extra bright lighting
-- It has three adjustable gallon bins
-- Turbo ice making
-- Door alarm
-- The fridge has 28.4 cubic feet capacity
+-   The fridge has one sliding shelf 
+-   Extra bright lighting
+-   It has three adjustable gallon bins
+-   Turbo ice making
+-   Door alarm
+-   The fridge has 28.4 cubic feet capacity
 
 **Cons** 
 
-- The snack box is small
-- Crispers under par
-- Single lever dispenser
+-   The snack box is small
+-   Crispers under par
+-   Single lever dispenser
 
 ### **7\. [Frigidaire FFSS2315 Side by Side Refrigerator- Best 33 Inch](https://www.amazon.com/Frigidaire-FFSS2315TD-Freestanding-Refrigerator-Stainless/dp/B0773WD9QX?tag=kitchenpot-20)**
 
-![Best Side by Side Refrigerator](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best Side by Side Refrigerator](images/portablegasgrill.jpg)
 
 For a small refrigerator its size, the Frigidaire FFSS2315 is adequate in all its properties and can’t let you down if you’re searching for anything fancy.
 
@@ -212,20 +212,20 @@ One feature the Frigidaire doesn’t have is a filter light to alert you to chan
 
 **Pros** 
 
-- The Frigidaire has automatic defrost 
-- Spacious snack drawer
-- Automatic defrost
-- 24-hour energy save mode
+-   The Frigidaire has automatic defrost 
+-   Spacious snack drawer
+-   Automatic defrost
+-   24-hour energy save mode
 
 **Cons** 
 
-- The fridge has no filter change 
-- No crisper humidity control
-- Fixed freezer shelves
+-   The fridge has no filter change 
+-   No crisper humidity control
+-   Fixed freezer shelves
 
 ### **8\. [Phiestina Side By Side Refrigerator- Best Wine and Beverage Cooler](https://www.amazon.com/dp/B07F2MDFB2?tag=kitchenpot-20)**
 
-![Best Side by Side Refrigerator ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best Side by Side Refrigerator ](images/portablegasgrill.jpg)
 
 A side by side refrigerator with duplex zone settings and a low temperature of 38 degrees Fahrenheit.
 
@@ -239,21 +239,21 @@ The temperature for the Phiestina side by side refrigerator is, however, lower t
 
 **Pros**
 
-- Freestanding or inbuilt
-- The fridge consists of stopper shelves
-- Easy cabinet
-- 38-50 degrees Fahrenheit zones
+-   Freestanding or inbuilt
+-   The fridge consists of stopper shelves
+-   Easy cabinet
+-   38-50 degrees Fahrenheit zones
 
 **Cons**
 
-- No wood shelves
-- No door locks
+-   No wood shelves
+-   No door locks
 
 ### **9\. [LG LSXC 22396D](https://www.amazon.com/LG-LSXC22396D-Stainless-InstaView-Refrigerator/dp/B07DHXZFXV/ref=cm_cr_arp_d_pdt_img_top?ie=UTF8?tag=kitchenpot-20)**
 
-![Best Side by Side Refrigerator](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best Side by Side Refrigerator](images/portablegasgrill.jpg)
 
-Are you searching for the most flash and elegant side by side refrigerator in the market? Well, this one's for you. 
+Are you searching for the most flash and elegant side by side refrigerator in the market? Well, this one’s for you. 
 
 The refrigerator has modern features which include; instaview technology and door-in-door meaning you’re able to see the contents of your appliance just by knocking on the door.
 
@@ -263,30 +263,30 @@ The LGLSXC22396D is a high-cost refrigerator because of its lite features, it’
 
 **Pros** 
 
-- Energy star certification
-- Counter-depth
-- Door-in-door and instaview technology
+-   Energy star certification
+-   Counter-depth
+-   Door-in-door and instaview technology
 
 **Cons**
 
-- Limited capacity
-- It’s a high-cost refrigerator
+-   Limited capacity
+-   It’s a high-cost refrigerator
 
 ## **Best Side By Side Refrigerators – Buying Guide**
 
-If you want to upgrade from your [mini fridge](https://thekitchenpot.com/best-mini-fridge-for-beer/) to a more spacious fridge, then you should purchase the best side by side refrigerator. This will assist you to get that which will meet all requirements effortlessly.
+If you want to upgrade from your [mini fridge](https://thekitchenpot.com/blog/best-mini-fridge-for-beer//) to a more spacious fridge, then you should purchase the best side by side refrigerator. This will assist you to get that which will meet all requirements effortlessly.
 
 The buying guide will evaluate all you need to put into consideration when shopping for the best side by side refrigerator.
 
 ### **Factors to Consider When Purchasing the Best Side By Side Refrigerators**
 
-- **Efficiency**
+-   **Efficiency**
 
 If the idea of the use of less water and energy is of the essence to you, then you should consider the energy star certified refrigerator.
 
 When purchasing your best side by side refrigerator, always bear in mind the more features in your fridge, the more energy it consumes, it’s always your choice to know whether the convenience is worth the expense.
 
-- **Refrigerators Cutout**
+-   **Refrigerators Cutout**
 
 Before purchasing a new fridge it’s necessary to measure your cutout carefully. Many consumers buy an attractive new fridge, only to be disappointed because it’s too large for the cutout.
 
@@ -294,19 +294,19 @@ When purchasing a new fridge, ensure you measure the width, height, and depth of
 
 Be sure to leave at least one to two inches between the top of the fridge, and above the fridge closet, also ensure you leave some inches between the back of the fridge and the wall. By doing this, you make sure that there’s enough air circulation around the fridge.
 
-- **Fit And Finish**
+-   **Fit And Finish**
 
 You may have different preferences of how you would like the refrigerator’s finish. Most refrigerators come in a variation of stainless steel options.
 
 When purchasing a fridge you should be able to find one that matches your appliances and kitchen set up. But always be ready to dig dip deep into your pocket for any finish more complicated than white, black, or stainless steel.
 
-- **Price**
+-   **Price**
 
 You don’t have to sweat it anymore wondering whether the fridge you need to purchase is affordable.
 
  Largely, the price difference between more economical fridges and high-cost fridges is normally down the number of available facets, options, storage, and finishes.
 
-- **Food Preservation** 
+-   **Food Preservation** 
 
 No one wants to dig deep into the pocket for a fridge that can’t keep your food well preserved.
 
@@ -315,8 +315,6 @@ When shopping for the best side by side refrigerator, always ensure to acquire m
 Other factors to consider when buying your refrigerator includes;
 
 Your set budget, the features you require in a refrigerator, and how much food storage you need.
-
-https://www.youtube.com/watch?v=t9kzUHUBi-E
 
 ## **Best Side By Side Refrigerators- Why You Should Own One**
 
@@ -338,7 +336,7 @@ The best [side by side refrigerators](https://www.uakc.com/blog/side-by-side-ref
 
 Another amazing benefit of the best side by side refrigerator is that it features a water and ice dispenser in the freezer door. This provides a constant stream of cold water and crisp ice for all. 
 
-![Best side by side refrigerator](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best side by side refrigerator](images/portablegasgrill.jpg)
 
 ## **Best Side by Side Refrigerators- Bottom Line**
 
@@ -348,4 +346,4 @@ The features we’ve highlighted include energy-efficient, best freshness featur
 
 If you’re shopping to replace an old refrigerator and would love to maintain neatness, the best side by side refrigerator might be a great fit. Just ensure to measure your cutout, check out the specifications of the new refrigerator, and you’re good to go.
 
-Purchasing the best side by side refrigerator will certainly revolutionize your cooling experience. It's particularly ideal for individuals with limited kitchen space! Buy it today and improve your refrigeration experience!
+Purchasing the best side by side refrigerator will certainly revolutionize your cooling experience. It’s particularly ideal for individuals with limited kitchen space! Buy it today and improve your refrigeration experience!

@@ -16,15 +16,15 @@ category: "How To Guides"
 seo: "How long does chicken last in the fridge? Well, answering this question helps you to get rid of possible health hazards associated with eating bad food. Read on for comprehensive guidelines."
 ---
 
-When **[buying a fridge](https://thekitchenpot.com/best-side-by-side-refrigerator/)**, you hope to reduce your visits to the market, right? But did you know that refrigerating food for longer than the recommended time can be a [health hazard](https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely)? 
+When **[buying a fridge](https://thekitchenpot.com/blog/best-side-by-side-refrigerator//)**, you hope to reduce your visits to the market, right? But did you know that refrigerating food for longer than the recommended time can be a [health hazard](https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely)? 
 
 So, how long does chicken last in the fridge? Well, this depend on how well you store it.
 
 Food is prone to attracting microbes, which can potentially lead to life-threatening food poisonous. As such, you should always be cautious to observe all food storage guidelines for guaranteed safety.
 
-This article looks at one of the staple meat in most homes - chicken. So how long is cooked chicken good in the fridge? What about the raw one? Read on to get a comprehensive answer to “how long does chicken last in the fridge”. 
+This article looks at one of the staple meat in most homes – chicken. So how long is cooked chicken good in the fridge? What about the raw one? Read on to get a comprehensive answer to “how long does chicken last in the fridge”. 
 
-![How Long Does a Chicken Last in a Fridge ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How Long Does a Chicken Last in a Fridge ](images/portablegasgrill.jpg)
 
 ## **How Long Can Raw Chicken Last in the Fridge**
 
@@ -42,7 +42,7 @@ Cooked chicken will have a relatively long shelf life in a refrigerator than raw
 
 However, you must ensure that you first store your chicken in an air-tight container. This will eliminate air, thus minimizing the chances of bacterial growth. Consequently, a chicken in an airtight container will last longer than a cooked chicken stored in an open/poorly sealed can. 
 
-_**Read here about the [best airtight storage containers](https://thekitchenpot.com/best-airtight-food-storage-containers/) to consider**_
+***Read here about the [best airtight storage containers](https://thekitchenpot.com/blog/best-airtight-food-storage-containers//) to consider***
 
 ## **How to Vacuum Seal Raw Chicken Before Storing in the Refrigerator**
 
@@ -52,8 +52,8 @@ As earlier indicated, the primary goal of refrigerating your chicken is to preve
 
 To achieve this, you must ensure the following:
 
-- Low temperatures
-- Limited air supply
+-   Low temperatures
+-   Limited air supply
 
 At 35 degrees Fahrenheit, it’s difficult for microbes to thrive. It even becomes harder if you deny them any trace of oxygen. 
 
@@ -63,9 +63,9 @@ As such, your chicken will be stored in a vacuum, which will increase the time t
 
 Use the following simple steps to vacuum seal your chicken:
 
-- Fill your vacuum bag with your chicken
-- Fasten the bar sealer and turn on your vacuum sealer machine
-- Remove (it’s now sealed) it and store
+-   Fill your vacuum bag with your chicken
+-   Fasten the bar sealer and turn on your vacuum sealer machine
+-   Remove (it’s now sealed) it and store
 
 ## **How Long Does a Chicken Last in a Freezer?**
 
@@ -75,13 +75,11 @@ On the other hand, **cooked chicken can last in a freezer for about 4 months**.�
 
 Once you remove it from the freezer, you should thaw it and reheat it using adequate means.
 
-**_Read on [how you can reheat your chicken](https://thekitchenpot.com/how-to-reheat-chicken-wings/) here_** 
+***Read on [how you can reheat your chicken](https://thekitchenpot.com/blog/how-to-reheat-chicken-wings//) here*** 
 
 Additionally, you should not store hot chicken directly in the refrigerator. Instead, you should let it cool for approximately one hour before refrigerating/freezing it.  
 
-https://www.youtube.com/watch?v=hSCm0Zr-BE0
-
-## **How Long Does Chicken Last in the Fridge - The Bottom Line** 
+## **How Long Does Chicken Last in the Fridge – The Bottom Line** 
 
 Chicken is a staple meat for many homes. Besides its irresistible taste, the meat has lower fat content than beef, thus making it healthier. 
 

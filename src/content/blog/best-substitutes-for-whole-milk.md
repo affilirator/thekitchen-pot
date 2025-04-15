@@ -22,13 +22,13 @@ But what exactly can you use instead of [whole milk](https://recipes.howstuffwor
 
 Several substitutes will give you the same baking/cooking results. They include sour cream, half & half, evaporated milk, and powdered milk. This article offers a comprehensive guide on how you can use each of the whole milk substitutes to get the best results.
 
-![Best substitutes for whole milk ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best substitutes for whole milk ](images/portablegasgrill.jpg)
 
 ## What is Whole Milk?
 
 Whole milk refers to cow milk before it is processed. It’s wholly the way it came out of the cow’s teats. Since it has all the constituents, it is creamier and tastier than any other milk form. 
 
-It contains at **least 3.25% of fat (8 grams of fat per 8 [ounces of milk](https://thekitchenpot.com/how-many-ounces-in-a-quart/)).** Additionally, it has many other nutrients that make it the best cooking/baking option for your family. 
+It contains at **least 3.25% of fat (8 grams of fat per 8 [ounces of milk](https://thekitchenpot.com/blog/how-many-ounces-in-a-quart//)).** Additionally, it has many other nutrients that make it the best cooking/baking option for your family. 
 
 ## Why Substitute Whole Milk When Baking
 
@@ -46,13 +46,13 @@ When baking, you should be careful to only use milk that will ensure flawless co
 
 While **whole milk can be used with some recipes** (such as Artichoke Ricotta Tart), there are four other milk substitutes that you can use. They include:
 
-- **Skim Milk.** This milk contains the least amount of fat (0.5% or less). It has no rich or creamy flavor, making it ideal for cooking meals that require thick soup but no milk taste. You can also buy **1% or 2% milk that contains relatively more milk fat than the entirely skimmed type.**
-- **Heavy Cream.** Heavy cream contains more cream than any other milk type. Its fat content can be as high as 36%.
-- **Half and Half.** This milk type contains approximately 12% milkfat. 
+-   **Skim Milk.** This milk contains the least amount of fat (0.5% or less). It has no rich or creamy flavor, making it ideal for cooking meals that require thick soup but no milk taste. You can also buy **1% or 2% milk that contains relatively more milk fat than the entirely skimmed type.**
+-   **Heavy Cream.** Heavy cream contains more cream than any other milk type. Its fat content can be as high as 36%.
+-   **Half and Half.** This milk type contains approximately 12% milkfat. 
 
 The more milkfat the milk has, the tastier it will be. As such, heavy cream is the creamiest and the most flavorful of the three options. 
 
-## Dairy Substitutes for Whole Milk - A Comprehensive List
+## Dairy Substitutes for Whole Milk – A Comprehensive List
 
 **Heavy Cream**
 
@@ -62,7 +62,7 @@ Heavy cream is crucial in making soup, soups, and other baked products that requ
 
 To substitute one cup of whole milk, you should dilute half a cup of heavy cream with half a cup of whole milk. 
 
-![Substitute for whole milk](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Substitute for whole milk](images/portablegasgrill.jpg)
 
 **Powdered Milk**
 
@@ -84,7 +84,7 @@ Evaporated milk refers to milk that has been heated to remove a substantial amou
 
 It is ideal for use when cooking soups & sauces and baking cakes & other products. Combine 50% cup of evaporated milk with 50% water to replace one cup of whole milk.
 
-![Evaporated milk nutrients profile](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Evaporated milk nutrients profile](images/portablegasgrill.jpg)
 
 ## Non-Dairy Substitutes for Whole Milk
 
@@ -122,9 +122,9 @@ However, the milk has a unique flavor. Some people like it while others don’t.
 
 This milk alternative offers a creamy and sweet soup. It is rich in vitamin D and B-12. It also contains a little calcium and approximately one gram of protein for every cup.
 
-![Best substitutes for whole milk](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best substitutes for whole milk](images/portablegasgrill.jpg)
 
-**Read more about [coconut milk substitute](https://thekitchenpot.com/best-coconut-milk-substitute/) here**
+**Read more about [coconut milk substitute](https://thekitchenpot.com/blog/best-coconut-milk-substitute//) here**
 
 ## Substitute for Whole Milk -The Bottom Line
 

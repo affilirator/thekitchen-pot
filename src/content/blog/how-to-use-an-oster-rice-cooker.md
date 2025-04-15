@@ -28,7 +28,7 @@ While that is the case, cooking rice is a tricky affair for many. The main chall
 
 If you’ve found yourself in such a quagmire, then you’ll require an Oster Rice Cooker. This guide offers useful tips on how to use an oster rice cooker and get unmatched results. 
 
-![How to Use an Oster Rice Cooker](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Use an Oster Rice Cooker](images/portablegasgrill.jpg)
 
 ## What is an [Oster Rice Cooker](https://www.amazon.com/Oster-6-Cup-Cooker-Steam-CKSTRCMS65/dp/B007JNNN5U?tag=kitchenpot-20)?
 
@@ -42,10 +42,10 @@ If you have a big family, then you should go for the [high-capacity Oster 20-Cu
 
 **What You Will Need**
 
-- Rice
-- Water
-- Measuring Cup (preferably one that comes with the rice cooker)
-- [Spatula](https://thekitchenpot.com/best-metal-spatula-set/)
+-   Rice
+-   Water
+-   Measuring Cup (preferably one that comes with the rice cooker)
+-   [Spatula](https://thekitchenpot.com/blog/best-metal-spatula-set//)
 
 If you’re new to automated rice cooking and you’re wondering how to use an oster rice cooker, then you shouldn’t worry any longer.
 
@@ -53,17 +53,17 @@ Using an oster rice cooker is a straightforward process that you’ll complete w
 
 Since the guide may contain overly detailed processes, we’ve simplified the entire process into easy-to-follow steps. They include:
 
-- **Rice Measuring** 
+-   **Rice Measuring** 
 
 Measure the amount of rice that you need to cook. Always ensure that you do not exceed the recommended capacity since that would destroy the pot. 
 
 If you’re wondering on how to know the raw rice you need, then you should always consider this theory:
 
-_**1 cup of raw rice = 2 cups of cooked rice**_
+***1 cup of raw rice = 2 cups of cooked rice***
 
 Once you determine the amount of rice required, you should move on to the preparation phase.
 
-- **Rice Preparation** 
+-   **Rice Preparation** 
 
 This is a crucial step that determines the scrumptiousness of your delicacy. Always ensure that you wash your rice and rinse it severally using clean, cold water.
 
@@ -71,20 +71,20 @@ This step is essential since it helps in eliminating excess starch, which would 
 
 If you adequately wash your rice, you can be sure that you’ll not experience boiling over situations that would otherwise turn your cooking escapades into a nightmare.
 
-- **Determine the Water to Rice Ratio**
+-   **Determine the Water to Rice Ratio**
 
 The amount of water that you need to complete the cooking process successfully determines the type of rice you’re cooking. As a rule of thumb, you should use:
 
-- 1.5 cups of water per 1 cup of white rice
-- 2 cups of water per 1 cup of brown or long grain rice
+-   1.5 cups of water per 1 cup of white rice
+-   2 cups of water per 1 cup of brown or long grain rice
 
 The long grain and brown rice are relatively water-resistant and will thus require more water to cook entirely. 
 
-- **Place Your Rice in Your Oster Rice Cooker**
+-   **Place Your Rice in Your Oster Rice Cooker**
 
 Once you’re through with water measuring, you should place it in the cooker and let it soak for approximately 5 minutes. This enhances the cooking process and guarantees fluffier rice.
 
-- **Close the Lid and Start Cooking** 
+-   **Close the Lid and Start Cooking** 
 
 Once you plug in your cooker, you will see a red light display which indicates that the rice has started cooking. 
 
@@ -94,9 +94,7 @@ Once ready, the red light will orange. This shows you that the rice is ready but
 
 If you want to enjoy soft rice, you can let it sit in the cooker for another 15 minutes to absorb extra moisture. 
 
-https://www.youtube.com/watch?v=YHFVmDGrp40
-
-## **How to Use an Oster Rice Cooker - Steaming Vegetables** 
+## **How to Use an Oster Rice Cooker – Steaming Vegetables** 
 
 Besides using your oster rice cooker for rice cooking, you can use it for [steaming](https://www.allrecipes.com/recipes/17713/everyday-cooking/cookware-and-equipment/rice-cooker/) your favorite vegetables, proteins, and corn. 
 
@@ -104,15 +102,15 @@ When well-used, you can be sure that you’ll preserve the nutrients, color, and
 
 To use an oster rice cooker to steam your vegetables, you should use the upper tray following these steps:
 
-- Fill your oster cooker’s inner pot with the right amount of water (approximately 1/3 cupful of water for every 10 ounces of corn, peas, broccoli, and other vegetables). If cooking spinach, you will require 1/3 cupful of water for 5 ounces. The same amount of water is required for 8 ounces of cauliflower and carrots.
-- Once through with water measuring, you should place the inner pot into your oster rice cooker while ensuring that it touches the heating plate. 
-- Cut your vegetables and place them into the steaming tray. 
-- Play the tray on top of the inner pot and ensure that you cover it entirely using a lid
-- Connect your oster rice cooker to your power source and turn it on. 
-- Let your vegetables steam for 30-40 minutes. When the water has dissolved completely, the heater will turn orange signaling the keep warm status. 
-- Disconnect the cooker and unplug it. You should then remove the vegetables and serve
+-   Fill your oster cooker’s inner pot with the right amount of water (approximately 1/3 cupful of water for every 10 ounces of corn, peas, broccoli, and other vegetables). If cooking spinach, you will require 1/3 cupful of water for 5 ounces. The same amount of water is required for 8 ounces of cauliflower and carrots.
+-   Once through with water measuring, you should place the inner pot into your oster rice cooker while ensuring that it touches the heating plate. 
+-   Cut your vegetables and place them into the steaming tray. 
+-   Play the tray on top of the inner pot and ensure that you cover it entirely using a lid
+-   Connect your oster rice cooker to your power source and turn it on. 
+-   Let your vegetables steam for 30-40 minutes. When the water has dissolved completely, the heater will turn orange signaling the keep warm status. 
+-   Disconnect the cooker and unplug it. You should then remove the vegetables and serve
 
-![How to Steam Vegetables in a Rice Cooker](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Steam Vegetables in a Rice Cooker](images/portablegasgrill.jpg)
 
 ## **How to Clean and Maintain an Oster Rice Cooker**
 
@@ -122,15 +120,15 @@ If you fail to care for this appliance, you can be sure that its longevity and f
 
 Here are some of the most useful cleaning tips you should consider:
 
-- **Always Clean It Immediately after Use.** Cleaning your oster rice cooker after use prevents stains and debris. Additionally, it guarantees ease of cleaning thus eliminating the urge to use abrasive cleaning materials.
-- **Let it Cool.** While cleaning the cooker immediately after cooking is right, you should give it approximately 5 minutes to cool. 
-- **Unplug Your Cooker After Use.** When you’re through with the cooking process, always ensure that you unplug the cooker from your heat source. This guarantees safety.
-- **Never Use Scouring Pads.** If you want to avoid scratches on your oster rice cooker, you should only use soft and non-abrasive cleaning materials.
-- **Avoid Dipping Heating Elements into Water.** This is one of the surest ways of ensuring that you maintain top-notch functionality and longevity. 
+-   **Always Clean It Immediately after Use.** Cleaning your oster rice cooker after use prevents stains and debris. Additionally, it guarantees ease of cleaning thus eliminating the urge to use abrasive cleaning materials.
+-   **Let it Cool.** While cleaning the cooker immediately after cooking is right, you should give it approximately 5 minutes to cool. 
+-   **Unplug Your Cooker After Use.** When you’re through with the cooking process, always ensure that you unplug the cooker from your heat source. This guarantees safety.
+-   **Never Use Scouring Pads.** If you want to avoid scratches on your oster rice cooker, you should only use soft and non-abrasive cleaning materials.
+-   **Avoid Dipping Heating Elements into Water.** This is one of the surest ways of ensuring that you maintain top-notch functionality and longevity. 
 
-_**Read more about the [best rice cookers](https://thekitchenpot.com/best-rice-cooker-for-brown-rice/) here**_
+***Read more about the [best rice cookers](https://thekitchenpot.com/blog/best-rice-cooker-for-brown-rice//) here***
 
-## How to Use an Oster Rice Cooker - The Bottom Line
+## How to Use an Oster Rice Cooker – The Bottom Line
 
 If you’ve been wondering how to use an oster rice cooker effectively, then this guide will help you resolve your worries.
 

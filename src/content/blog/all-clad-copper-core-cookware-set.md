@@ -16,7 +16,7 @@ category: "Cookware Equipment"
 seo: "All-Clad copper core cookware set is one of the most expensive cookware set you'll ever lay your hands on. Does its performance commensurate with price? Find out here"
 ---
 
-![All-Clad Copper Core Cookware Set ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![All-Clad Copper Core Cookware Set ](images/portablegasgrill.jpg)
 
 How much can you spend on a cookware set? Well, All-Clad has a cookware set that will set you back over $1000. But is it worth it?
 
@@ -26,17 +26,39 @@ However, there is more to a cookware set than just longevity. So, is the All-Cla
 
 We tested the performance of the All-Clad Copper Core 10-Piece Cookware Set. Here are our honest findings and recommendations. 
 
-![All-Clad Copper Core Cookware Set Reviews](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![All-Clad Copper Core Cookware Set Reviews](images/portablegasgrill.jpg)
 
-## All-Clad Copper Core Cookware Set - Our Best Pick 
+## All-Clad Copper Core Cookware Set – Our Best Pick 
 
 **[All-Clad 60090 Copper Core 5-Ply Bonded Dishwasher Safe Cookware Set, 14-Piece, Silver](https://www.amazon.com/All-Clad-Copper-Dishwasher-Cookware-14-Piece/dp/B000MWC02C?tag=kitchenpot-20)**
 
-![](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![](images/portablegasgrill.jpg)
 
 **Summary Features**
 
-<table><tbody><tr><td><strong>Material</strong></td><td>Stainless Steel</td></tr><tr><td><strong>Finish Type</strong></td><td>Stainless_steel</td></tr><tr><td><strong>Brand</strong></td><td>All-Clad</td></tr><tr><td><strong>Color</strong></td><td>Silver</td></tr><tr><td><strong>Item Dimensions LxWxH</strong></td><td>30.5 x 19 x 18 inches</td></tr><tr><td><strong>Item Weight</strong></td><td>9 Pounds</td></tr></tbody></table>
+**Material**
+
+Stainless Steel
+
+**Finish Type**
+
+Stainless\_steel
+
+**Brand**
+
+All-Clad
+
+**Color**
+
+Silver
+
+**Item Dimensions LxWxH**
+
+30.5 x 19 x 18 inches
+
+**Item Weight**
+
+9 Pounds
 
 [Check Latest Price on Amazon](https://www.amazon.com/All-Clad-Copper-Dishwasher-Cookware-14-Piece/dp/B000MWC02C?tag=kitchenpot-20)
 
@@ -50,7 +72,7 @@ The All-Clad copper core cookware is made of five metal layers including two out
 
 The five-ply construction has many benefits, including making the pans induction-friendly, improving heat conductivity and retention, enhancing durability, and improving the overall performance. 
 
-**[Read more about the benefits of All-Clad Multi-Ply construction](https://thekitchenpot.com/all-clad-d3-vs-d5/)**
+**[Read more about the benefits of All-Clad Multi-Ply construction](https://thekitchenpot.com/blog/all-clad-d3-vs-d5//)**
 
 The outer stainless steel is highly magnetic, which makes this cookware ideal for use with induction hobs, electric cooktops, and many other different constructions. 
 
@@ -72,17 +94,17 @@ I know that you’re used to this statement as a marketing gimmick, right? Well,
 
 As such, you can be sure that the pans and pots will serve you for a lifetime. You’ll pass it to generations!
 
-**Unique Construction - Hand-Crafted**
+**Unique Construction – Hand-Crafted**
 
 All All-Clad cookware sets are hand-crafted and checked at different stages for quality. This hands-on construction ensures that every set that comes out of All-Clad’s factory is of perfect dimensions, uniform texture, and overall top-notch quality. 
 
 The cookware is made out of high-quality stainless steel, aluminum, and copper arranged interchangeably in cladded layers. Here’s why this construction is necessary:
 
-![All-Clad Copper Core Cookware Set Construction ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![All-Clad Copper Core Cookware Set Construction ](images/portablegasgrill.jpg)
 
-- **Stainless Steel.** This [18/10 stainless steel layer](https://americankitchencookware.com/cookware-blog/understanding-1810-stainless-steel) is strategically placed on the inner and outer layers. It is heavier than aluminum and thus **holds heat for longer**. Additionally, the stainless steel layer is magnetic enough to allow the **use of induction hobs for cooking**. The material is also **corrosion-resistant** and easy to clean.
-- **Aluminum.** This metal is placed in the inner layers to improve heat conductivity. Compared to stainless steel, aluminum **offers better heat conductivity**. What’s even better is the fact that the **aluminum layer is light**, and thus will not add too much weight to the pans. The layer guarantees even heating. 
-- **Copper.** These pans come with a thick copper core. This layer strengthens the pans to ensure reliably responsiveness and offers **warp-free strength**. Additionally, copper is an exceptionally **good conductor of heat.** 
+-   **Stainless Steel.** This [18/10 stainless steel layer](https://americankitchencookware.com/cookware-blog/understanding-1810-stainless-steel) is strategically placed on the inner and outer layers. It is heavier than aluminum and thus **holds heat for longer**. Additionally, the stainless steel layer is magnetic enough to allow the **use of induction hobs for cooking**. The material is also **corrosion-resistant** and easy to clean.
+-   **Aluminum.** This metal is placed in the inner layers to improve heat conductivity. Compared to stainless steel, aluminum **offers better heat conductivity**. What’s even better is the fact that the **aluminum layer is light**, and thus will not add too much weight to the pans. The layer guarantees even heating. 
+-   **Copper.** These pans come with a thick copper core. This layer strengthens the pans to ensure reliably responsiveness and offers **warp-free strength**. Additionally, copper is an exceptionally **good conductor of heat.** 
 
 The unique properties of each of the layers bring in a synergy that offers exceptional performance. While the pans will be heavier due to the extra layers, the top-notch performance and durability will compensate for it. 
 
@@ -104,24 +126,22 @@ All-Clad cookware comes with a smooth surface that is easy to clean using mild d
 
 Additionally, it would be best if you hand-wash it to retain its mirror-polish surface and maintain its elegant look for a longer time. 
 
-### **Summary - Why All-Clad Copper Core Cookware is Expensive**
+### **Summary – Why All-Clad Copper Core Cookware is Expensive**
 
-![Is All-Clad Cookware Worth It?](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Is All-Clad Cookware Worth It?](images/portablegasgrill.jpg)
 
-- 5-ply construction - improves the pans responsiveness, heat distribution, and warp-free strength
-- Starburst finish for elegance
-- Superior stick resistance
-- Won't react with food for guaranteed healthy cooking
-- Riveted stainless steel handles with venting
-- Flared edges and capacity etched on base
-- Limited lifetime warranty
-- Made in USA
+-   5-ply construction – improves the pans responsiveness, heat distribution, and warp-free strength
+-   Starburst finish for elegance
+-   Superior stick resistance
+-   Won’t react with food for guaranteed healthy cooking
+-   Riveted stainless steel handles with venting
+-   Flared edges and capacity etched on base
+-   Limited lifetime warranty
+-   Made in USA
 
-However, the pans are quite heavy. If you'd have issues with heavy pans that takes time to heat (but retains the heat well), then you should reconsider investing in this $1500+ cookware.
+However, the pans are quite heavy. If you’d have issues with heavy pans that takes time to heat (but retains the heat well), then you should reconsider investing in this $1500+ cookware.
 
-Overall, the cookware is worth it. Its longevity is particularly something you'll pride in. Once you buy it, you'll have sorted your cookware needs for a lifetime - and even for your generations.
-
-https://www.youtube.com/watch?v=lOFW28FGAYU
+Overall, the cookware is worth it. Its longevity is particularly something you’ll pride in. Once you buy it, you’ll have sorted your cookware needs for a lifetime – and even for your generations.
 
 ## Where to Buy All-Clad Copper Core Cookware Set
 
@@ -143,7 +163,7 @@ The three sets can also come together with a copper bonded frying pan, kitchen t
 
 ## Is All-Clad Copper Cookware Set Worth It?
 
-![All-Clad Cookware Construction ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![All-Clad Cookware Construction ](images/portablegasgrill.jpg)
 
 All-Clad cookware sets are designed uniquely using cladding technology. This construction technique ensures that the different layers of metal are on both the sides and the bottom of the cookware.
 

@@ -24,13 +24,13 @@ If you’ve found yourself in such a situation, then you should consider investi
 
 Before you purchase one, read this comprehensive NuWave induction cooktop review to make an informed decision.
 
-## Unique Features of Nuwave Induction Cooktop - Summary
+## Unique Features of Nuwave Induction Cooktop – Summary
 
 **Cool to Touch** 
 
 This is an incredible safety feature! **While your Nuwave Induction Cooktop heats the pan, its surface remains cold**. Yes, you can touch it without the slightest burn on your hand.
 
-![Cool Touch Feature of Nuwave Induction Cooktop](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Cool Touch Feature of Nuwave Induction Cooktop](images/portablegasgrill.jpg)
 
 **LCD Control Panel**
 
@@ -58,7 +58,7 @@ NuWave induction cooktop is a lightweight burner cooktop that’s highly portabl
 
 These unique NuWave cooktop features make it ideal for outdoor cooking. Additionally, the burner has an LCD control panel that makes it easy to program your cooking.
 
-![NuWave Induction Cooktop Review](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![NuWave Induction Cooktop Review](images/portablegasgrill.jpg)
 
 ## **Benefits of Owning a Nuwave Induction Cooktop**
 
@@ -66,7 +66,7 @@ Several [advantages](https://www.frigidaire.com/Collections/Induction-Appliances
 
 **Unique Programming Capabilities** 
 
-When using the NuWave cooktop, you'll be able to achieve precise temperatures with a simple touch of a button. It has an easy-to-use LCD control panel that allows you to set the temperature and the cooking duration of your meals. 
+When using the NuWave cooktop, you’ll be able to achieve precise temperatures with a simple touch of a button. It has an easy-to-use LCD control panel that allows you to set the temperature and the cooking duration of your meals. 
 
 Even better, the cookware has a delay & sear function, which allows you to set all the cooking requirements but start the cooking at your convenient time. 
 
@@ -78,7 +78,7 @@ As such, this cooktop is economical and practical. It allows you to adjust the w
 
 **High Portability** 
 
-If you own a **[standard induction cooktop](https://thekitchenpot.com/best-induction-cooktop-for-the-money/)**, it won't be easy to use it outdoors. As such, you'll need the lightweight and highly portable NuWave induction cooktop to enjoy outdoor escapades with your family. 
+If you own a **[standard induction cooktop](https://thekitchenpot.com/blog/best-induction-cooktop-for-the-money//)**, it won’t be easy to use it outdoors. As such, you’ll need the lightweight and highly portable NuWave induction cooktop to enjoy outdoor escapades with your family. 
 
 The NuWave cooktop weighs between 5 and 9 pounds, an ideal weight to allow ease of movement. You can use it anywhere as long as you have AC power. 
 
@@ -106,25 +106,25 @@ As such, you will only require a kitchen towel to wipe off the mess in seconds!�
 
 These cooktops use magnetic fields to achieve the heating effect. As such, it cannot heat unless you place an **induction-ready pan** on it. Here is a summary of the security features associated with NuWave induction cooktops:
 
-- Only the [pan surface gets heated up](https://en.wikipedia.org/wiki/Induction_cooking). O**ther parts of the cooking surface remain cold**, thus eliminating the chance of accidental burns. 
-- Focused heating ensures that the **burner cools almost immediately after removing the pan**.
-- **Automatic shut-off.** Once you remove the pan from the burner, the heating process stops immediately. As such, you can walk away after removing the pan without the worry that you'll burn your kitchen. 
-- **No open flames.** These cooktops have no open flames that guarantee safety, even when you have children and pets around. 
+-   Only the [pan surface gets heated up](https://en.wikipedia.org/wiki/Induction_cooking). O**ther parts of the cooking surface remain cold**, thus eliminating the chance of accidental burns. 
+-   Focused heating ensures that the **burner cools almost immediately after removing the pan**.
+-   **Automatic shut-off.** Once you remove the pan from the burner, the heating process stops immediately. As such, you can walk away after removing the pan without the worry that you’ll burn your kitchen. 
+-   **No open flames.** These cooktops have no open flames that guarantee safety, even when you have children and pets around. 
 
 While the LCD panel will remain lit when plugged in, the cooktop does not heat unless the pan is in place. As such, you do not have to unplug it every time, thus adding another layer of unmatched convenience. 
 
 ## 3 Best Nuwave Induction Cooktop Review
 
-### 1\. [NuWave Precision Induction Cooktop 1300 Watts](https://www.amazon.com/NuWave-Precision-Induction-Cooktop-Watts/dp/B00DP6BJE2?tag=kitchenpot-20) - Our Best Pick
+### 1\. [NuWave Precision Induction Cooktop 1300 Watts](https://www.amazon.com/NuWave-Precision-Induction-Cooktop-Watts/dp/B00DP6BJE2?tag=kitchenpot-20) – Our Best Pick
 
-![NuWave Precision Induction Cooktop 1300 Watts](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![NuWave Precision Induction Cooktop 1300 Watts](images/portablegasgrill.jpg)
 
 Features
 
-- Uses 70% less energy compared to electric and gas cooktops
-- Highly portable and ideal for outdoor cooking
-- Simple LCD control panel
-- Lightweight and easy to clean
+-   Uses 70% less energy compared to electric and gas cooktops
+-   Highly portable and ideal for outdoor cooking
+-   Simple LCD control panel
+-   Lightweight and easy to clean
 
 [Check Latest Price on Amazon](https://www.amazon.com/NuWave-Precision-Induction-Cooktop-Watts/dp/B00DP6BJE2?tag=kitchenpot-20)
 
@@ -138,21 +138,31 @@ The cooktop is lightweight, and you can carry it whenever you want. You can use 
 
 ### 2\. [NUWAVE Lightweight Induction Cooktop With 10.5 in Fry Pan](https://www.amazon.com/NUWAVE-30242-Lightweight-Induction-Cooktop/dp/B01A1H33FA?tag=kitchenpot-20)
 
-![Nuwave Induction Cooktop Review](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Nuwave Induction Cooktop Review](images/portablegasgrill.jpg)
 
 Features
 
-<table><tbody><tr><td><strong>Item Dimensions LxWxH</strong></td><td>16.5 x 15 x 13.5 inches</td></tr><tr><td><strong>Item Weight</strong></td><td>9 Pounds</td></tr><tr><td><strong>Burner type</strong></td><td>Radiant</td></tr></tbody></table>
+**Item Dimensions LxWxH**
+
+16.5 x 15 x 13.5 inches
+
+**Item Weight**
+
+9 Pounds
+
+**Burner type**
+
+Radiant
 
 [Check Latest Price on Amazon](https://www.amazon.com/NUWAVE-30242-Lightweight-Induction-Cooktop/dp/B01A1H33FA?tag=kitchenpot-20)
 
 This NuWave Induction cooktop weighs 9 pounds, approximately 3 pounds more than our number one pick. Here is its box inclusion:
 
-- 10.5 inches hard anodized fry pan
-- 36 inches power cord
-- Nuwave induction cooktop 
-- User manual & instructional DVD
-- Cooking guide & a cookbook
+-   10.5 inches hard anodized fry pan
+-   36 inches power cord
+-   Nuwave induction cooktop 
+-   User manual & instructional DVD
+-   Cooking guide & a cookbook
 
 Its settings allow you to adjust the wattage: you can choose to use 600 watts, 900 watts, or 1500 watts. Its 12-inch cook surface is heat-resistant, and it has 8 inches heating coil for a premium cooking experience. 
 
@@ -164,15 +174,25 @@ Additionally, the cooktop has six pre-programmed temperature settings ideal for 
 
 ### 3\. [NuWave Precision Induction Cooktop Pro Chef Commercial-Grade](https://www.amazon.com/NuWave-Commercial-Grade-NSF-Certified-Programmable-Capabilities/dp/B085J2PQRB?tag=kitchenpot-20)
 
-![Nuwave Precision Induction Cooktop (PIC)](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Nuwave Precision Induction Cooktop (PIC)](images/portablegasgrill.jpg)
 
 Features
 
-<table><tbody><tr><td><strong>Brand</strong></td><td>NuWave</td></tr><tr><td><strong>Color</strong></td><td>Black</td></tr><tr><td><strong>Burner type</strong></td><td>Radiant</td></tr></tbody></table>
+**Brand**
+
+NuWave
+
+**Color**
+
+Black
+
+**Burner type**
+
+Radiant
 
 [Check Latest Price on Amazon](https://www.amazon.com/NuWave-Commercial-Grade-NSF-Certified-Programmable-Capabilities/dp/B085J2PQRB?tag=kitchenpot-20)
 
-This 1800-watt NuWave PIC Pro Chef cooktop has a series of magnetic induction coils in its 8 inches cooking surface. These coils will generate enough magnetic fields to heat your **[best induction cookware](https://thekitchenpot.com/best-cookware-for-induction-cooktop/)**, and cook your meals fast. 
+This 1800-watt NuWave PIC Pro Chef cooktop has a series of magnetic induction coils in its 8 inches cooking surface. These coils will generate enough magnetic fields to heat your **[best induction cookware](https://thekitchenpot.com/blog/best-cookware-for-induction-cooktop//)**, and cook your meals fast. 
 
 It is NSF-certified due to its top-notch functionality and durability standards. The cooktop glass is hardened enough and will not shatter, unless extreme force is exerted (it passed a drop test that had an impact of 1.5 ft-lbs)
 
@@ -180,23 +200,21 @@ When using this NuWave cooktop, you will enjoy precise temperature control. You 
 
 Additionally, this cooktop has smart cooking features that make cooking fun. It has 100 hours of memory that enables you to set a program for your favorite cooking procedures. Its delay function allows you to initiate the cooking at your convenient time. You can also adjust the wattage to save on power!
 
-https://www.youtube.com/watch?v=aUBTydGYIjc
-
 ## Disadvantages of Using NuWave Induction Cooktop
 
-- **Cookware Compatibility Challenge.** You can only use the induction cooktop if you have induction-ready cookware. These are cookware made from a magnetic material (some of the cookware may only be magnetic on the base, and they will work fine with the cooktop).
-- **It can be Noisy.** Cooking using the NuWave induction cooktop can be noisy. The process generates manageable buzzing noises. It is worse when you’re using relatively lightweight pans. 
-- **Relatively Pricey.** These cooktops may set you back several hundred dollars. However, the investment is worth it. 
+-   **Cookware Compatibility Challenge.** You can only use the induction cooktop if you have induction-ready cookware. These are cookware made from a magnetic material (some of the cookware may only be magnetic on the base, and they will work fine with the cooktop).
+-   **It can be Noisy.** Cooking using the NuWave induction cooktop can be noisy. The process generates manageable buzzing noises. It is worse when you’re using relatively lightweight pans. 
+-   **Relatively Pricey.** These cooktops may set you back several hundred dollars. However, the investment is worth it. 
 
 ## Induction Cookware Guide
 
 Not all cookware will be compatible with your induction cooktop. The compatibility will depend on the magnetic properties of the material used.
 
-> For the [cookware to be induction-compatible](https://thekitchenpot.com/best-cookware-for-induction-cooktop/), it must be made from a magnetic material such as cast iron and stainless steel.
+> For the [cookware to be induction-compatible](https://thekitchenpot.com/blog/best-cookware-for-induction-cooktop//), it must be made from a magnetic material such as cast iron and stainless steel.
 
 If a cookware is made from other materials but has a magnetic base, then it will work well with an induction cooktop. For example, a ceramic pan with an iron base.
 
-![How to Know Whether a Cookware is Induction-Ready](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Know Whether a Cookware is Induction-Ready](images/portablegasgrill.jpg)
 
 ## Best Alternatives of NuWave Induction Cooktops
 
@@ -206,58 +224,120 @@ Duxtop Cooktops are among the best sellers in Amazon and other online stores. Th
 
 #### **Features that make Duxtop more Dynamic than Nuwave**
 
-- The Duxtop portable induction cooktop uses 120V/15 amp electrical outlet and has a digital control panel for easy operation.
--  The cooktop has a digital timer that allows a 1-minute increment, allowing you to set a cook time of up to 170 minutes.
-- You can set the temperature using a 10-degrees increment to set the cooking temperature of 140 °F to 460 °F. 
-- To ensure that control power consumption, the cooktop allows ten power levels ranging from 200 to 1800 watts.
-- The cooktops have a durable 7-blade fan that helps in dissipating heat, thus guaranteeing longevity.
-- Auto-pan detection feature. The cooktop shuts down automatically if no pan is placed on the cooking surface within 60 seconds. 
+-   The Duxtop portable induction cooktop uses 120V/15 amp electrical outlet and has a digital control panel for easy operation.
+-    The cooktop has a digital timer that allows a 1-minute increment, allowing you to set a cook time of up to 170 minutes.
+-   You can set the temperature using a 10-degrees increment to set the cooking temperature of 140 °F to 460 °F. 
+-   To ensure that control power consumption, the cooktop allows ten power levels ranging from 200 to 1800 watts.
+-   The cooktops have a durable 7-blade fan that helps in dissipating heat, thus guaranteeing longevity.
+-   Auto-pan detection feature. The cooktop shuts down automatically if no pan is placed on the cooking surface within 60 seconds. 
 
 #### 3 Duxtop Induction Cooktops to Consider
 
 ##### **\>** [Duxtop 1800W Portable Induction Cooktop Countertop Burner, Gold 8100MC/BT-180G3](https://www.amazon.com/Duxtop-8100MC-Portable-Induction-Countertop/dp/B0045QEPYM?tag=kitchenpot-20)
 
-![Best Induction Cooktops](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best Induction Cooktops](images/portablegasgrill.jpg)
 
 Features
 
-<table><tbody><tr><td><strong>Brand</strong></td><td>Duxtop</td></tr><tr><td><strong>Material</strong></td><td>Glass+PP</td></tr><tr><td><strong>Color</strong></td><td>Gold</td></tr><tr><td><strong>Item Dimensions LxWxH</strong></td><td>13 x 11.5 x 2.5 inches</td></tr><tr><td><strong>Control Console</strong></td><td>Push Button</td></tr></tbody></table>
+**Brand**
+
+Duxtop
+
+**Material**
+
+Glass+PP
+
+**Color**
+
+Gold
+
+**Item Dimensions LxWxH**
+
+13 x 11.5 x 2.5 inches
+
+**Control Console**
+
+Push Button
 
 [Check Latest Price on Amazon](https://www.amazon.com/Duxtop-8100MC-Portable-Induction-Countertop/dp/B0045QEPYM?tag=kitchenpot-20)
 
 ##### \> [Duxtop Portable Induction Cooktop, Countertop Burner Induction Hot Plate with LCD Sensor Touch 1800 Watts, Silver 9600LS/BT-200DZ](https://www.amazon.com/Duxtop-1800-Watt-Induction-Countertop-9600LS/dp/B01FLR0ET8?tag=kitchenpot-20)
 
-![Duxtop Induction Cooktop](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Duxtop Induction Cooktop](images/portablegasgrill.jpg)
 
 Features
 
-<table><tbody><tr><td><strong>Brand</strong></td><td>Duxtop</td></tr><tr><td><strong>Material</strong></td><td>Glass panel</td></tr><tr><td><strong>Color</strong></td><td>Silver</td></tr><tr><td><strong>Item Dimensions LxWxH</strong></td><td>14 x 11.4 x 2.5 inches</td></tr><tr><td><strong>Burner type</strong></td><td>Radiant</td></tr><tr><td><strong>Control Console</strong></td><td>Touch</td></tr></tbody></table>
+**Brand**
+
+Duxtop
+
+**Material**
+
+Glass panel
+
+**Color**
+
+Silver
+
+**Item Dimensions LxWxH**
+
+14 x 11.4 x 2.5 inches
+
+**Burner type**
+
+Radiant
+
+**Control Console**
+
+Touch
 
 [Check Latest Price on Amazon](https://www.amazon.com/Duxtop-1800-Watt-Induction-Countertop-9600LS/dp/B01FLR0ET8?tag=kitchenpot-20)
 
 ##### \> [Duxtop 1800W Portable Induction Cooktop Countertop Burner, Black 9100MC/BT-M20B](https://www.amazon.com/Secura-9100MC-Portable-Induction-Countertop/dp/B00GMCAM2G?tag=kitchenpot-20)
 
-![Duxtop Induction cooktop features](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Duxtop Induction cooktop features](images/portablegasgrill.jpg)
 
 Features
 
-<table><tbody><tr><td><strong>Brand</strong></td><td>Duxtop</td></tr><tr><td><strong>Material</strong></td><td>Glass+ABS</td></tr><tr><td><strong>Color</strong></td><td>Black</td></tr><tr><td><strong>Item Dimensions LxWxH</strong></td><td>16.3 x 12.7 x 3.8 inches</td></tr><tr><td><strong>Burner type</strong></td><td>Radiant</td></tr><tr><td><strong>Control Console</strong></td><td>Push Button</td></tr></tbody></table>
+**Brand**
+
+Duxtop
+
+**Material**
+
+Glass+ABS
+
+**Color**
+
+Black
+
+**Item Dimensions LxWxH**
+
+16.3 x 12.7 x 3.8 inches
+
+**Burner type**
+
+Radiant
+
+**Control Console**
+
+Push Button
 
 [Check Latest Price on Amazon](https://www.amazon.com/Secura-9100MC-Portable-Induction-Countertop/dp/B00GMCAM2G?tag=kitchenpot-20)
 
 ### 2\. CUSIMAX Induction Cooktop 1800W Portable Induction Burner
 
-![CUSIMAX induction cooktop features and benefits](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![CUSIMAX induction cooktop features and benefits](images/portablegasgrill.jpg)
 
 Features
 
-- Voltage: 120 V
-- Power: 200W-1800 W
-- Frequency: 60 Hz
-- Temperature: 140℉ to 464℉
-- Timer: 1-180 minutes
-- Unit Size: 290mm\*380mm\*60mm
-- Package Weight: 6.80LB
+-   Voltage: 120 V
+-   Power: 200W-1800 W
+-   Frequency: 60 Hz
+-   Temperature: 140℉ to 464℉
+-   Timer: 1-180 minutes
+-   Unit Size: 290mm\*380mm\*60mm
+-   Package Weight: 6.80LB
 
 This induction cooktop has uniformly distributed electromagnetic coils, which allows even heat distribution. It has nine power (ranging from 200 to 1800w)  and ten temperature (140℉ to 464℉) settings, which gives you the flexibility to set the heat you need depending on your menu. 
 
@@ -265,11 +345,11 @@ You will require magnetic cookware to use this burner. If your cookware is not i
 
 Additionally, this cooktop has a Child Lock feature for guaranteed safety. No open flame will be visible, further making it ideal for the elderly, children, and pet lovers. 
 
-![Cusimax Induction cooktop](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Cusimax Induction cooktop](images/portablegasgrill.jpg)
 
-**_Read a [comprehensive guide on other induction cooktops](https://thekitchenpot.com/best-induction-cooktop-for-the-money/) you can consider_**
+***Read a [comprehensive guide on other induction cooktops](https://thekitchenpot.com/blog/best-induction-cooktop-for-the-money//) you can consider***
 
-## NuWave Induction Cooktop Review - The Bottom Line
+## NuWave Induction Cooktop Review – The Bottom Line
 
 NuWave induction cooktop uses magnetic fields to heat induction-ready pans. It is lightweight and small-sized, allowing you to use it outdoors. 
 
@@ -281,14 +361,14 @@ This NuWave induction cooktop review offers a comprehensive analysis of this app
 
 ## NuWave Induction Cooktop Frequently Asked Questions 
 
-### Is the NuWave induction cooktop good?
-
-Yes, NuWave offers some of the best induction cooktops in the market. The cooktop has several SMART features such as digital timers, LCD control panel, and button-control temperature settings. These features guarantee convenience and efficacy. 
-
-### How does NuWave induction cooktop work?
-
-It works through magnetic induction. The cooktop has several magnetic coils underneath the cooking surface. These coils produce magnetic fields that get into contact with the magnetic cookware, thus generating heat. It cannot work unless you use magnetic cookware. 
-
-### What does e01 mean in the NuWave induction cooktop?
-
-This is an error message signaling that the temperature of the IGBT sensor is over high. / The sensor is open/short circuit. To solve it, you should place induction-ready cookware (cookware whose base is magnetic)
+1.  ### Is the NuWave induction cooktop good?
+    
+    Yes, NuWave offers some of the best induction cooktops in the market. The cooktop has several SMART features such as digital timers, LCD control panel, and button-control temperature settings. These features guarantee convenience and efficacy. 
+    
+2.  ### How does NuWave induction cooktop work?
+    
+    It works through magnetic induction. The cooktop has several magnetic coils underneath the cooking surface. These coils produce magnetic fields that get into contact with the magnetic cookware, thus generating heat. It cannot work unless you use magnetic cookware. 
+    
+3.  ### What does e01 mean in the NuWave induction cooktop?
+    
+    This is an error message signaling that the temperature of the IGBT sensor is over high. / The sensor is open/short circuit. To solve it, you should place induction-ready cookware (cookware whose base is magnetic)

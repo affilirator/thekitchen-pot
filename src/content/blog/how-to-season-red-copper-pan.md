@@ -22,7 +22,7 @@ These pans boast of superb heat-conducting ability and have unique sophisticatio
 
 However, you must learn how to season red copper pan if you want to achieve optimal benefits from it. This article offers a detailed guide on how to [season](https://www.wikihow.com/Season-a-Red-Copper-Pan) red copper pan effectively. Read on for unique tips.
 
-![How to Season Red Copper Pan](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Season Red Copper Pan](images/portablegasgrill.jpg)
 
   
 
@@ -38,7 +38,7 @@ However, these pans are not without some drawbacks. This section highlights the 
 
 ### **What are the Advantages of Red Copper Pans?**
 
-- **Easy Temperature Control**
+-   **Easy Temperature Control**
 
 Copper pans have earned a standing ovation from celebrated chefs due to its unmatched responsiveness to temperature changes. 
 
@@ -48,7 +48,7 @@ Why the ease of temperature control in copper pans has won the heart of many che
 
 A chef with the best copper pan will cook virtually anything, and with top-notch outcome. 
 
-- **No Hotspots**
+-   **No Hotspots**
 
 If you love cooking, you’ll agree that having a pan that’s unevenly heat is a pain. Your food may not cook evenly and may evenly start burning at the center before it cooks entirely at the edges. 
 
@@ -56,17 +56,17 @@ If you’ve experienced such problems, then it is time you considered getting a 
 
 As a result, you’ll get evenly cooked food. Even more importantly, you’ll never experience burnt food with copper pans, as it would happen with pans whose heat is concentrated at the center. 
 
-- **Have an Ideal Weight**
+-   **Have an Ideal Weight**
 
-Copper pans are averagely heavy - neither too heavy nor too light. This way, you can be sure that you’ll have no problem when moving your pan from your **[lazy Susan organizer](https://thekitchenpot.com/8-best-lazy-susan-organizers-for-your-kitchen/)** to your stovetop. 
+Copper pans are averagely heavy – neither too heavy nor too light. This way, you can be sure that you’ll have no problem when moving your pan from your **[lazy Susan organizer](https://thekitchenpot.com/blog/8-best-lazy-susan-organizers-for-your-kitchen//)** to your stovetop. 
 
-- **Superior Design and Aesthetic Benefits**
+-   **Superior Design and Aesthetic Benefits**
 
 Copper pans are not your ordinary pans. Besides efficiency, they’ll offer outstanding beauty to your kitchen.
 
 The glow that comes with them is something you’d want to consider! You can be sure that your cooking experiences will change for the better! You’ll adore every minute you spend in your kitchen.  
 
-- **High Efficacy and Easy Maintenance**
+-   **High Efficacy and Easy Maintenance**
 
 As we’ve already indicated, copper pans have top-notch heat conductivity capacity which offers quicker and superior cooking experiences. Also, the pans are easy to clean since they rarely burn or get stains. 
 
@@ -74,29 +74,29 @@ As we’ve already indicated, copper pans have top-notch heat conductivity capac
 
 While copper pans are undoubtedly beneficial to any cooking enthusiast, they possess several disadvantages that you should consider. They include:
 
-- **They are Relatively Expensive**
+-   **They are Relatively Expensive**
 
 These pans are pricey when compared with ceramic cookware, cast iron pans, stainless steel, and other variants. 
 
-> **_Read a [review of ceramic cookware](https://thekitchenpot.com/best-ceramic-cookware-set/) here_**
+> ***Read a [review of ceramic cookware](https://thekitchenpot.com/blog/best-ceramic-cookware-set//) here***
 
 The pans’ high price can be attributed to its top-notch quality and preference among top professional chefs. 
 
 However, you can be confident that the pans are worth every coin you spend on them! The ease of cooking and the efficacy will surely be fulfilling. 
 
-- **Requires Hand Washing**
+-   **Requires Hand Washing**
 
 If you prefer using a dishwasher to clean your cookware, then copper pots may not be your ideal choice! 
 
 Using the dishwasher on copper pans will significantly reduce its longevity. As such, we recommend that you hand wash and dry them well to avoid corrosion and ugly discolorations.
 
-- **Poor Maintenance Leads to Patina Development**
+-   **Poor Maintenance Leads to Patina Development**
 
 What is patina? Well, this is a blue-green film that looks like ugly molds. It can develop in your copper pans if you fail to dry them well. Lingering moisture will almost always lead to patina development and tarnished quality.  
 
 If this happens, you’ll require to polish the pans with copper paste to attain the glow once again, which can be expensive. 
 
-- **Can React With Food**
+-   **Can React With Food**
 
 If you get a pure copper pan, you’re likely to experience metallic aftertaste on your meals. This is particularly common when you’re dealing with highly alkaline and acidic foods. 
 
@@ -106,7 +106,7 @@ Those pans lined with tin may require replacement once that lining depletes.
 
 Also, we advise that you avoid exposing your pans to highly active foods such as lemon. This way, you can be sure that your pan will be free of corrosion and patinas. 
 
-![Best Red Copper Pans](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Best Red Copper Pans](images/portablegasgrill.jpg)
 
 ## **Are Red Copper Pans Toxic?**
 
@@ -124,10 +124,10 @@ Seasoning your red copper pans before you start using them is crucial since it g
 
 ### **What You Need when Seasoning Red Copper Pans**
 
-- Vegetable oil (use your preferred oil) - canola, grape seed, peanut, or any other **except butter and olive oil**
-- Mild soap
-- Oven/ Stovetop and oven mint
-- Soft towel
+-   Vegetable oil (use your preferred oil) – canola, grape seed, peanut, or any other **except butter and olive oil**
+-   Mild soap
+-   Oven/ Stovetop and oven mint
+-   Soft towel
 
 ### **Red Copper Seasoning Procedure**
 
@@ -163,9 +163,7 @@ Wipe the excess oil with a clean towel. Your pan will be ready for use. 
 
 You should regularly season your pan to achieve the best performance (we recommend that you season it twice to thrice a year).
 
-https://www.youtube.com/watch?v=ToupXsn8N-A
-
-## **How to Season Red Copper Pans - The Bottom Line**
+## **How to Season Red Copper Pans – The Bottom Line**
 
 If you’d love to achieve the best performance using your red copper pans, you should season them regularly. Wondering how to season red copper pans? Well, this guide is for you!
 

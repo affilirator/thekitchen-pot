@@ -18,39 +18,39 @@ seo: "Wondering how to use a double boiler? Well, this kitchen appliance is help
 
 Have you ever tried melting chocolate over high heat? Well, this will almost always end up in disappointment. Your chocolate is likely to become a lump!
 
-If you've found yourself in such a situation, then you should consider investing in a **[double boiler](https://www.amazon.com/Farberware-Classic-Stainless-2-Quart-Covered/dp/B00004RGB7/?tag=kitchenpot-20)**. This appliance (also known as [Bain-Marie](https://en.wikipedia.org/wiki/Bain-marie)) allows you to **slowly and evenly heat** foodstuff that requires gentle & slow cooking. 
+If you’ve found yourself in such a situation, then you should consider investing in a **[double boiler](https://www.amazon.com/Farberware-Classic-Stainless-2-Quart-Covered/dp/B00004RGB7/?tag=kitchenpot-20)**. This appliance (also known as [Bain-Marie](https://en.wikipedia.org/wiki/Bain-marie)) allows you to **slowly and evenly heat** foodstuff that requires gentle & slow cooking. 
 
 This article offers a comprehensive guide on how to use a double boiler. Read on to get handy tips.
 
 ## What is a Double Boiler?
 
-Most people don't understand the concept of **[double boilers](https://www.amazon.com/Silicone-Spatula-Stainless-Resistant-Chocolate/dp/B07ZVN5HJ6?tag=kitchenpot-20)**. To most, this is the best because it offers two useful kitchen items - a pot and a bowl. 
+Most people don’t understand the concept of **[double boilers](https://www.amazon.com/Silicone-Spatula-Stainless-Resistant-Chocolate/dp/B07ZVN5HJ6?tag=kitchenpot-20)**. To most, this is the best because it offers two useful kitchen items – a pot and a bowl. 
 
 However, there is a formidable reason why double boilers come as a pair consisting of a pot and a bowl.
 
-If you've been keen enough, you'll notice that the top bowl is designed in a way as to fit into the mouth of the pot. This design is strategic!
+If you’ve been keen enough, you’ll notice that the top bowl is designed in a way as to fit into the mouth of the pot. This design is strategic!
 
 It helps to ensure that no steam escapes from the pot. As such, it will heat your food faster and more efficiently.
 
 So, what is a double boiler in one sentence?
 
-> **_A_** _**[double boiler](https://www.amazon.com/Stainless-Double-Resistant-Melting-Chocolate/dp/B08KD77QP7/?tag=kitchenpot-20)**_ **_is a set of two pans. One large one that looks like a saucepan and another shallow one fits perfectly on the mouth of the big pot._** 
+> ***A*** ***[double boiler](https://www.amazon.com/Stainless-Double-Resistant-Melting-Chocolate/dp/B08KD77QP7/?tag=kitchenpot-20)*** ***is a set of two pans. One large one that looks like a saucepan and another shallow one fits perfectly on the mouth of the big pot.*** 
 
-Most of the double boilers also come with a lid. However, you'll seldom need it since most food will require constant stirring. 
+Most of the double boilers also come with a lid. However, you’ll seldom need it since most food will require constant stirring. 
 
 If you need to cook meals that require stirring, it would be best to choose a double boiler with a transparent lid. This feature will help you to monitor your food and ensure that it does not burn. 
 
-![ How to Use a Double Boiler](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![ How to Use a Double Boiler](images/portablegasgrill.jpg)
 
 ## What is the Use of a Double Boiler?
 
 A double boiler is a kitchen appliance that helps you heat/cook food that does not require high temperatures, such as chocolate and egg yolk.
 
-When using a double boiler, you'll cook your meals using steam. The section explains how you can use a double boiler to melt chocolate and make other meals. 
+When using a double boiler, you’ll cook your meals using steam. The section explains how you can use a double boiler to melt chocolate and make other meals. 
 
 ## How to Use a Double Boiler
 
-If you're wondering how to use your recently acquired double boiler, then here is a comprehensive guide:
+If you’re wondering how to use your recently acquired double boiler, then here is a comprehensive guide:
 
 **Step 1: Clean Your Boilers** 
 
@@ -58,11 +58,11 @@ After **[purchasing your double boiler](https://www.amazon.com/Farberware-Classi
 
 **Step 2: Fill the Lower Saucepan with Water Quarter Way**
 
-After cleaning the boiler, you should pick the saucepan and fill it with water up to the quarter mark. Do not fill it with water entirely since you'll not get a space for the bowl.
+After cleaning the boiler, you should pick the saucepan and fill it with water up to the quarter mark. Do not fill it with water entirely since you’ll not get a space for the bowl.
 
 **Step 3: Place Your Saucepan on Your Cooktop**
 
-Place the saucepan on the **[cooktop](https://thekitchenpot.com/best-induction-cooktop-for-the-money/)** and ignite it. Heat the water for a few minutes.
+Place the saucepan on the **[cooktop](https://thekitchenpot.com/blog/best-induction-cooktop-for-the-money//)** and ignite it. Heat the water for a few minutes.
 
 **Step 4: Place Your Bowl on Top of the Saucepan**
 
@@ -74,15 +74,15 @@ Put your food items (chocolate, egg yolk, or any other item that requires slow c
 
 **Step 6: Stir Regularly Until the Food is Ready**
 
-Once the food starts cooking, you should stir until it is ready. This ensures that it's evenly done. 
+Once the food starts cooking, you should stir until it is ready. This ensures that it’s evenly done. 
 
-Double boilers are designed to heat the food using steam derived directly from water boiling in the lower saucepan. This prevents direct contact between the food item and the heat source, allowing a slow but even cooking process. As such, you'll be sure that your food will not scorch. 
+Double boilers are designed to heat the food using steam derived directly from water boiling in the lower saucepan. This prevents direct contact between the food item and the heat source, allowing a slow but even cooking process. As such, you’ll be sure that your food will not scorch. 
 
-**_Never overfill the lower pan when using a double boiler. The upper bowl should not come into contact with water, or the entire setup will be null and void!_**
+***Never overfill the lower pan when using a double boiler. The upper bowl should not come into contact with water, or the entire setup will be null and void!***
 
 You should check the water levels on the lower bowl periodically and fill it up if it runs dry.
 
-> If you're using an **[induction cooktop](https://thekitchenpot.com/best-induction-cooktop-for-the-money/)**, always ensure that the bottom pot is **[induction-ready](https://thekitchenpot.com/best-cookware-for-induction-cooktop/)**
+> If you’re using an **[induction cooktop](https://thekitchenpot.com/blog/best-induction-cooktop-for-the-money//)**, always ensure that the bottom pot is **[induction-ready](https://thekitchenpot.com/blog/best-cookware-for-induction-cooktop//)**
 
 ## When to Use a Double Boiler
 
@@ -90,7 +90,7 @@ A [double boiler](https://www.thespruceeats.com/what-is-a-double-boiler-995647) 
 
 1\. **Melting Chocolate** 
 
-In most recipes with chocolate as the main ingredient, you'll be required to introduce it to your meals while in molten form.
+In most recipes with chocolate as the main ingredient, you’ll be required to introduce it to your meals while in molten form.
 
 However, melting your chocolate is tricky and may lead to useless lumps, thus frustrating your effort. The secret is using low heat and avoiding direct contact with heat.
 
@@ -110,8 +110,6 @@ If you need to reheat food that does not require further heating, then using a d
 
 Besides cooking edible food, double boilers are critical in soap making. They are used to melt the wax and mix it with other essential oils. As such, you can be sure that owning a double boiler will be helpful beyond making your meals. 
 
-https://www.youtube.com/watch?v=37UeJLo6p3Y
-
 ## Double Boiler Price
 
 You can get double boilers at as low as $15 to as high as $200. The price difference is primarily due to differences in size. Additionally, some brands such as Cuisinart are relatively pricier. 
@@ -124,13 +122,13 @@ Once you fill your pot with water and it starts boiling, you should place the bo
 
 ## How to Clean Your Double Boiler
 
-If you need a double boiler, then it is factual that you'll have dirty dishes at the end of it. The ingredients that require a double boiler are pretty sticky -such as chocolate and cheese.
+If you need a double boiler, then it is factual that you’ll have dirty dishes at the end of it. The ingredients that require a double boiler are pretty sticky -such as chocolate and cheese.
 
 On the other hand, the lower pot is likely to get stained by mineral salts in the water. The constant boiling will leave behind deposits of calcium, lime, and other mineral salts. 
 
-As such, you will need a comprehensive cleaning routine to overcome these dirt and mess hurdles. Here's an all-inclusive guide:
+As such, you will need a comprehensive cleaning routine to overcome these dirt and mess hurdles. Here’s an all-inclusive guide:
 
-![How to Clean a double boiler](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Clean a double boiler](images/portablegasgrill.jpg)
 
 ## How to Clean Messy Double Boiler Bowl
 
@@ -146,15 +144,15 @@ Mix equal parts of water and white vinegar, then bring the mixture to a boil. Sw
 
 After one hour, pour the mixture and use your ordinary scouring pad to clean the pot. It will be restored to its original glister in seconds and without any hassle!
 
-## How to Use a Double Boiler - the Bottom Line
+## How to Use a Double Boiler – the Bottom Line
 
 A [double boiler](https://www.webstaurantstore.com/blog/2406/what-is-a-double-boiler.html) is a useful kitchen appliance, especially if you like trying out new recipes. You will need the appliance to slow cook food items that do not require intense heating or direct contact with heat. 
 
-To get the best results, you should always ensure that you do not fill the lower pan. This way, you'll be sure that your food will only be steamed (there will be no direct contact with heat whatsoever).
+To get the best results, you should always ensure that you do not fill the lower pan. This way, you’ll be sure that your food will only be steamed (there will be no direct contact with heat whatsoever).
 
-If you've been wondering how to use a double boiler effectively, then this article will answer all your questions. We've detailed how to use and clean it to achieve the best results. 
+If you’ve been wondering how to use a double boiler effectively, then this article will answer all your questions. We’ve detailed how to use and clean it to achieve the best results. 
 
-## How to Use a Double Boiler - FAQ
+## How to Use a Double Boiler – FAQ
 
 ### How much water do I put in a double boiler?
 

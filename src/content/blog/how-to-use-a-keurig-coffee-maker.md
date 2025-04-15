@@ -16,11 +16,11 @@ category: "How To Guides"
 seo: "Wondering how to use a keurig coffee maker? Well, it is not as complicated and it appears at first. This guide will enable you to operate the machine like a pro. Read on"
 ---
 
-Have you added a [**Keurig Coffee Maker Machine**](https://thekitchenpot.com/top-5-keurig-coffee-maker/) to your kitchen arsenal, but you are having difficulties operating it? If yes, then read this comprehensive guide on how to use a Keurig, and you’ll be mesmerized at how fun it is to make your favorite cup of coffee.
+Have you added a [**Keurig Coffee Maker Machine**](https://thekitchenpot.com/blog/top-5-keurig-coffee-maker//) to your kitchen arsenal, but you are having difficulties operating it? If yes, then read this comprehensive guide on how to use a Keurig, and you’ll be mesmerized at how fun it is to make your favorite cup of coffee.
 
 Keurig uses k-cups to help you make coffee of your desired concentration. The machine comes with different capacities ranging from [**Keurig Single Cup Coffee Maker**](https://www.amazon.com/Keurig-K-Mini-Single-Serve-Coffee/dp/B07GV2S1GS?tag=kitchenpot-20) to [**Keurig Classic Series**](https://www.amazon.com/Keurig-K55-K-Classic-Coffee-Programmable/dp/B018UQ5AMS?tag=kitchenpot-20), with the potential to make multiple cups. This article explains how you can get the best of the appliance. 
 
-![How to Use a Keurig Coffee Maker Machine](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Use a Keurig Coffee Maker Machine](images/portablegasgrill.jpg)
 
 ## What is a Keurig Coffee Maker?
 
@@ -28,7 +28,7 @@ Before we proceed, it would best if you understand what Keurig means. Well, [Keu
 
 The machines are named after the founder, Keurig Dr. Pepper. The main products from Keurig include single-serve coffee machines, commercial multiple-cups machines, K-Cup pods, and many other beverage pods. 
 
-**We compiled a research-based article on Keurig. Could you read it** [**here**](https://thekitchenpot.com/top-5-keurig-coffee-maker/)**?**
+**We compiled a research-based article on Keurig. Could you read it** [**here**](https://thekitchenpot.com/blog/top-5-keurig-coffee-maker//)**?**
 
 The Keurig Machines work well with specially designed coffee pods called the K-cups. Once you become conversant with the Keurig coffee making machine, you’ll realize that it is quite a simple and convenient machine to use. 
 
@@ -38,15 +38,15 @@ If you’ve just bought your Keurig machine, you should ensure that it’s well-
 
 ### Assembling Keurig Machine
 
-- **Remove All Protective Tapes.** Before you start using your machine, you should remove all adhesive tapes. 
-- **Place it on the Grounded Outlet.** Keurig comes with three holes - two to bring in power and one to ground the power in case of surges. 
-- **Rinse your Water Reservoir.** Locate your water reservoir (can be at the side or the back of the machine, depending on your model) and remove it. Lift the lid and clean it with warm, clean water. If your Keurig has a built-in reservoir, you should run water through it and rinse it until clean. 
-- **Test Functionality.** Once you clean the Keurig Machine, you should fill the reservoir with water up to the MAX line, put the lid into place, and press the power button. It should show a power light display. 
-- **Run a Cleansing Brew Cycle.** Before you start using the machine, you should run a brew cycle without using the K-Cup. Place your ordinary mug on the drip tray and open/close the K-Cup holder. Press the size cup (small, medium, large) to start brewing. 
+-   **Remove All Protective Tapes.** Before you start using your machine, you should remove all adhesive tapes. 
+-   **Place it on the Grounded Outlet.** Keurig comes with three holes – two to bring in power and one to ground the power in case of surges. 
+-   **Rinse your Water Reservoir.** Locate your water reservoir (can be at the side or the back of the machine, depending on your model) and remove it. Lift the lid and clean it with warm, clean water. If your Keurig has a built-in reservoir, you should run water through it and rinse it until clean. 
+-   **Test Functionality.** Once you clean the Keurig Machine, you should fill the reservoir with water up to the MAX line, put the lid into place, and press the power button. It should show a power light display. 
+-   **Run a Cleansing Brew Cycle.** Before you start using the machine, you should run a brew cycle without using the K-Cup. Place your ordinary mug on the drip tray and open/close the K-Cup holder. Press the size cup (small, medium, large) to start brewing. 
 
 Once you’re through all these processes, you can be sure that your Keurig Coffee Maker is fully functional. Next is the actual brewing process!
 
-![Keurig 1.0 vs. Keurig 2.0: What is the Difference?](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Keurig 1.0 vs. Keurig 2.0: What is the Difference?](images/portablegasgrill.jpg)
 
 ## How to Brew Coffee Using a Keurig Coffee Machine
 
@@ -96,13 +96,13 @@ Since Keurig boils water, some mineral deposits such as calcium and iron will be
 
 As such, there is an absolute need to descale it regularly to restore its glow and improve its functionality. To achieve that, you should follow these steps:
 
-- Fill the reservoir halfway with vinegar.
-- Run several brewing cycles without K-Cup. Repeat the process until the reservoir is empty.
-- Repeat the process with plain water to rinse it 
+-   Fill the reservoir halfway with vinegar.
+-   Run several brewing cycles without K-Cup. Repeat the process until the reservoir is empty.
+-   Repeat the process with plain water to rinse it 
 
 If you want to avoid the scaling and debris build-up, you should avoid using hard tap water. Instead, you can use bottled or distilled water, which is softened and the minerals that result in debris removed. 
 
-![How to Clean Keurig Coffee Maker](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Clean Keurig Coffee Maker](images/portablegasgrill.jpg)
 
 ### Cleaning the Keurig Machine Exterior
 
@@ -120,7 +120,7 @@ Once you empty it, you should use warm and soapy water to wipe away the dirt. Ri
 
 ## How to Clean the K-Cup Holder
 
-When the Keurig machine clog's internal components, you need to disembark it and clean it thoroughly, thus guaranteeing top-notch performance. 
+When the Keurig machine clog’s internal components, you need to disembark it and clean it thoroughly, thus guaranteeing top-notch performance. 
 
 To clean your K-Cup holder, you should lift the handle and pull up the holder to remove the funnel. Clean it using warm and soapy water. 
 
@@ -129,8 +129,6 @@ Always remember that the **K-Cup holder has sharp needles that can hurt you**! B
 ## Tip to Reduce Dirt Accumulation on Keurig
 
 Whenever you brew sticky beverages, you should flush the Keurig machine with hot water immediately after you finish. This will prevent sugar crystallization, thus saving you on the cleaning hassle. 
-
-https://www.youtube.com/watch?v=O8RaZYmZp4k&t=9s
 
 ## How to Use a Keurig -The Bottom Line
 

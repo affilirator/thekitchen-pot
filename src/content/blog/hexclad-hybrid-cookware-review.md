@@ -20,7 +20,7 @@ HexClad is renowned for its high-quality nonstick pans and pots. All their produ
 
 So, is HexClad worth the money? Are their pans and pots durable? We bought the pan and tested its efficacy, nonstick properties, and heat conductivity. Here is a comprehensive HexClad hybrid cookware review based on personal experience.
 
-![HexClad Hybrid Cookware Reviews ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![HexClad Hybrid Cookware Reviews ](images/portablegasgrill.jpg)
 
 **Spoiler Alert** 
 
@@ -30,33 +30,31 @@ HexClad is my favorite cookware brand! I find the pans and pots quite stylish, p
 
 In this section, I’ll be brief on what makes HexClad cookware stand out from its competition. I’ll go into depth in the next section:
 
-- Unique and **Patented Laser Etched Hybrid Technology** 
-- Hybrid (**stainless steel and nonstick**) Construction
-- Features a **Hexagon Design that Creates Peaks and Valley**s for Consistent Heating
-- **Tri-Ply Construction with an Aluminum Middle Layer** for Even Heating
-- Dishwasher safe
-- Chemical Free - Cookware is **PFOA-free**
-- **Easy to Clean Up** 
-- **Stay-Cool Handles**
-- **Lifetime Warranty**
+-   Unique and **Patented Laser Etched Hybrid Technology** 
+-   Hybrid (**stainless steel and nonstick**) Construction
+-   Features a **Hexagon Design that Creates Peaks and Valley**s for Consistent Heating
+-   **Tri-Ply Construction with an Aluminum Middle Layer** for Even Heating
+-   Dishwasher safe
+-   Chemical Free – Cookware is **PFOA-free**
+-   **Easy to Clean Up** 
+-   **Stay-Cool Handles**
+-   **Lifetime Warranty**
 
 Additionally, HexClad pans and pots are dishwasher safe, scratch-resistant, and you can use them in an oven for up to 500 degrees F.
 
 **Seasoning HexClad pans is necessary. If you don’t season them once in a while, they may gradually lose their nonstick properties!**
 
-## HexClad Tri-Ply Construction - How Tri-Ply Pans Work
+## HexClad Tri-Ply Construction – How Tri-Ply Pans Work
 
 HexClad pans and pots have three layers to boost their functionality, improve durability, and enhance ease of use. The three layers of construction include:
 
-![HexClad Unique Patented Laser Etching Design](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![HexClad Unique Patented Laser Etching Design](images/portablegasgrill.jpg)
 
-- **Magnetic Stainless Steel.** This layer ensures that the pan works on all cooktops, including gas, electric, and induction.
-- **Middle Aluminum Layer.** This layer acts as the heating element. It ensures uniform heat distribution, thus eliminating hot spots and ensuring that your food cooks uniformly. 
-- **One More Layer of Steel.** This layer further enhances the functionality of your cookware. It guarantees ease of cleaning and an attractive shiny appearance.  
+-   **Magnetic Stainless Steel.** This layer ensures that the pan works on all cooktops, including gas, electric, and induction.
+-   **Middle Aluminum Layer.** This layer acts as the heating element. It ensures uniform heat distribution, thus eliminating hot spots and ensuring that your food cooks uniformly. 
+-   **One More Layer of Steel.** This layer further enhances the functionality of your cookware. It guarantees ease of cleaning and an attractive shiny appearance.  
 
 From this construction, you can be sure that HexClad cookware will deliver efficient results, whether you’re searing, sautéing, braising, or whichever cooking you’re doing. 
-
-https://www.youtube.com/watch?v=tt2nFZy1Ki0
 
 ## HexClad Unique Patented Laser Etching Design 
 
@@ -76,7 +74,7 @@ Adding nonstick surfaces to these valleys allows you to cook with little to no o
 
 The peaks offer a stainless steel surface which enhances your cooking escapades. It improves your searing and sautéing process, ensuring that you achieve golden brown meals.
 
-Additionally, these stainless steel peaks protect your pan from peeling and flaking, thus guaranteeing durability. As such, you can **freely use your [best metal spatulas](https://thekitchenpot.com/best-metal-spatula-set/) without the fear of peeling the nonstick surface.** 
+Additionally, these stainless steel peaks protect your pan from peeling and flaking, thus guaranteeing durability. As such, you can **freely use your [best metal spatulas](https://thekitchenpot.com/blog/best-metal-spatula-set//) without the fear of peeling the nonstick surface.** 
 
 **No Hotspots** 
 
@@ -94,39 +92,71 @@ Additionally, the cookware ensures that you use the least amount of oil as its v
 
 ### **1\. [HexClad Hybrid Non-Stick Cookware | 7 Piece Set with Lids and Wok](https://www.amazon.com/Hexclad-Nonstick-Cookware-Utensil-Induction/dp/B07L36PTD9/?tag=kitchenpot-20)** 
 
-![HexClad Hybrid Non-Stick Cookware | 7 Piece Set with Lids and Wok ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![HexClad Hybrid Non-Stick Cookware | 7 Piece Set with Lids and Wok ](images/portablegasgrill.jpg)
 
 **Features**
 
-- Durable tri-ply construction
+-   Durable tri-ply construction
 
-- Unique HexClad hexagon design is created through a laser etching process
-- Compatible with all cooktops
-- [PFOA-free](https://madeincookware.com/blogs/what-is-pfoa), oven safe up to 500 degrees
-- Scratch resistant and won’t scuff or wear down from use of metal utensils
+-   Unique HexClad hexagon design is created through a laser etching process
+-   Compatible with all cooktops
+-   [PFOA-free](https://madeincookware.com/blogs/what-is-pfoa), oven safe up to 500 degrees
+-   Scratch resistant and won’t scuff or wear down from use of metal utensils
 
 [Check Latest Price on Amazon](https://www.amazon.com/Hexclad-Nonstick-Cookware-Utensil-Induction/dp/B07L36PTD9/?tag=kitchenpot-20)
 
 This set includes:
 
-- 12" Pan w/ Lid  
-- 10" Pan w/ Lid 
-- 8" Pan w/ Lid 
-- 12'' Wok 
+-   12″ Pan w/ Lid  
+-   10″ Pan w/ Lid 
+-   8″ Pan w/ Lid 
+-   12” Wok 
 
 ### **2. [HexClad Hybrid Nonstick Cookware 12” Frying Pan](https://www.amazon.com/HexClad-Stainless-Nonstick-Commercial-Cookware/dp/B07L1BD3FB/?tag=kitchenpot-20)**
 
-![HexClad Hybrid Nonstick Cookware 12” Frying Pan](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![HexClad Hybrid Nonstick Cookware 12” Frying Pan](images/portablegasgrill.jpg)
 
-<table><tbody><tr><td><strong>Brand</strong></td><td>HEXCLAD</td></tr><tr><td><strong>Has Nonstick Coating</strong></td><td>Yes</td></tr><tr><td><strong>Is Oven Safe</strong></td><td>Yes</td></tr><tr><td><strong>Is Dishwasher Safe</strong></td><td>Yes</td></tr></tbody></table>
+**Brand**
+
+HEXCLAD
+
+**Has Nonstick Coating**
+
+Yes
+
+**Is Oven Safe**
+
+Yes
+
+**Is Dishwasher Safe**
+
+Yes
 
 [Check Latest Price on Amazon](https://www.amazon.com/HexClad-Stainless-Nonstick-Commercial-Cookware/dp/B07L1BD3FB/?tag=kitchenpot-20)
 
 ### **3\. [HexClad 12 Inch Wok, Hybrid Stainless/Nonstick Inside and Outside Cookware, Commercial](https://www.amazon.com/HexClad-Stainless-Nonstick-Cookware-Commercial/dp/B07L33P1JY?tag=kitchenpot-20)**
 
-![HexClad 12 Inch Wok, Hybrid Stainless/Nonstick Inside and Outside Cookware, Commercial](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![HexClad 12 Inch Wok, Hybrid Stainless/Nonstick Inside and Outside Cookware, Commercial](images/portablegasgrill.jpg)
 
-<table><tbody><tr><td><strong>Material</strong></td><td>Metal</td></tr><tr><td><strong>Brand</strong></td><td>HEXCLAD</td></tr><tr><td><strong>Item Diameter</strong></td><td>12 Inches</td></tr><tr><td><strong>Has Nonstick Coating</strong></td><td>Yes</td></tr><tr><td><strong>Is Oven Safe</strong></td><td>Yes</td></tr></tbody></table>
+**Material**
+
+Metal
+
+**Brand**
+
+HEXCLAD
+
+**Item Diameter**
+
+12 Inches
+
+**Has Nonstick Coating**
+
+Yes
+
+**Is Oven Safe**
+
+Yes
 
 [Check Latest Price on Amazon](https://www.amazon.com/HexClad-Stainless-Nonstick-Cookware-Commercial/dp/B07L33P1JY?tag=kitchenpot-20)
 
@@ -142,11 +172,11 @@ Use warm water and soap to clean the cookware. This removes dust particles and e
 
 You should NEVER start using your pans before you [season](https://www.wikihow.com/Season-a-Stainless-Steel-Pan) them. This will guarantee nonstick cooking and improve your overall cooking experiences. To achieve this, follow the following simple steps:
 
-- Place your pan on any cooktop
-- Heat it under medium-low heat 
-- Add one tablespoon of vegetable oil on the interior and swirl it to spread to the entire surface
-- Let the pan heat for approximately 2 minutes (or until you can see some smoke coming from its surface)
-- Remove it, let it cool, and wipe the excess oil away
+-   Place your pan on any cooktop
+-   Heat it under medium-low heat 
+-   Add one tablespoon of vegetable oil on the interior and swirl it to spread to the entire surface
+-   Let the pan heat for approximately 2 minutes (or until you can see some smoke coming from its surface)
+-   Remove it, let it cool, and wipe the excess oil away
 
 Once you finish with this process, you’ll have strengthened your pan’s nonstick feature, and you’ll enjoy unmatched cooking benefits. 
 
@@ -162,10 +192,10 @@ Cooking using this hybrid cookware is pretty simple. There is nothing special ab
 
 However, here are a few tips that will enable you to enjoy your cooking escapades even better:
 
-- **Always Preheat your HexClad Pans.** Most recipes require that you preheat the pan before you start cooking. To achieve this, **place your pan on a stovetop under low-medium heat** and let it heat for 2 minutes. To test whether it is hot enough, sprinkle a few drops of water. If it sizzles, then the pan is ready. If it evaporates fast, you should let the pan cool a little bit before cooking. 
-- **Add a Small Amount of Butter/Oil.** When using HexClad pans, you shouldn’t use too much oil since the pan is nonstick. However, you may need to spread butter, **especially when cooking eggs, since they are sticky** and can easily lead to a messy cooking escapade if you use dry pans. 
-- **Use Low or Medium Heat.** Low to medium heat ensures that your food does not burn. Additionally, slow cooking yields better and well-cooked meals. However, you may use high heat depending on the recipe (start with lower heat and raise it as need be)
-- **Avoid Overheating the Cookware.** When preheating or seasoning your pans, you should always ensure that you do not overheat them. Approximately 2-3 minutes will be enough to season your pan adequately.
+-   **Always Preheat your HexClad Pans.** Most recipes require that you preheat the pan before you start cooking. To achieve this, **place your pan on a stovetop under low-medium heat** and let it heat for 2 minutes. To test whether it is hot enough, sprinkle a few drops of water. If it sizzles, then the pan is ready. If it evaporates fast, you should let the pan cool a little bit before cooking. 
+-   **Add a Small Amount of Butter/Oil.** When using HexClad pans, you shouldn’t use too much oil since the pan is nonstick. However, you may need to spread butter, **especially when cooking eggs, since they are sticky** and can easily lead to a messy cooking escapade if you use dry pans. 
+-   **Use Low or Medium Heat.** Low to medium heat ensures that your food does not burn. Additionally, slow cooking yields better and well-cooked meals. However, you may use high heat depending on the recipe (start with lower heat and raise it as need be)
+-   **Avoid Overheating the Cookware.** When preheating or seasoning your pans, you should always ensure that you do not overheat them. Approximately 2-3 minutes will be enough to season your pan adequately.
 
 ## HexClad Hybrid Cookware Review: Is it Worth the Money?
 
@@ -177,17 +207,17 @@ Additionally, you can use the pans with any stovetop. It doesn’t matter whethe
 
 Even better, these pans come with a limited lifetime warranty! This is a testament that they are built to last. 
 
-## HexClad Hybrid Cookware Reviews - The Bottom Line
+## HexClad Hybrid Cookware Reviews – The Bottom Line
 
 If you need an extra set of cookware in your kitchen, you can easily be confused by the many brands available in the market. It is notably trickier when you are on a tight budget.
 
-However, it would be best to look at the quality and longevity of cookware first before considering the budget. While HexClad cookware can be a bit pricey, I recommend that you save extra bucks and get them - it will be worth it. 
+However, it would be best to look at the quality and longevity of cookware first before considering the budget. While HexClad cookware can be a bit pricey, I recommend that you save extra bucks and get them – it will be worth it. 
 
 The cookware uses tri-ply construction, which guarantees top-notch functionality. The presence of an aluminum core sandwiched by steel layers makes the pots have a uniform heat distribution. 
 
 Additionally, these pans use a patented technology that makes them unique. Their outward appearance is also high-quality. They are elegant and stylish! 
 
-## HexClad Hybrid Cookware Reviews - FAQs 
+## HexClad Hybrid Cookware Reviews – FAQs 
 
 ### Is HexClad worth the money?
 

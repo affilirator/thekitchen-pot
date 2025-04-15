@@ -16,13 +16,13 @@ category: "How To Guides"
 seo: "Are wondering how to cook rice in a rice cooker without getting sticky? The rice to water ratio dynamics can be complex. However, this article offers useful tips to achieve fluffy and well-cooked rice"
 ---
 
-If you recently bought your **[rice cooker](https://thekitchenpot.com/best-rice-cooker-for-brown-rice/)**, you might be wondering how to use it to get the most delicious rice. The rice-to-water ratio dynamics can be overwhelming, and you may even end up giving up on using your rice cooker.
+If you recently bought your **[rice cooker](https://thekitchenpot.com/blog/best-rice-cooker-for-brown-rice//)**, you might be wondering how to use it to get the most delicious rice. The rice-to-water ratio dynamics can be overwhelming, and you may even end up giving up on using your rice cooker.
 
-If you're reached that point, then you shouldn't worry. This article offers an all-inclusive guide on how to cook rice in a rice cooker.
+If you’re reached that point, then you shouldn’t worry. This article offers an all-inclusive guide on how to cook rice in a rice cooker.
 
 By the end of it, you will be mesmerized by how easy it is to use your rice cooker. Read on to get all the tips that you need to cook your rice like a pro. 
 
-![How to Cook Rice in a Rice Cooker](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Cook Rice in a Rice Cooker](images/portablegasgrill.jpg)
 
 ## Why Use a Rice Cooker to Cook Rice
 
@@ -32,7 +32,7 @@ When you learn the [tricks of using the appliance](https://www.wikihow.com/Cook-
 
 **Consistent Results** 
 
-Once you learn how to measure water when cooking your rice, you will always get consistent results. This way, you'll eliminate the chances of having undercooked or overcooked rice.
+Once you learn how to measure water when cooking your rice, you will always get consistent results. This way, you’ll eliminate the chances of having undercooked or overcooked rice.
 
 Additionally, you will keep your grains separate, thus enjoy a more delicious rice meal. 
 
@@ -46,7 +46,7 @@ This way, you will always be sure that the amount of water you add to the cooker
 
 Using rice cookers to cook your rice simplify your cooking process. You will no longer be required to set the cooking time manually. Instead, you will use the LCD control panel to set the time and the temperature without a hassle. 
 
-It doesn't matter whether you are cooking white, brown, basmati, oatmeal, polenta, or any other type of cereals; this appliance will come in handy. 
+It doesn’t matter whether you are cooking white, brown, basmati, oatmeal, polenta, or any other type of cereals; this appliance will come in handy. 
 
 **Versatility** 
 
@@ -58,11 +58,11 @@ Additionally, they come in different sizes, thus enabling you to select the one 
 
 Rice cookers have a keep-warm option that allows you to keep your rice warm even after cooking. You can keep the rice warm for up to 12 hours, depending on the model. 
 
-![Rice to Water Ratio in a Rice Cooker](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Rice to Water Ratio in a Rice Cooker](images/portablegasgrill.jpg)
 
 ## How to Cook Rice in a Rice Cooker
 
-**[Rice cookers](https://www.amazon.com/DECKER-RC506-Cooked-Uncooked-Steamer/dp/B016Y8JSK4/?tag=kitchenpot-20)** have a straightforward working rationale. You'll be required to add rice and water into the cooking pot and program it according to your needs. 
+**[Rice cookers](https://www.amazon.com/DECKER-RC506-Cooked-Uncooked-Steamer/dp/B016Y8JSK4/?tag=kitchenpot-20)** have a straightforward working rationale. You’ll be required to add rice and water into the cooking pot and program it according to your needs. 
 
 Once you set the right time and temperature, you will plug it in and press the start button. The entire cooking process is automated. Once it starts cooking, it will cook to the end and alert you using a Wi-Fi system, Bluetooth, or an Alarm system that your rice is ready.
 
@@ -76,7 +76,7 @@ Alternatively, you can add a little fat, oil, or butter into the cooking pot. Th
 
 **Measure the Rice** 
 
-Measuring the rice is the most crucial step of using your rice cooker. It would be best if you used the rice cooker's measuring cup to measure the exact amount of rice you want to cook. 
+Measuring the rice is the most crucial step of using your rice cooker. It would be best if you used the rice cooker’s measuring cup to measure the exact amount of rice you want to cook. 
 
 Additionally, you should leave enough space for rice expansion. Different rice types expand differently, with brown rice expanding the most (up to 4 times the original volume).
 
@@ -90,15 +90,41 @@ To rinse your rice effectively, you should use a **clear bowl/ colander** to ens
 
 **Measure the Water**
 
-This is the **most critical stage** of rice cooking. The amount of water you use will determine whether you'll get undercooked or overcooked rice. As such, you must get the **rice to water ratio** right.
+This is the **most critical stage** of rice cooking. The amount of water you use will determine whether you’ll get undercooked or overcooked rice. As such, you must get the **rice to water ratio** right.
 
-The water you add depends on the type of rice you're cooking. Here is an estimation of water requirements based on rice types:
+The water you add depends on the type of rice you’re cooking. Here is an estimation of water requirements based on rice types:
 
-<table><tbody><tr><td><strong>Type of Rice</strong></td><td><strong>Water Requirements (One Cup equals 240 ml)</strong></td></tr><tr><td>White, long grain</td><td>1 3/4 cups Per 1 Cup of Rice</td></tr><tr><td>White, medium grain</td><td>1 1/2 cups Per 1 Cup of Rice</td></tr><tr><td>White, short grain</td><td>1 1/4 cups Per 1 Cup of Rice</td></tr><tr><td>Brown, long grain</td><td>2 1/4 cups Per 1 Cup of Rice</td></tr><tr><td>Parboiled rice</td><td>2 cups Per 1 Cup of Rice</td></tr><tr><td>Basmati or Jasmine</td><td>No more than 1 1/2 cups</td></tr><tr><td></td><td></td></tr></tbody></table>
+**Type of Rice**
+
+**Water Requirements (One Cup equals 240 ml)**
+
+White, long grain
+
+1 3/4 cups Per 1 Cup of Rice
+
+White, medium grain
+
+1 1/2 cups Per 1 Cup of Rice
+
+White, short grain
+
+1 1/4 cups Per 1 Cup of Rice
+
+Brown, long grain
+
+2 1/4 cups Per 1 Cup of Rice
+
+Parboiled rice
+
+2 cups Per 1 Cup of Rice
+
+Basmati or Jasmine
+
+No more than 1 1/2 cups
 
 Cooking brown rice in a rice cooker requires the most water, while cooking Jasmine/[basmati rice](https://www.wikihow.com/Cook-Basmati-Brown-Rice) requires the least. 
 
-It would also be best to follow the manufacturer's instructions. If a given rice brand requires that you use 2 cups of water for every cup of rice, then you should try it out. After all, you can adjust the quantities in the future to meet your cooking needs. 
+It would also be best to follow the manufacturer’s instructions. If a given rice brand requires that you use 2 cups of water for every cup of rice, then you should try it out. After all, you can adjust the quantities in the future to meet your cooking needs. 
 
 **Soak the Rice (Optional)**
 
@@ -112,11 +138,11 @@ At this stage, you can also add your flavors. If you need to include herbs, then
 
 Before you start your rice cooker, ensure that no rice grains are sticking above the water level. Avoid stirring the rice in any way. 
 
-When you're sure that you're ready, you should set your rice cooker. Ensure that you set the time and the temperature accurately. 
+When you’re sure that you’re ready, you should set your rice cooker. Ensure that you set the time and the temperature accurately. 
 
-Different cookers will have varying settings. You should ensure that you understand the operational basics of your cooker. If it looks complicated, you can always turn to the user's manual for tips.
+Different cookers will have varying settings. You should ensure that you understand the operational basics of your cooker. If it looks complicated, you can always turn to the user’s manual for tips.
 
-If your cooker's cooking pot is removable, place it back to the cooker and close the lid.
+If your cooker’s cooking pot is removable, place it back to the cooker and close the lid.
 
 **Start the Rice Cooker**
 
@@ -126,9 +152,9 @@ When the rice is ready, the rice cooker will automatically switch off. In case t
 
 Your rice is ready to serve!
 
-![How to Cook Rice in a Rice Cooker](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Cook Rice in a Rice Cooker](images/portablegasgrill.jpg)
 
-## Water to Rice Ratio in a Rice Cooker - Summary 
+## Water to Rice Ratio in a Rice Cooker – Summary 
 
 Rice to water ratio depends entirely on the type of rice you are cooking. The ratio of 1:1 may be ideal for most rice if you like crunchy rice. If you want to cook entirely and become fluffy, you should use 1 ½ or 1 ¾ cups of water for a cup of rice.
 
@@ -136,11 +162,11 @@ When **[cooking brown rice in a rice cooker](https://www.amazon.com/GAU-00011-El
 
 On the other hand, cooking Basmati and Jasmine rice in a rice cooker requires less water. In that case, the 1:1 ratio will be enough.
 
-**Read a guide on how to use how to use Oster rice cooker [here](https://thekitchenpot.com/how-to-use-an-oster-rice-cooker/)**
+**Read a guide on how to use how to use Oster rice cooker [here](https://thekitchenpot.com/blog/how-to-use-an-oster-rice-cooker//)**
 
 ## How to Make Fluffy Rice in a Rice Cooker
 
-Fluffy rice is palatable and tastes excellent. If you're wondering how to make your rice fluffy, then worry no more. It's a pretty simple thing.
+Fluffy rice is palatable and tastes excellent. If you’re wondering how to make your rice fluffy, then worry no more. It’s a pretty simple thing.
 
 All you need is to let your rice sit undisturbed in the rice cooker after the cooking is complete. Ensure that you do not remove the lid and leave it for approximately 10 minutes.
 
@@ -150,22 +176,20 @@ Within this time, the rice will absorb the excess water and firm up. After cooli
 
 Rice becomes sticky due to two primary reasons:
 
-- **Too Much Water.** Always use the right rice to water ratio to avoid such disappointments.
-- **Too Much Starch.** Always rinse your rice to remove excess starch.
+-   **Too Much Water.** Always use the right rice to water ratio to avoid such disappointments.
+-   **Too Much Starch.** Always rinse your rice to remove excess starch.
 
 ## What Else to Cook in a Rice Cooker
 
 Most rice cookers are nonstick and highly versatile. Besides rice, you can cook many other food items, including:
 
-- Oatmeal and other cereals
-- Steaming vegetables
-- Slow cook soup, stew, and beans 
-- Making risotto 
-- Poaching fruits 
+-   Oatmeal and other cereals
+-   Steaming vegetables
+-   Slow cook soup, stew, and beans 
+-   Making risotto 
+-   Poaching fruits 
 
 This versatility is undoubtedly one of the reasons you should get a rice cooker. It will offer convenience and unmatched usability. 
-
-https://www.youtube.com/watch?v=NU2aKANV29c
 
 ## How to Cook Rice in a Rice Cooker -The Bottom Line
 
@@ -173,18 +197,18 @@ https://www.youtube.com/watch?v=NU2aKANV29c
 
 Rice cooker is undoubtedly a must-have appliance. However, it will be useless to have it if you do not know the basics of using it. 
 
-If you're planning to buy one, I implore you to read this comprehensive guide on cooking rice in a rice cooker. It will help you to reap optimal benefits from the appliance. 
+If you’re planning to buy one, I implore you to read this comprehensive guide on cooking rice in a rice cooker. It will help you to reap optimal benefits from the appliance. 
 
-## How to Cook Rice in a Rice Cooker - FAQS
+## How to Cook Rice in a Rice Cooker – FAQS
 
-### What is the ratio of rice to water in a rice cooker?
-
-1:1 is ideal for many rice types, primarily Basmati and Jasmine. However, it depends on the type of rice you're cooking and the moisture level you desire on your cooked rice. If you are brown rice, you will need 2 cups of water for every brown rice cup. If you want moist and fluffy rice, you will need 1 ½ to 1 ¾ cups of water per rice cup.
-
-### How do I cook 2 cups of rice in a rice cooker?
-
-Rinse the rice and add it to the cooker's pot. Add approximately 3 cups and let it cook until it is ready. The cooker will automatically turn off when the cooking is complete.
-
-### Must I rinse my rice when cooking?
-
-Rinsing the rice is optional. It depends on your preferences. However, it is essential to rinse if you're not sure of the source. This way, you will remove contaminants and herbicides, thus ensuring that your rice meal is healthy.
+1.  ### What is the ratio of rice to water in a rice cooker?
+    
+    1:1 is ideal for many rice types, primarily Basmati and Jasmine. However, it depends on the type of rice you’re cooking and the moisture level you desire on your cooked rice. If you are brown rice, you will need 2 cups of water for every brown rice cup. If you want moist and fluffy rice, you will need 1 ½ to 1 ¾ cups of water per rice cup.
+    
+2.  ### How do I cook 2 cups of rice in a rice cooker?
+    
+    Rinse the rice and add it to the cooker’s pot. Add approximately 3 cups and let it cook until it is ready. The cooker will automatically turn off when the cooking is complete.
+    
+3.  ### Must I rinse my rice when cooking?
+    
+    Rinsing the rice is optional. It depends on your preferences. However, it is essential to rinse if you’re not sure of the source. This way, you will remove contaminants and herbicides, thus ensuring that your rice meal is healthy.

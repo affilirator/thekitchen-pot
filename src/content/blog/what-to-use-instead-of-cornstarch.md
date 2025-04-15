@@ -20,7 +20,7 @@ If you love cooking and baking, then you understand the crucial role that cornst
 
 Well, if you’re not sure of what to use instead of cornstarch, then this article is for you. We evaluate all the possible substitutes for cornstarch and how you can use each one of them. 
 
-![What to Use Instead of Cornstarch](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![What to Use Instead of Cornstarch](images/portablegasgrill.jpg)
 
 ## **What is Cornstarch?**
 
@@ -32,19 +32,19 @@ It is made of [long chains of starch molecules](https://en.wikipedia.org/wiki/Co
 
 If you love soup, then you fathom the scrumptiousness that comes with thick yet tasty soups, right?
 
-Cornstarch is one of the ingredients that you should always have in your [**kitchen cabinet’s lazy Susan organizer**](https://thekitchenpot.com/8-best-lazy-susan-organizers-for-your-kitchen/) if you want such delicacies. 
+Cornstarch is one of the ingredients that you should always have in your [**kitchen cabinet’s lazy Susan organizer**](https://thekitchenpot.com/blog/8-best-lazy-susan-organizers-for-your-kitchen//) if you want such delicacies. 
 
 This unique ingredient acts as the thickening agent, thus enabling you to achieve thick sauces, soups, and stir-fries. 
 
 Other uses of cornstarch include making fluffy omelets, making waffles, and as a substitute for eggs when making baked goods. 
 
-## **How to Use Cornstarch - Stepwise Guide** 
+## **How to Use Cornstarch – Stepwise Guide** 
 
 If you’re wondering how to use cornstarch, then you should follow the following simple steps:
 
-- Add approximately 1 tablespoon of cornstarch in your bowl (we recommend 1 tablespoon per cup of liquid meals)
-- Add cold liquid and stir vigorously until you achieve a uniform slurry
-- Add the slurry into your hot liquid meals and let it simmer for approximately 15 minutes
+-   Add approximately 1 tablespoon of cornstarch in your bowl (we recommend 1 tablespoon per cup of liquid meals)
+-   Add cold liquid and stir vigorously until you achieve a uniform slurry
+-   Add the slurry into your hot liquid meals and let it simmer for approximately 15 minutes
 
 That’s it!
 
@@ -60,23 +60,41 @@ However, these two are not the same and they serve different purposes when cooki
 
 Corn flour refers to fine powder made from corn kernels. The color of the flour will entirely be dependent on the color of the corn from which it was obtained. It can be yellow, blue, or white.
 
-Unlike cornstarch, corn flour is derived from the whole corn - including the endosperm, germ, and hulls. 
+Unlike cornstarch, corn flour is derived from the whole corn – including the endosperm, germ, and hulls. 
 
 As such, the flour is rich in protein, starch, vitamins, and fiber. 
 
 ### **Cornstarch vs Corn Flour: What is the Difference?**
 
-From the name, it's obvious that the two ingredients are derived from corn. However, there are substantial differences between them, including:
+From the name, it’s obvious that the two ingredients are derived from corn. However, there are substantial differences between them, including:
 
-<table><tbody><tr><td><b>Corn Flour&nbsp;</b></td><td><b>Cornstarch&nbsp;</b></td></tr><tr><td><span style="font-weight: 400;">Relatively sweet</span></td><td><span style="font-weight: 400;">Flavorless</span></td></tr><tr><td><span style="font-weight: 400;">Can be used instead of wheat flour when baking breads, waffles, and other confectioneries&nbsp;</span></td><td><span style="font-weight: 400;">Only used as a thickening agent</span></td></tr><tr><td><span style="font-weight: 400;">Made by grinding whole corn kernels&nbsp;</span></td><td><span style="font-weight: 400;">Made from the starchy corn part only&nbsp;</span></td></tr><tr><td><span style="font-weight: 400;">Rich in proteins, starch, fiber, and vitamins</span></td><td><span style="font-weight: 400;">Only carbs&nbsp;</span></td></tr></tbody></table>
+**Corn Flour** 
+
+**Cornstarch** 
+
+Relatively sweet
+
+Flavorless
+
+Can be used instead of wheat flour when baking breads, waffles, and other confectioneries 
+
+Only used as a thickening agent
+
+Made by grinding whole corn kernels 
+
+Made from the starchy corn part only 
+
+Rich in proteins, starch, fiber, and vitamins
+
+Only carbs 
 
 ## **What to Use Instead of Cornstarch**
 
 If you do not have cornstarch, you should consider using the following substitutes that work perfectly well:
 
-![Corn flour vs wheat flour: Which is Better for Baking?](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Corn flour vs wheat flour: Which is Better for Baking?](images/portablegasgrill.jpg)
 
-- **Wheat Flour**
+-   **Wheat Flour**
 
 This is a fine powder obtained from finely ground wheat. It is rich in starch, fiber, and proteins.
 
@@ -86,13 +104,13 @@ For example, if you would require 2 tablespoons of cornstarch to thicken your so
 
 However, you’ll require higher amounts of brown or whole wheat flour if you want to achieve the same thickness as when using the white wheat flour.
 
-- **Arrowroot Flour** 
+-   **Arrowroot Flour** 
 
 This flour is derived from dried and grounded arrowroots. It has more fiber than cornstarch and forms a clear gel when mixed with water.
 
 Even better, the flour is gluten-free. Use it in a ratio of 1:2 (add 2 tablespoons when you’d need one tablespoon of cornstarch).
 
-- **Potato Starch**
+-   **Potato Starch**
 
 This is a powder obtained by crushing potatoes and drying them, thus forming a fine powder. It has no gluten but it is high in carbs. 
 
@@ -100,23 +118,23 @@ When substituting cornstarch with potato starch, you shouldn’t change the rati
 
 Additionally, you should add the thickener at a later cooking stage to avert breaking it entirely which would result in a loss in its thickening property.
 
-- **Rice Flour**
+-   **Rice Flour**
 
-This is a powder made from ground rice and it's particularly popular in Asia. It is gluten-free and ideal for people with celiac disease.
+This is a powder made from ground rice and it’s particularly popular in Asia. It is gluten-free and ideal for people with celiac disease.
 
 The flour is colorless when you mix it with water. As such, you may consider using it when thickening clear liquids. However, you should double the quantity to achieve the same effect as cornstarch. 
 
-- **Tapioca** 
+-   **Tapioca** 
 
 This refers to processed cassava powder. However, you must ensure that the starchy powder is approved as cyanide-free before you start using it. The approval will mostly be written on the package. 
 
 While these are the 5 best substitutes for cornstarch, you can also consider the following:
 
-- Flaxseeds powder
-- Glucomannan 
-- Psyllium husk
-- Guar gum
-- Xanthan gum 
+-   Flaxseeds powder
+-   Glucomannan 
+-   Psyllium husk
+-   Guar gum
+-   Xanthan gum 
 
 ## **Is Corn Flour the Same As Cornmeal?**
 
@@ -124,12 +142,10 @@ When shopping, you need to be careful not to confuse these two. Different region
 
 As such, you need to understand the naming practice of your specific area. Here is a comprehensive guide:
 
-- In the United States, cornstarch is as described in this article. However, the United Kingdom, Ireland, Israel, and some other European countries refer to cornstarch as a corn flour. 
-- Additionally, these countries can refer to corn flour (as known in the US) as cornmeal. 
+-   In the United States, cornstarch is as described in this article. However, the United Kingdom, Ireland, Israel, and some other European countries refer to cornstarch as a corn flour. 
+-   Additionally, these countries can refer to corn flour (as known in the US) as cornmeal. 
 
 If you get to a shop and you’re unsure of which between the two to choose, you should check on how the product is used.
-
-https://www.youtube.com/watch?v=4Z0cvgmh05k&pbjreload=101
 
 ## **What to Use Instead of Cornstarch -the Bottom Line**
 

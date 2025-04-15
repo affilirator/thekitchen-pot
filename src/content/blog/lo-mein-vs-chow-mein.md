@@ -22,7 +22,7 @@ But Chinese dishes can be complicated! The names and the preparation techniques 
 
 This article will undertake Lo Mein vs. Chow Mein vs. Chop Suey comparison to ensure that you don’t get confused on which one to order when you visit a Chinese restaurant. 
 
-![Lo Mein vs. Chow Mein](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Lo Mein vs. Chow Mein](images/portablegasgrill.jpg)
 
 ## What Is Chop Suey?
 
@@ -48,21 +48,21 @@ The preparation involves the use of wheat-flour noodles. For Chow Mein, **noodle
 
 ### **What is Chow Mein?**
 
-[Chow](https://www.thespruceeats.com/lo-mein-vs-chow-mein-694238) means fried, and Mein means noodles. So, Chow Mein means fried noodles. They are cooked on a **[flat pan or a wok](https://thekitchenpot.com/best-wok-for-electric-stove/)** to achieve a unique crispness that makes leaves an excellent taste on your mouth. 
+[Chow](https://www.thespruceeats.com/lo-mein-vs-chow-mein-694238) means fried, and Mein means noodles. So, Chow Mein means fried noodles. They are cooked on a **[flat pan or a wok](https://thekitchenpot.com/blog/best-wok-for-electric-stove//)** to achieve a unique crispness that makes leaves an excellent taste on your mouth. 
 
 The exact taste of Chow Mein depends on the meat and vegetables used in its preparation. It can be spicy, have lots of vegetables, or even include Tofu. 
 
-![Lo Mein vs. Chow Mein vs. Chop Suey ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![Lo Mein vs. Chow Mein vs. Chop Suey ](images/portablegasgrill.jpg)
 
 #### How to Make Chow Mein
 
 While the name may sound complicated, the process of making Chow Mein is relatively simple. It is recommended that you first boil the noodles before frying them to get the best results. Here is a step-by-step guide on how to make Chow Mein:
 
-- **Prepare All Ingredients.** It would be best to use a [**sharp knife**](https://thekitchenpot.com/best-knife-set-under-100/) to slice, chop, and marinate all your ingredients. We recommend that you have all the ingredients ready before you start the cooking.
-- **Boil Your Noodles.** You will be required to boil your noodles lightly. Once through, drain the water and rinse the noodles in cold water. Ensure you drain them entirely. 
-- **Heat Oil in a Skillet.** If you have a **[Lodge Cast Iron Skillet](https://www.amazon.com/Lodge-Skillet-Pre-Seasoned-Skillet-Silicone/dp/B00G2XGC88?tag=kitchenpot-20)**, you can use it. If not, use any other pan, preferably heavy and with a flat base. Heat the oil until it bubbles (Sesame oil recommended).
-- **Place the Noodles.** Place your drained noodles into the hot oil until they form a pancake-like structure. When ready to flip, place a plate over the noodles and turn them carefully. Fry them until they become crispy.
-- **Add Vegetables, Protein, and Sauce.** As noodles continue to cook, you should add all your other ingredients for a quick cook. 
+-   **Prepare All Ingredients.** It would be best to use a [**sharp knife**](https://thekitchenpot.com/blog/best-knife-set-under-100//) to slice, chop, and marinate all your ingredients. We recommend that you have all the ingredients ready before you start the cooking.
+-   **Boil Your Noodles.** You will be required to boil your noodles lightly. Once through, drain the water and rinse the noodles in cold water. Ensure you drain them entirely. 
+-   **Heat Oil in a Skillet.** If you have a **[Lodge Cast Iron Skillet](https://www.amazon.com/Lodge-Skillet-Pre-Seasoned-Skillet-Silicone/dp/B00G2XGC88?tag=kitchenpot-20)**, you can use it. If not, use any other pan, preferably heavy and with a flat base. Heat the oil until it bubbles (Sesame oil recommended).
+-   **Place the Noodles.** Place your drained noodles into the hot oil until they form a pancake-like structure. When ready to flip, place a plate over the noodles and turn them carefully. Fry them until they become crispy.
+-   **Add Vegetables, Protein, and Sauce.** As noodles continue to cook, you should add all your other ingredients for a quick cook. 
 
 You can stir-fry noodles and vegetables/meat separately, then combine them. Whichever method suits you best! The results will be the same. 
 
@@ -70,10 +70,10 @@ You can stir-fry noodles and vegetables/meat separately, then combine them. Whic
 
 Several types of Chow Mein exist depending on the type of proteins and vegetables used in the preparation. The main types include :
 
-- Chicken Chow Mein 
-- Beef Chow Mein
-- Pork Chow Mein 
-- Vegetable Chow Mein
+-   Chicken Chow Mein 
+-   Beef Chow Mein
+-   Pork Chow Mein 
+-   Vegetable Chow Mein
 
 The nutritional value of each type of Chow Mein depends on the ingredients you use. While vegetable Chow Mein is rich in vitamins, it may lack adequate protein levels.
 
@@ -93,27 +93,27 @@ Preparing Lo Mein is more painless than preparing Chow Mein. In this case, you w
 
 Instead, you will follow these simple steps:
 
-- **Prepare Your Vegetables.** This should **ALWAYS** be the first step. Please do not start with boiling the noodles since they cool pretty fast. Use an **[over-the-sink cutting board](https://thekitchenpot.com/best-over-the-sink-cutting-board/)** to ensure that you clean and drain your vegetables adequately. 
-- **Prepare Your Sauce.** Which sauce would you like to use? Prepare your favorite sauce early enough. Also, make sure that your preferred source of protein is ready. 
-- **Boil the water.** Place your **[stock pot](https://thekitchenpot.com/best-stockpot-with-a-lid/)** on the stovetop and add enough water and a pinch of salt. Add your noodles and let them cook.
-- **Heat the Oil and Stir-Fry Your Vegetables.** We recommend the use of **[organic oils](https://thekitchenpot.com/best-oil-for-air-fryer/)** such as olive, canola, and avocado oils. 
-- **Toss them and Serve.** When both the noodles and the vegetables/proteins are ready, you should toss them together and serve.
+-   **Prepare Your Vegetables.** This should **ALWAYS** be the first step. Please do not start with boiling the noodles since they cool pretty fast. Use an **[over-the-sink cutting board](https://thekitchenpot.com/blog/best-over-the-sink-cutting-board//)** to ensure that you clean and drain your vegetables adequately. 
+-   **Prepare Your Sauce.** Which sauce would you like to use? Prepare your favorite sauce early enough. Also, make sure that your preferred source of protein is ready. 
+-   **Boil the water.** Place your **[stock pot](https://thekitchenpot.com/blog/best-stockpot-with-a-lid//)** on the stovetop and add enough water and a pinch of salt. Add your noodles and let them cook.
+-   **Heat the Oil and Stir-Fry Your Vegetables.** We recommend the use of **[organic oils](https://thekitchenpot.com/blog/best-oil-for-air-fryer//)** such as olive, canola, and avocado oils. 
+-   **Toss them and Serve.** When both the noodles and the vegetables/proteins are ready, you should toss them together and serve.
 
 #### Types of Lo Mein
 
 Just like Chow Mein, Lo Mein is primarily classified based on the ingredients used. Some of the most common Lo Meins include:
 
-- Chicken Lo Mein
-- **Beef Lo Mein.** Ensure you marinate the beef with honey, ginger, or any other spices before slicing it. (use a **[meat slicer for home use](https://thekitchenpot.com/best-meat-slicer-for-home-use/)**).
-- **Shrimp Lo Mein.** Ensure that you don’t expose your shrimp to high heat lest it becomes chewy and tough.
-- Pork Lo Mein
-- Vegetable Lo Mein
+-   Chicken Lo Mein
+-   **Beef Lo Mein.** Ensure you marinate the beef with honey, ginger, or any other spices before slicing it. (use a **[meat slicer for home use](https://thekitchenpot.com/blog/best-meat-slicer-for-home-use//)**).
+-   **Shrimp Lo Mein.** Ensure that you don’t expose your shrimp to high heat lest it becomes chewy and tough.
+-   Pork Lo Mein
+-   Vegetable Lo Mein
 
 Lo Mein is high in carbs and salts. The calories increase if you use a sauce made of oil-rich ingredients such as peanut butter. As such, you should avoid using oily sauces if you need a low-calorie diet. 
 
-![What is the difference between Chow Mein and Lo Mein ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![What is the difference between Chow Mein and Lo Mein ](images/portablegasgrill.jpg)
 
-## Lo Mein vs. Chow Mein - What Exactly is the Difference 
+## Lo Mein vs. Chow Mein – What Exactly is the Difference 
 
 The primary [difference](https://thekitchencommunity.org/chow-mein-vs-lo-mein-noodles/) between the two dishes is in the prep method. Chow Mein’s noodles are stir-fried, which gives them a relatively crispy feel.
 
@@ -125,20 +125,20 @@ The two dishes have almost similar nutritional values. The nutrient constituents
 
 https://www.youtube.com/watch?v=ECTBtB4wkd0
 
-## Lo Mein vs. Chow Mein - FAQs 
+## Lo Mein vs. Chow Mein – FAQs 
 
-### Which is healthier between Chow Mein and Lo Mein?
-
-Both dishes use noodles, which are high in carbs and calories. How healthy they are will depend on the ingredients used. For example, a dish with more noodles and fewer vegetables will have more carbs than more vegetables and fewer noodles. 
-
-### What is in Chop Suey
-
-Chop Suey is an American Chinese cuisine that consists of meat and eggs cooked together with vegetables such as cabbage, celery, or bean sprouts. 
-
-### Is Chow Mein really Chinese?
-
-Yes, Ch’ao Mein is a Mandarin term meaning stir-fried noodles. It originated from Northern China before spreading to American Chinese restaurants and other regions of the world.
-
-### Why is Chop Suey so popular?
-
-Chop Suey and Chow Mein were primary dishes during World War 2. The veterans who had enjoyed the dishes created the demand for it in their respective countries.
+1.  ### Which is healthier between Chow Mein and Lo Mein?
+    
+    Both dishes use noodles, which are high in carbs and calories. How healthy they are will depend on the ingredients used. For example, a dish with more noodles and fewer vegetables will have more carbs than more vegetables and fewer noodles. 
+    
+2.  ### What is in Chop Suey
+    
+    Chop Suey is an American Chinese cuisine that consists of meat and eggs cooked together with vegetables such as cabbage, celery, or bean sprouts. 
+    
+3.  ### Is Chow Mein really Chinese?
+    
+    Yes, Ch’ao Mein is a Mandarin term meaning stir-fried noodles. It originated from Northern China before spreading to American Chinese restaurants and other regions of the world.
+    
+4.  ### Why is Chop Suey so popular?
+    
+    Chop Suey and Chow Mein were primary dishes during World War 2. The veterans who had enjoyed the dishes created the demand for it in their respective countries.

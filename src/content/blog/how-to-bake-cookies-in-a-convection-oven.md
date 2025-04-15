@@ -19,7 +19,7 @@ Do you want to learn exceptional tips on how to bake cookies in a convection ove
 
 This article provides the best tips on how to bake cookies in a convection oven. Read on to learn more.
 
-![How to Bake Cookies in a Convection Oven](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Bake Cookies in a Convection Oven](images/portablegasgrill.jpg)
 
 ## **How to Bake Cookies in a Convection Oven: But What is a Convection Oven?**
 
@@ -31,24 +31,24 @@ So keep in mind that both the cooking times and temperatures of the food must be
 
 Immediately you start cooking with a convection oven, decrease the temperature indicated in the kitchen recipes or cooking instructions on food packaging by 20 or 25 degrees Celsius. Furthermore, you can also reduce the recommended cooking time by a third.
 
-![How to Bake Cookies ](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Bake Cookies ](images/portablegasgrill.jpg)
 
 ## How to Bake Cookies in a Convection Oven: A Detailed Guide
 
-### **How to Bake Cookies in a Convection Oven - Ingredients**
+### **How to Bake Cookies in a Convection Oven – Ingredients**
 
-- Two eggs
-- 250 grams of butter or margarine
-- 600 grams of flour 0000 (4 zeros)
-- 400 grams of sugar (2 cups)
-- One teaspoon of baking powder
-- One pinch of salt
-- One teaspoon of vanilla essence 
-- One handful of lemon zest
-- \+ 500g of pastry flour
-- \+ 6 tablespoons of milk
+-   Two eggs
+-   250 grams of butter or margarine
+-   600 grams of flour 0000 (4 zeros)
+-   400 grams of sugar (2 cups)
+-   One teaspoon of baking powder
+-   One pinch of salt
+-   One teaspoon of vanilla essence 
+-   One handful of lemon zest
+-   \+ 500g of pastry flour
+-   \+ 6 tablespoons of milk
 
-### **How to Bake Cookies in a Convection Oven - Preparation**
+### **How to Bake Cookies in a Convection Oven – Preparation**
 
 **Step One**
 
@@ -74,42 +74,40 @@ Next, cut the butter cookies into the shape you want. If you do not have a cooki
 
 **Step Four**
 
-With the [oven preheated](https://www.thekitchn.com/whats-a-convection-oven-and-when-do-i-use-it-appliance-guides-from-the-kitchen-216549) at 180 degrees, insert the cookie sheet into the middle of the oven. And you leave the cookies baking for about 15 minutes at 160 degrees. (always use [heat resistant gloves](https://thekitchenpot.com/10-best-heat-resistant-gloves-for-cooking/) to protect your hands from heat-induced injuries).
+With the [oven preheated](https://www.thekitchn.com/whats-a-convection-oven-and-when-do-i-use-it-appliance-guides-from-the-kitchen-216549) at 180 degrees, insert the cookie sheet into the middle of the oven. And you leave the cookies baking for about 15 minutes at 160 degrees. (always use [heat resistant gloves](https://thekitchenpot.com/blog/10-best-heat-resistant-gloves-for-cooking//) to protect your hands from heat-induced injuries).
 
-Depending on the power of your oven, they may take less time, but you should watch them, so they don't burn. When they are golden brown, carefully remove them from the oven and let them cool.
+Depending on the power of your oven, they may take less time, but you should watch them, so they don’t burn. When they are golden brown, carefully remove them from the oven and let them cool.
 
 **Step Five**
 
 As you can see, this is a simple recipe that will allow you to make delicious butter cookies. You can use icing sugar to make decorated cookies or enjoy these easy cookies without anything else. 
 
-https://www.youtube.com/watch?v=Ks1ketQruBY
-
 ## **Unique Tips on How to Bake Cookies  in a Convection Oven**
 
-- **The Ingredients**
+-   **The Ingredients**
 
 Whenever you want to make perfect cookies, the ideal is that the ingredients are of good quality. Follow the recipe to the letter and do not add the ingredients without measuring them; this way, you will prevent adding too much flour or too much butter. Mix all ingredients at room temperature. Take special care of the temperature of the butter.
 
-- **The Dough**
+-   **The Dough**
 
 Knead your dough with your hands and not with a mixer so that it will be less elastic. Be careful not to knead it too much; just do it until it stops sticking to your fingers when you do. If you see it cracked, it may have too much flour, in which case you can add a little more butter to balance.
 
-Do not stretch the dough for cookies while it is at room temperature, and it can be very soft and more difficult to handle. Chill it for a while in the fridge, and you'll see how it becomes much more manageable. 
+Do not stretch the dough for cookies while it is at room temperature, and it can be very soft and more difficult to handle. Chill it for a while in the fridge, and you’ll see how it becomes much more manageable. 
 
-When stretching it, do it on baking paper, this will help it not stick to the surface where we are stretching it. Use that same baking paper to put the cookies in the oven, so you don't have to worry about moving and breaking them in the process.
+When stretching it, do it on baking paper, this will help it not stick to the surface where we are stretching it. Use that same baking paper to put the cookies in the oven, so you don’t have to worry about moving and breaking them in the process.
 
-- **Preparation of Cookies**
+-   **Preparation of Cookies**
 
 When you finally start cutting your shortbread cookies, sprinkle the molds with flour so that the dough does not stick when you cut them. All cookies must be of the same thickness. A measuring roller can help you make the dough the right consistency. Take care that each cookie is the same size, so you will avoid having some that are raw or too baked in the preparation.
 
-- **Temperature Tricks**
+-   **Temperature Tricks**
 
-When the cookies are ready, please don't take them out all at once. Wait for them to cool down a bit before removing them from the convection oven, the probability of them breaking will decrease. The surface where you bake the cookies should be at room temperature.
+When the cookies are ready, please don’t take them out all at once. Wait for them to cool down a bit before removing them from the convection oven, the probability of them breaking will decrease. The surface where you bake the cookies should be at room temperature.
 
-![](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![](images/portablegasgrill.jpg)
 
 ## **How to Bake Cookies in a Convection Oven: Final Words**
 
-Once your cookies are ready, they won't last long if you don't know how to preserve them properly. To keep them delicious and fresh longer put them in an [airtight container](https://thekitchenpot.com/how-to-organize-pots-and-pans/). 
+Once your cookies are ready, they won’t last long if you don’t know how to preserve them properly. To keep them delicious and fresh longer put them in an [airtight container](https://thekitchenpot.com/blog/how-to-organize-pots-and-pans//). 
 
 Let them cool before storing; otherwise, the texture may be damaged. Cookies usually last a few months, but will always be fresher in the first two weeks after you make them.

@@ -20,7 +20,7 @@ Using the best [ceramic knife](https://en.wikipedia.org/wiki/Ceramic_knife) is a
 
 In case you’re stranded wondering how to sharpen ceramic knives, then this article will offer several useful tips.
 
-![How to Sharpen Ceramic Knives](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Sharpen Ceramic Knives](images/portablegasgrill.jpg)
 
 ## **Should I Buy Ceramic Knives?**
 
@@ -32,7 +32,7 @@ If you need to buy a ceramic knife, then it should be to complement your high ca
 
 ## **How are Ceramic Knives Made?**
 
-Whenever ceramic is mentioned, what comes to your mind? In most cases, people associate ceramic with [dinnerware sets](https://thekitchenpot.com/7-best-dinnerware-sets/).
+Whenever ceramic is mentioned, what comes to your mind? In most cases, people associate ceramic with [dinnerware sets](https://thekitchenpot.com/blog/7-best-dinnerware-sets//).
 
 However, ceramic knives are not made from the same material as your ordinary dinner plate or mug!
 
@@ -52,7 +52,7 @@ As we’ve previously indicated, the answer on how to sharpen ceramic knives lie
 
 You cannot sharpen ceramic knife blades using the ordinary knife sharpeners that you use with your steel knives.
 
-> **_Read about the [best knives sharpeners for stainless steel knives](https://thekitchenpot.com/best-knife-sharpener/) here._**
+> ***Read about the [best knives sharpeners for stainless steel knives](https://thekitchenpot.com/blog/best-knife-sharpener//) here.***
 
 As such, you would require professional sharpening services, which can be costly. Some manufacturers have sharpening services, where you can send the knife to them for maintenance. But is the hassle worth it?
 
@@ -60,26 +60,26 @@ As such, you would require professional sharpening services, which can be costly
 
 It is not all gloom for ceramic knives. It has awesome benefits that you can enjoy. Here are some of the unmatched benefits of ceramic knives:
 
-- **They Remain Sharp for Long.** Unlike steel knives, the ceramic ones will remain sharp for months after sharpening (they last 10 times longer than ordinary steel blades)
-- **Lightweight.** Ceramic knives are light, thus making them easy to handle and use
-- **Ideal for Cutting Fruits and Vegetables.** Ceramic knives have thin blades that allow you to cut extremely thin pieces of fruits and vegetables. They come in handy when you’re preparing salad and pudding. 
-- **Non-Porous Blades.** This feature makes ceramic knives relatively safer compared to stainless steel knives. They do not retain odor or stains. As such, you can cut smelly ingredients (such as garlic) and rinse your knife casually before cutting another ingredient without transferring the smell.  
-- **Fewer Chances of Bacterial infections.** The non-porous nature of ceramic knives ensures that no bacteria are retained after use. This way, you can be sure that no microorganisms will be transferred to your fruits when processing them. 
-- **Zero Chance of Ion Transfer.** Unlike stainless steel knives, the ceramic knives do not transfer ions to your food (which would otherwise result in quick oxidation of sliced food).
-- **It Can Be Highly Aesthetic.** Ceramic knives can be made using different colors. Some manufacturers use rainbow colors to make knife sets, which makes them highly attractive. 
-- **Durable.** If you maintain and care for your ceramic knives adequately, then you can be sure that it will serve you for long. Its longevity is unmatched and you’re guaranteed of top-notch functionality all through (as long as the blades remain sharp).
+-   **They Remain Sharp for Long.** Unlike steel knives, the ceramic ones will remain sharp for months after sharpening (they last 10 times longer than ordinary steel blades)
+-   **Lightweight.** Ceramic knives are light, thus making them easy to handle and use
+-   **Ideal for Cutting Fruits and Vegetables.** Ceramic knives have thin blades that allow you to cut extremely thin pieces of fruits and vegetables. They come in handy when you’re preparing salad and pudding. 
+-   **Non-Porous Blades.** This feature makes ceramic knives relatively safer compared to stainless steel knives. They do not retain odor or stains. As such, you can cut smelly ingredients (such as garlic) and rinse your knife casually before cutting another ingredient without transferring the smell.  
+-   **Fewer Chances of Bacterial infections.** The non-porous nature of ceramic knives ensures that no bacteria are retained after use. This way, you can be sure that no microorganisms will be transferred to your fruits when processing them. 
+-   **Zero Chance of Ion Transfer.** Unlike stainless steel knives, the ceramic knives do not transfer ions to your food (which would otherwise result in quick oxidation of sliced food).
+-   **It Can Be Highly Aesthetic.** Ceramic knives can be made using different colors. Some manufacturers use rainbow colors to make knife sets, which makes them highly attractive. 
+-   **Durable.** If you maintain and care for your ceramic knives adequately, then you can be sure that it will serve you for long. Its longevity is unmatched and you’re guaranteed of top-notch functionality all through (as long as the blades remain sharp).
 
 Looking at these benefits, you may wonder why I discounted ceramic knives at the beginning, right? Well, my dissatisfaction is solely based on the difficulty of sharpening. 
 
 As such, you can purchase ceramic knives but only use them when necessary (preferably when cutting fruits and vegetables). This way, you can be sure that the blades will be sharp for a long time, thus saving you from sharpening hassles. 
 
-![How to Sharpen Ceramic Knives](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Sharpen Ceramic Knives](images/portablegasgrill.jpg)
 
 ## **Cons of Ceramic Knives** 
 
-- **Easy to Break.** While ceramic can be durable, some mistakes can lead to breakages. If you twist the blade, flex it, or drop it, then you can be sure that it will break! 
-- **Difficult to Sharpen.** How to sharpen ceramic knives? We’ve described that process here. You be the judge. How easy is it?
-- **Ceramic Knives are Not All-Purpose.** When cutting hard items, ceramic knives will not serve you best. It will be a bad idea to use this knife to cut meat with bones and frozen food. 
+-   **Easy to Break.** While ceramic can be durable, some mistakes can lead to breakages. If you twist the blade, flex it, or drop it, then you can be sure that it will break! 
+-   **Difficult to Sharpen.** How to sharpen ceramic knives? We’ve described that process here. You be the judge. How easy is it?
+-   **Ceramic Knives are Not All-Purpose.** When cutting hard items, ceramic knives will not serve you best. It will be a bad idea to use this knife to cut meat with bones and frozen food. 
 
 ## **How to Care and Maintain Ceramic Knives** 
 
@@ -87,10 +87,10 @@ The biggest dilemma that any cook has is on how to sharpen ceramic knives. Howev
 
 But how exactly can you care for your ceramic knife? Here are a few tips to consider:
 
-- **Avoid Bending and Flexing.** When using ceramic knives, you should ensure that the edge remains straight. No bending or flexing for guaranteed longevity.
-- **Avoid Using it to Crush Items.** The ceramic knife is delicate! If you use it to cut hard items, it will likely break.
-- **Store Carefully.** Due to their delicate nature, most manufacturers will include a protective case in your purchase package. Always store these knives in these cases to prevent chipping. 
-- **Use Your Hands to Clean.** It is always not a brilliant idea to use a dishwasher when cleaning your ceramic knives. If you do, you’ll be risking bending and breakages. 
+-   **Avoid Bending and Flexing.** When using ceramic knives, you should ensure that the edge remains straight. No bending or flexing for guaranteed longevity.
+-   **Avoid Using it to Crush Items.** The ceramic knife is delicate! If you use it to cut hard items, it will likely break.
+-   **Store Carefully.** Due to their delicate nature, most manufacturers will include a protective case in your purchase package. Always store these knives in these cases to prevent chipping. 
+-   **Use Your Hands to Clean.** It is always not a brilliant idea to use a dishwasher when cleaning your ceramic knives. If you do, you’ll be risking bending and breakages. 
 
 ## **Are Ceramic Knives Dishwasher Safe?**
 
@@ -112,19 +112,19 @@ These blocks ensure that the knives do not collide with other dishes, thus elimi
 
 The blocks are designed with unmatched versatility for ease of storage. You can choose one that sits on your counter or fits in your kitchen drawer. Even better, there are storage blocks that can be hanged on the wall!
 
-![How to Sharpen Ceramic Knives](https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg)
+![How to Sharpen Ceramic Knives](images/portablegasgrill.jpg)
 
-## **How to Sharpen Ceramic Knives - Take Home Points**
+## **How to Sharpen Ceramic Knives – Take Home Points**
 
-- **Ceramic Knives Require Professional Sharpening.** Sharpening a ceramic knife requires a wheel coated with diamond powder, which is not easy to find. As such, you will be required to pay for the service.
-- **Ceramic Knives Have Thin Blades.** While sharpening ceramic knives is a hassle, they have thin blades and may take long before you sharpen them again. 
-- **Ceramic Knives can Break.** These knives are brittle. Any attempt to sharpen them using your ordinary knife sharpeners will assert unnecessary pressure which may lead to breakage.
-- **How to Wash Ceramic Knives?** Well, you should never use a dishwasher to clean ceramic knives. Just warm water and soap is enough.
-- **Store the Knives in a Sleeve or a Block.** This ensures that they remain sharp for long, thus eliminating the need for regular sharpening.
+-   **Ceramic Knives Require Professional Sharpening.** Sharpening a ceramic knife requires a wheel coated with diamond powder, which is not easy to find. As such, you will be required to pay for the service.
+-   **Ceramic Knives Have Thin Blades.** While sharpening ceramic knives is a hassle, they have thin blades and may take long before you sharpen them again. 
+-   **Ceramic Knives can Break.** These knives are brittle. Any attempt to sharpen them using your ordinary knife sharpeners will assert unnecessary pressure which may lead to breakage.
+-   **How to Wash Ceramic Knives?** Well, you should never use a dishwasher to clean ceramic knives. Just warm water and soap is enough.
+-   **Store the Knives in a Sleeve or a Block.** This ensures that they remain sharp for long, thus eliminating the need for regular sharpening.
 
-## **How to Sharpen Ceramic Knives - The Bottom Line**
+## **How to Sharpen Ceramic Knives – The Bottom Line**
 
-If you have purchased a ceramic knife set and you’re wondering how to [sharpen ceramic knives](https://www.wikihow.com/Category:Sharpening-Knives), then you shouldn't worry. There are several professional sharpeners that you can contact to have the service delivered at a fee (check whether your manufacturer offers the service).
+If you have purchased a ceramic knife set and you’re wondering how to [sharpen ceramic knives](https://www.wikihow.com/Category:Sharpening-Knives), then you shouldn’t worry. There are several professional sharpeners that you can contact to have the service delivered at a fee (check whether your manufacturer offers the service).
 
 That said, you can be sure that sharpening your ceramic knives will not be an easy task. As such, you should do everything possible to ensure that your blades remain sharp for long.
 
