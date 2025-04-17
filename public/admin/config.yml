@@ -51,7 +51,7 @@ collections:
     filter: { field: "source", value: "decap" }
     description: "New articles added via the headless CMS"
     create: true
-    slug: "{{fileds.slug}}"
+    slug: "{{fields.slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "hidden", default: "{{fields.pubDate}}" }
