@@ -71,7 +71,7 @@ collections:
         collection: "authors"
         search_fields: ["slug", "fullname"]
         value_field: "slug"
-        display_fields: ["fullname"]
+        display_fields: ["fullname", "bio", "image"]
       - {label: "Featured Image", name: "image", widget: "image", required: false, hint: "This image will be used as the featured image for the blog post. It should be at least 1200x630 pixels for optimal display.", media_folder: "/public/images/blog", public_folder: "/images/blog"}
       - { label: "Description",  name: "excerpt",  widget: "text", pattern: ['.{50,160}', "Description should be between 50 and 160 characters for SEO optimization"]}
 
