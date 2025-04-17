@@ -124,22 +124,165 @@ collections:
       - { label: "Description", name: "description", widget: "text", required: false }
 
   - name: "authors"
-    label: "Authors"
-    folder: "src/content/authors"
-    identifier_field: "slug"
-    slug: "{{slug}}"
-    create: true
-    fields:
-      - { label: "Full Name", name: "author", widget: "string" }
-      - {label: "Slug", name: "slug", widget: "string", pattern: ['^[a-zA-Z0-9-]+$', "Only alphanumeric characters and hyphens allowed"]}
-      - { label: "Bio", name: "authorBio", widget: "text" }
-      - {
-          label: "Profile Image",
-          name: "authorImage",
-          widget: "image",
-          media_folder: "/public/images/authors",
-          public_folder: "/images/authors"
-        }
+  label: "Authors"
+  folder: "src/content/authors"
+  identifier_field: "slug"
+  slug: "{{slug}}"
+  create: true
+  fields:
+    - {
+        label: "Full Name",
+        name: "author",
+        widget: "string",
+        pattern: ['.{3,}', "Name must have at least 3 characters"]
+      }
+    - {
+        label: "Slug",
+        name: "slug",
+        widget: "string",
+        pattern: ['^[a-zA-Z0-9-]+$', "Only alphanumeric characters and hyphens allowed"]
+      }
+    - {
+        label: "Short Bio",
+        name: "authorBio",
+        widget: "text",
+        pattern: ['.{50,500}', "Bio should be between 50 and 500 characters"],
+        hint: "A brief professional description that appears under articles"
+      }
+    - {
+        label: "Profile Image",
+        name: "authorImage",
+        widget: "image",
+        media_folder: "/public/images/authors",
+        public_folder: "/images/authors",
+        media_library: {
+          max_file_size: 512000,
+          allowed_file_types: ["image/jpeg", "image/png", "image/webp"]
+        },
+        hint: "Professional headshot (1:1 ratio recommended)"
+      }
+    - {
+        label: "Professional Title",
+        name: "title",
+        widget: "string",
+        hint: "Current professional position or role"
+      }
+    - {
+        label: "Expertise Areas",
+        name: "expertise",
+        widget: "list",
+        summary: "{{fields.area}}",
+        field: {
+          label: "Area",
+          name: "area",
+          widget: "string"
+        },
+        hint: "Main areas of expertise (e.g., Kitchen Appliances, Cooking, Food Safety)",
+        max: 5
+      }
+    - {
+        label: "Credentials",
+        name: "credentials",
+        widget: "list",
+        fields: [
+          {
+            label: "Qualification",
+            name: "qualification",
+            widget: "string"
+          },
+          {
+            label: "Institution",
+            name: "institution",
+            widget: "string"
+          },
+          {
+            label: "Year",
+            name: "year",
+            widget: "number"
+          }
+        ],
+        hint: "Academic qualifications, certifications, or relevant training"
+      }
+    - {
+        label: "Years of Experience",
+        name: "yearsOfExperience",
+        widget: "number",
+        value_type: "int",
+        min: 0,
+        max: 100
+      }
+    - {
+        label: "Detailed Biography",
+        name: "longBio",
+        widget: "markdown",
+        hint: "Detailed professional background, experience, and achievements"
+      }
+    - {
+        label: "Social Profiles",
+        name: "socialProfiles",
+        widget: "object",
+        fields: [
+          {
+            label: "LinkedIn",
+            name: "linkedin",
+            widget: "string",
+            required: false,
+            pattern: ["^https://www\\.linkedin\\.com/.*", "Must be a valid LinkedIn URL"]
+          },
+          {
+            label: "Twitter/X",
+            name: "twitter",
+            widget: "string",
+            required: false,
+            pattern: ["^https://twitter\\.com/.*", "Must be a valid Twitter URL"]
+          },
+          {
+            label: "Personal Website",
+            name: "website",
+            widget: "string",
+            required: false,
+            pattern: ["^https?://.*", "Must be a valid URL"]
+          }
+        ]
+      }
+    - {
+        label: "Featured Publications",
+        name: "publications",
+        widget: "list",
+        required: false,
+        fields: [
+          {
+            label: "Title",
+            name: "title",
+            widget: "string"
+          },
+          {
+            label: "Publisher",
+            name: "publisher",
+            widget: "string"
+          },
+          {
+            label: "URL",
+            name: "url",
+            widget: "string",
+            pattern: ["^https?://.*", "Must be a valid URL"]
+          },
+          {
+            label: "Year",
+            name: "year",
+            widget: "number"
+          }
+        ]
+      }
+    - {
+        label: "Schema.org Type",
+        name: "schemaType",
+        widget: "select",
+        options: ["Person", "Journalist", "Researcher", "ProfessionalService"],
+        default: "Person",
+        hint: "Used for structured data markup"
+      }
+
 
 
 
