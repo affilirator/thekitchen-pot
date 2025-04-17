@@ -17,6 +17,7 @@ public_folder: "/src/content/blog/images"
 collections:
   - name: "blog"
     label: "WordPress Posts"
+    label_singular: "Article"
     preview_path: "/blog/{{slug}}/"
     folder: "src/content/blog"
     description: "Blog posts and articles imported from Wordpress. You can only make edits on these. New posts cannot be made here. Instead, use the New CMS Posts below."
@@ -44,17 +45,18 @@ collections:
 
   - name: "cmsblog"
     label: "New CMS Posts"
+    label_singular: "Article"
     preview_path: "/blog/{{slug}}/"
     folder: "src/content/blog"
     filter: { field: "source", value: "decap" }
     description: "New articles added via the headless CMS"
     create: true
-    #slug: "{{slug}}"
+    slug: "{{fileds.slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "hidden", default: "{{fields.pubDate}}" }
-      - { label: "Source", name: "source", widget: "string", default: "decap" }
-      #- {label: "URL Slug", name: "slug", widget: "string", required: true, default: "{{slugify title}}"}
+
+      - {label: "Slug", name: "slug", widget: "string", required: true, default: "{{slugify title}}", hint: "This will be auto-generated from the title, but you can change it to make it more SEO-friendly."}
       - { label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/BlogLayout.astro" }
       - {label: "Publication Date", name: "pubDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, }
       - {label: "Modified Date", name: "modDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
@@ -68,6 +70,7 @@ collections:
       - {label: "Author Image", name: "authorImage", widget: "image", required: false}
       - {label: "Author Image Alt Text", name: "authorImageAlt", widget: "string", required: false}
       - {label: "Cover Alt Text", name: "coverAlt", widget: "string", required: false}
+      - { label: "Source", name: "source", widget: "string", default: "decap", hint: "This indicates the source of the article. It can be either 'wordpress' or 'decap'. Don't change this. Changing this might break your website" }
 
   - name: "legalpages"
     label: "Legal Pages"

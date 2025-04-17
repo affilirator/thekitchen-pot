@@ -2,6 +2,7 @@
 title: 10 Reasons Why Your Kitchen is Not the Magical Place You Thought It Would Be
 date: "{{fields.pubDate}}"
 source: decap
+slug: make-kitchen-magical
 layout: ../../layouts/BlogLayout.astro
 pubDate: 2025-04-17
 modDate: 2025-04-17
