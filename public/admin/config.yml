@@ -43,7 +43,7 @@ collections:
       - {label: "Author Image Alt Text", name: "authorImageAlt", widget: "string", required: false}
       - {label: "Cover Alt Text", name: "coverAlt", widget: "string", required: false}
 
-  - name: "staticBlog"
+  - name: "static-blog"
     label: "New CMS Posts"
     label_singular: "Article"
     preview_path: "/blog/{{slug}}/"
