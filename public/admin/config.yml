@@ -46,6 +46,7 @@ collections:
     label: "New CMS Posts"
     preview_path: "/blog/{{slug}}/"
     folder: "src/content/new"
+    filter: { field: "source", value: "decap" }
     description: "New articles added via the headless CMS"
     create: true
     slug: "{{slug}}"
