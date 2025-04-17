@@ -3,6 +3,7 @@ backend:
   repo: affilirator/thekitchen-pot # Replace with your GitHub username and repository name
   branch: main
   use_graphql: true
+  #myseclet=7f474a98bd6b11bd307723d6bc699e353dc0bca2
 
 
 site_url: https://thekitchenpot.com
@@ -22,7 +23,7 @@ collections:
     description: "Blog posts and articles imported from Wordpress. You can only make edits on these. New posts cannot be made here. Instead, use the New CMS Posts below."
     create: false
     #publish: false
-    slug: "{{originalUrl}}"
+    slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "hidden", default: "{{fields.pubDate}}" }
