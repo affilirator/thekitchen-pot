@@ -27,7 +27,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "hidden", default: "{{fields.pubDate}}" }
       - { label: "Source", name: "source", widget: "string", default: "wordpress" }
-      - {label: "URL Slug", name: "originalUrl", widget: "string"}
+      - {label: "URL Slug", name: "slug", widget: "string"}
       - { label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/BlogLayout.astro" }
       - {label: "Publication Date", name: "pubDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, }
       - {label: "Modified Date", name: "modDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
@@ -53,7 +53,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "hidden", default: "{{fields.pubDate}}" }
       - { label: "Source", name: "source", widget: "string", default: "decap" }
-      - {label: "URL Slug", name: "url", widget: "string"}
+      - {label: "URL Slug", name: "slug", widget: "string"}
       - { label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/BlogLayout.astro" }
       - {label: "Publication Date", name: "pubDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, }
       - {label: "Modified Date", name: "modDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
