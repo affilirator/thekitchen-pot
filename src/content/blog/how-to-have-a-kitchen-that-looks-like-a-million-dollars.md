@@ -17,3 +17,4 @@ authorImageAlt: Hey author
 coverAlt: Hey author
 ---
 I am the body of the coolness. Use the `default` property to auto-generate the slug from the `title` field. The `slugify` helper converts the `title` into a URL-safe string (lowercase, spaces to hyphens, etc.).
+how-to-have-a-kitchen-that-looks-like-a-million-dollars

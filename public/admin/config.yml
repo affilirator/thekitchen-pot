@@ -45,16 +45,16 @@ collections:
   - name: "cmsblog"
     label: "New CMS Posts"
     preview_path: "/blog/{{slug}}/"
-    folder: "src/content/new"
+    folder: "src/content/blog"
     filter: { field: "source", value: "decap" }
     description: "New articles added via the headless CMS"
     create: true
-    slug: "{{slug}}"
+    #slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "hidden", default: "{{fields.pubDate}}" }
       - { label: "Source", name: "source", widget: "string", default: "decap" }
-      - {label: "URL Slug", name: "slug", widget: "string", required: true, default: "{{slugify title}}"}
+      #- {label: "URL Slug", name: "slug", widget: "string", required: true, default: "{{slugify title}}"}
       - { label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/BlogLayout.astro" }
       - {label: "Publication Date", name: "pubDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, }
       - {label: "Modified Date", name: "modDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
