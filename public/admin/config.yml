@@ -69,9 +69,9 @@ collections:
         name: "author"
         widget: "relation"
         collection: "authors"
-        search_fields: ["slug", "fullname"]
-        value_field: "slug"
-        display_fields: ["fullname", "bio", "image"]
+        search_fields: ["slug", "author"]
+        value_field: "author"
+        display_fields: ["author", "authorBio", "authorImage"]
       - {label: "Featured Image", name: "image", widget: "image", required: false, hint: "This image will be used as the featured image for the blog post. It should be at least 1200x630 pixels for optimal display.", media_folder: "/public/images/blog", public_folder: "/images/blog"}
       - { label: "Description",  name: "excerpt",  widget: "text", pattern: ['.{50,160}', "Description should be between 50 and 160 characters for SEO optimization"]}
 
@@ -130,12 +130,12 @@ collections:
     slug: "{{slug}}"
     create: true
     fields:
-      - { label: "Full Name", name: "fullname", widget: "string" }
+      - { label: "Full Name", name: "author", widget: "string" }
       - {label: "Slug", name: "slug", widget: "string", pattern: ['^[a-zA-Z0-9-]+$', "Only alphanumeric characters and hyphens allowed"]}
-      - { label: "Bio", name: "bio", widget: "text" }
+      - { label: "Bio", name: "authorBio", widget: "text" }
       - {
           label: "Profile Image",
-          name: "image",
+          name: "authorImage",
           widget: "image",
           media_folder: "/public/images/authors",
           public_folder: "/images/authors"
