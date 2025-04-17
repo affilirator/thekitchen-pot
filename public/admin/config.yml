@@ -54,8 +54,6 @@ collections:
     slug: "{{fields.slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - { label: "Publish Date", name: "date", widget: "hidden", default: "{{fields.pubDate}}" }
-
       - {hint: "The Slug will be auto-generated from the title, but you can change it to make it more SEO-friendly.", label: "Slug", name: "slug", widget: "string", required: true, pattern: ['^[a-zA-Z0-9-]+$', "Only alphanumeric characters and hyphens allowed"]}
       - { label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/BlogLayout.astro" }
       - {label: "Publication Date", name: "pubDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, }
