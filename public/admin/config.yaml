@@ -1,14 +1,13 @@
 backend:
   name: github
-  repo: affilirator/thekitchen-pot # Replace with your GitHub username and repository name
+  repo: affilirator/thekitchen-pot
   branch: main
   use_graphql: true
-  #myseclet=7f474a98bd6b11bd307723d6bc699e353dc0bca2
-
+  # client_secret: 7f474a98bd6b11bd307723d6bc699e353dc0bca2
 
 site_url: https://thekitchenpot.com
 display_url: thekitchenpot.com
-#logo_url: https://www.bestofvacuum.com/images/logo.svg
+# logo_url: https://www.bestofvacuum.com/images/logo.svg
 show_preview_links: true
 publish_mode: editorial_workflow
 media_folder: "src/content/blog/images"
@@ -20,125 +19,97 @@ collections:
     label_singular: "Article"
     preview_path: "/blog/{{slug}}/"
     folder: "src/content/blog"
-    description: "Blog posts and articles imported from Wordpress. You can only make edits on these. New posts cannot be made here. Instead, use the New CMS Posts below."
+    description: "Blog posts imported from WordPress. Edits only - create new posts in 'New CMS Posts'."
     create: false
-    #publish: false
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "hidden", default: "{{fields.pubDate}}" }
       - { label: "Source", name: "source", widget: "string", default: "wordpress" }
-      - {label: "URL Slug", name: "slug", widget: "string", required: true}
+      - { label: "URL Slug", name: "slug", widget: "string", required: true }
       - { label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/BlogLayout.astro" }
-      - {label: "Publication Date", name: "pubDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, }
-      - {label: "Modified Date", name: "modDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false}
-      - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "Description", name: "excerpt", widget: "text"}
-      - {label: "Category", name: "category", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: true}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Author Bio", name: "authorBio", widget: "text"}
-      - {label: "Author Image", name: "authorImage", widget: "image", required: false}
-      - {label: "Author Image Alt Text", name: "authorImageAlt", widget: "string", required: false}
-      - {label: "Cover Alt Text", name: "coverAlt", widget: "string", required: false}
-
-
-
-
+      - { label: "Publication Date", name: "pubDate", widget: "datetime", date_format: "YYYY-MM-DD" }
+      - { label: "Modified Date", name: "modDate", widget: "datetime", date_format: "YYYY-MM-DD" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Description", name: "excerpt", widget: "text" }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Show Table of Contents", name: "showTableOfContents", widget: "boolean", default: true }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Author Bio", name: "authorBio", widget: "text" }
+      - { label: "Author Image", name: "authorImage", widget: "image", required: false }
+      - { label: "Author Image Alt Text", name: "authorImageAlt", widget: "string", required: false }
+      - { label: "Cover Alt Text", name: "coverAlt", widget: "string", required: false }
 
   - name: "static-blog"
     label: "New Posts"
-    summary: "Version: {{commit_date}} - {{title}} - {{commit_author}}"
     label_singular: "Article"
     preview_path: "/blog/{{slug}}/"
     folder: "src/content/blog"
-    media_folder: "/public/images/blog"
+    media_folder: "src/content/blog/images"
     public_folder: "/images/blog"
     filter: { field: "source", value: "decap" }
-    description: "New articles added via the headless CMS"
+    description: "New articles added via CMS"
     create: true
     slug: "{{fields.slug}}"
     fields:
+      - { label: "Title", name: "title", widget: "string", pattern: ['.{20,}', "Must have at least 20 characters"] }
       - {
-          label: "Title",
-          name: "title",
-          widget: "string",
-          pattern: ['.{20,}', "Must have at least 20 characters"]
-        }
-      - {
-          hint: "The Slug will be auto-generated from the title, but you can change it to make it more SEO-friendly.",
           label: "Slug",
           name: "slug",
           widget: "string",
           required: true,
-          pattern: ['^[a-zA-Z0-9-]+$', "Only alphanumeric characters and hyphens allowed"]
+          pattern: ['^[a-zA-Z0-9-]+$', "Only alphanumeric and hyphens allowed"],
+          hint: "Auto-generated from title (editable)"
         }
-      - {label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/BlogLayout.astro"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/BlogLayout.astro" }
+      - { label: "Publication Date", name: "pubDate", widget: "datetime", date_format: "YYYY-MM-DD" }
+      - { label: "Modified Date", name: "modDate", widget: "datetime", date_format: "YYYY-MM-DD", default: "{{now}}" }
       - {
-          label: "Publication Date",
-          name: "pubDate",
-          widget: "datetime",
-          date_format: "YYYY-MM-DD",
-          time_format: false
+          label: "Post Author",
+          name: "author",
+          widget: "relation",
+          collection: "authors",
+          value_field: "slug",
+          display_fields: ["author"],
+          search_fields: ["author"]
         }
-      - {
-          label: "Modified Date",
-          name: "modDate",
-          widget: "datetime",
-          date_format: "YYYY-MM-DD",
-          time_format: false
-        }
-      - label: "Post Author"
-        name: "author"
-        widget: "relation"
-        collection: "authors"
-        search_fields: ["slug", "author"]
-        value_field: "author"
-        display_fields: ["author", "authorBio", "authorImage"]
       - {
           label: "Featured Image",
           name: "image",
           widget: "image",
           required: false,
-          hint: "This image will be used as the featured image for the blog post. It should be at least 1200x630 pixels for optimal display.",
-          media_folder: "/public/images/blog/featured",
-          public_folder: "/images/blog/featured",
-          media_library: {
-            max_file_size: 512000,
-            allowed_file_types: ["image/jpeg", "image/png", "image/webp"]
-          }
+          hint: "Optimal size: 1200x630px"
         }
       - {
           label: "Description",
           name: "excerpt",
           widget: "text",
-          pattern: ['.{50,160}', "Description should be between 50 and 160 characters for SEO optimization"]
+          pattern: ['.{50,160}', "SEO description (50-160 characters)"]
         }
-      - label: "Category"
-        name: "category"
-        widget: "relation"
-        collection: "categories"
-        search_fields: ["name", "slug"]
-        value_field: "slug"
-        display_fields: ["name"]
-        required: true
+      - {
+          label: "Category",
+          name: "category",
+          widget: "relation",
+          collection: "categories",
+          value_field: "slug",
+          display_fields: ["name"],
+          required: true
+        }
       - {
           label: "Tags",
           name: "tags",
           widget: "list",
-          summary: "{{fields.tag}}",
-          field: {label: "Tag", name: "tag", widget: "string"},
-          max: 3,
-          required: false
+          field: { label: "Tag", name: "tag", widget: "string" },
+          max: 3
         }
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Body", name: "body", widget: "markdown" }
       - {
           label: "Source",
           name: "source",
-          widget: "string",
+          widget: "hidden",
           default: "decap",
-          hint: "This indicates the source of the article. It can be either 'wordpress' or 'decap'. Don't change this. Changing this might break your website"
+          hint: "Content origin - do not modify"
         }
 
   - name: "legalpages"
@@ -155,7 +126,7 @@ collections:
             label: "Policy Sections"
             widget: "list"
             fields:
-              - { name: "id", label: "Section ID", widget: "string", description: "Unique identifier for the section" }
+              - { name: "id", label: "Section ID", widget: "string" }
               - { name: "title", label: "Section Title", widget: "string" }
               - { name: "content", label: "Content", widget: "markdown" }
           - name: "contact"
@@ -164,294 +135,174 @@ collections:
             fields:
               - { name: "email", label: "Contact Email", widget: "string" }
               - { name: "address", label: "Mailing Address", widget: "text" }
+
   - name: "categories"
     label: "Categories"
     label_singular: "Category"
-    description: "Categories for blog posts and reviews."
     folder: "src/content/categories"
     identifier_field: "slug"
     slug: "{{slug}}"
     create: true
     fields:
       - { label: "Name", name: "name", widget: "string" }
-      - {label: "Slug", name: "slug", widget: "string", pattern: ['^[a-zA-Z0-9-]+$', "Only alphanumeric characters and hyphens allowed"]}
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          pattern: ['^[a-zA-Z0-9-]+$', "Alphanumeric and hyphens only"]
+        }
       - { label: "Description", name: "description", widget: "text", required: false }
 
   - name: "authors"
-  label: "Authors"
-  folder: "src/content/authors"
-  identifier_field: "slug"
-  slug: "{{slug}}"
-  create: true
-  fields:
-    - {
-        label: "Full Name",
-        name: "author",
-        widget: "string",
-        pattern: ['.{3,}', "Name must have at least 3 characters"]
-      }
-    - {
-        label: "Slug",
-        name: "slug",
-        widget: "string",
-        pattern: ['^[a-zA-Z0-9-]+$', "Only alphanumeric characters and hyphens allowed"]
-      }
-    - {
-        label: "Short Bio",
-        name: "authorBio",
-        widget: "text",
-        pattern: ['.{50,500}', "Bio should be between 50 and 500 characters"],
-        hint: "A brief professional description that appears under articles"
-      }
-    - {
-        label: "Profile Image",
-        name: "authorImage",
-        widget: "image",
-        media_folder: "/public/images/authors",
-        public_folder: "/images/authors",
-        media_library: {
-          max_file_size: 512000,
-          allowed_file_types: ["image/jpeg", "image/png", "image/webp"]
-        },
-        hint: "Professional headshot (1:1 ratio recommended)"
-      }
-    - {
-        label: "Professional Title",
-        name: "title",
-        widget: "string",
-        hint: "Current professional position or role"
-      }
-    - {
-        label: "Expertise Areas",
-        name: "expertise",
-        widget: "list",
-        summary: "{{fields.area}}",
-        field: {
-          label: "Area",
-          name: "area",
-          widget: "string"
-        },
-        hint: "Main areas of expertise (e.g., Kitchen Appliances, Cooking, Food Safety)",
-        max: 5
-      }
-    - {
-        label: "Credentials",
-        name: "credentials",
-        widget: "list",
-        fields: [
-          {
-            label: "Qualification",
-            name: "qualification",
-            widget: "string"
-          },
-          {
-            label: "Institution",
-            name: "institution",
-            widget: "string"
-          },
-          {
-            label: "Year",
-            name: "year",
-            widget: "number"
-          }
-        ],
-        hint: "Academic qualifications, certifications, or relevant training"
-      }
-    - {
-        label: "Years of Experience",
-        name: "yearsOfExperience",
-        widget: "number",
-        value_type: "int",
-        min: 0,
-        max: 100
-      }
-    - {
-        label: "Detailed Biography",
-        name: "longBio",
-        widget: "markdown",
-        hint: "Detailed professional background, experience, and achievements"
-      }
-    - {
-        label: "Social Profiles",
-        name: "socialProfiles",
-        widget: "object",
-        fields: [
-          {
-            label: "LinkedIn",
-            name: "linkedin",
-            widget: "string",
-            required: false,
-            pattern: ["^https://www\\.linkedin\\.com/.*", "Must be a valid LinkedIn URL"]
-          },
-          {
-            label: "Twitter/X",
-            name: "twitter",
-            widget: "string",
-            required: false,
-            pattern: ["^https://twitter\\.com/.*", "Must be a valid Twitter URL"]
-          },
-          {
-            label: "Personal Website",
-            name: "website",
-            widget: "string",
-            required: false,
-            pattern: ["^https?://.*", "Must be a valid URL"]
-          }
-        ]
-      }
-    - {
-        label: "Featured Publications",
-        name: "publications",
-        widget: "list",
-        required: false,
-        fields: [
-          {
-            label: "Title",
-            name: "title",
-            widget: "string"
-          },
-          {
-            label: "Publisher",
-            name: "publisher",
-            widget: "string"
-          },
-          {
-            label: "URL",
-            name: "url",
-            widget: "string",
-            pattern: ["^https?://.*", "Must be a valid URL"]
-          },
-          {
-            label: "Year",
-            name: "year",
-            widget: "number"
-          }
-        ]
-      }
-    - {
-        label: "Schema.org Type",
-        name: "schemaType",
-        widget: "select",
-        options: ["Person", "Journalist", "Researcher", "ProfessionalService"],
-        default: "Person",
-        hint: "Used for structured data markup"
-      }
-
-
-
-
-
-
-
+    label: "Authors"
+    folder: "src/content/authors"
+    identifier_field: "slug"
+    slug: "{{slug}}"
+    create: true
+    fields:
+      - {
+          label: "Full Name",
+          name: "author",
+          widget: "string",
+          pattern: ['.{3,}', "Minimum 3 characters"]
+        }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          pattern: ['^[a-zA-Z0-9-]+$', "Alphanumeric and hyphens only"]
+        }
+      - {
+          label: "Short Bio",
+          name: "authorBio",
+          widget: "text",
+          pattern: ['.{50,500}', "50-500 characters"]
+        }
+      - {
+          label: "Profile Image",
+          name: "authorImage",
+          widget: "image",
+          media_folder: "/public/images/authors",
+          public_folder: "/images/authors",
+          hint: "1:1 ratio recommended"
+        }
+      - { label: "Professional Title", name: "title", widget: "string" }
+      - {
+          label: "Expertise Areas",
+          name: "expertise",
+          widget: "list",
+          field: { label: "Area", name: "area", widget: "string" },
+          max: 5
+        }
+      - {
+          label: "Credentials",
+          name: "credentials",
+          widget: "list",
+          fields:
+            - { label: "Qualification", name: "qualification", widget: "string" }
+            - { label: "Institution", name: "institution", widget: "string" }
+            - { label: "Year", name: "year", widget: "number" }
+        }
+      - {
+          label: "Years Experience",
+          name: "yearsOfExperience",
+          widget: "number",
+          min: 0,
+          max: 100
+        }
+      - { label: "Detailed Bio", name: "longBio", widget: "markdown" }
+      - {
+          label: "Social Profiles",
+          name: "socialProfiles",
+          widget: "object",
+          fields:
+            - { label: "LinkedIn", name: "linkedin", widget: "string", required: false }
+            - { label: "Twitter", name: "twitter", widget: "string", required: false }
+            - { label: "Website", name: "website", widget: "string", required: false }
+        }
+      - {
+          label: "Schema Type",
+          name: "schemaType",
+          widget: "select",
+          options: ["Person", "Journalist", "Researcher"],
+          default: "Person"
+        }
 
   - name: "reviews"
     label: "Reviews"
     label_singular: "Review"
     folder: "src/content/reviews"
     create: true
-    # format: "frontmatter"
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/MainLayout.astro"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string", pattern: ['^[a-zA-Z0-9-]+$', "Only alphanumeric characters and hyphens allowed"]}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "text"}
-      - {label: "Publication Date", name: "date", widget: "datetime"}
-      - {label: "Modified Date", name: "modDate", widget: "datetime", default: "{{now}}"}
-
-      - {label: "Body", name: "body", widget: "markdown"}
-      - label: "Author"
-        name: "author"
-        widget: "relation"
-        collection: "authors"
-        search_fields: ["name", "title"]
-        value_field: "{{slug}}"
-        display_fields: ["name"]
-      - label: "Category"
-        name: "category"
-        widget: "relation"
-        collection: "categories"
-        search_fields: ["name"]
-        value_field: "{{slug}}"
-        display_fields: ["name"]
-      - label: "Product"
-        name: "product"
+      - { label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/MainLayout.astro" }
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          pattern: ['^[a-zA-Z0-9-]+$', "Alphanumeric and hyphens only"]
+        }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Publication Date", name: "date", widget: "datetime" }
+      - { label: "Modified Date", name: "modDate", widget: "datetime", default: "{{now}}" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Author",
+          name: "author",
+          widget: "relation",
+          collection: "authors",
+          value_field: "slug",
+          display_fields: ["author"]
+        }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "relation",
+          collection: "categories",
+          value_field: "slug",
+          display_fields: ["name"]
+        }
+      - name: "product"
+        label: "Product Details"
         widget: "object"
         fields:
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "Brand", name: "brand", widget: "string"}
-          - {label: "Model", name: "model", widget: "string"}
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Price", name: "price", widget: "number", value_type: "float"}
-          - {label: "Sale Price", name: "salePrice", widget: "number", value_type: "float", required: false}
-          - {label: "Product URL", name: "url", widget: "string"}
-          - {label: "Features", name: "features", widget: "list"}
-          - label: "Specifications"
-            name: "specs"
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Brand", name: "brand", widget: "string" }
+          - { label: "Model", name: "model", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Price", name: "price", widget: "number", value_type: "float" }
+          - { label: "Product URL", name: "url", widget: "string" }
+          - { label: "Features", name: "features", widget: "list" }
+          - name: "specs"
+            label: "Specifications"
             widget: "object"
             fields:
-              - {label: "Dimensions", name: "dimensions", widget: "string"}
-              - {label: "Weight", name: "weight", widget: "string"}
-              - {label: "Suction Power", name: "suctionPower", widget: "string"}
-              - {label: "Bin Capacity", name: "binCapacity", widget: "string"}
-              - {label: "Battery Type", name: "batteryType", widget: "string"}
-              - {label: "Battery Life", name: "batteryLife", widget: "string"}
-              - {label: "Charging Time", name: "chargingTime", widget: "string"}
-              - {label: "Filtration", name: "filtration", widget: "string"}
-              - {label: "Noise Level", name: "noiseLevel", widget: "string"}
-              - {label: "Warranty", name: "warranty", widget: "string"}
-      - label: "Rating"
-        name: "rating"
+              - { label: "Dimensions", name: "dimensions", widget: "string" }
+              - { label: "Weight", name: "weight", widget: "string" }
+              - { label: "Battery Life", name: "batteryLife", widget: "string" }
+      - name: "rating"
+        label: "Ratings"
         widget: "object"
         fields:
-          - {label: "Overall", name: "overall", widget: "number", value_type: "float", min: 0, max: 5, step: 0.1}
-          - {label: "Suction", name: "suction", widget: "number", value_type: "float", min: 0, max: 5, step: 0.1}
-          - {label: "Maneuverability", name: "maneuverability", widget: "number", value_type: "float", min: 0, max: 5, step: 0.1}
-          - {label: "Noise", name: "noise", widget: "number", value_type: "float", min: 0, max: 5, step: 0.1}
-          - {label: "Battery Life", name: "batteryLife", widget: "number", value_type: "float", min: 0, max: 5, step: 0.1}
-          - {label: "Filtration", name: "filtration", widget: "number", value_type: "float", min: 0, max: 5, step: 0.1}
-          - {label: "Value for Money", name: "valueForMoney", widget: "number", value_type: "float", min: 0, max: 5, step: 0.1}
-      - {label: "Pros", name: "pros", widget: "list"}
-      - {label: "Cons", name: "cons", widget: "list"}
-      - {label: "Verdict", name: "verdict", widget: "text"}
-      - label: "Alternatives"
-        name: "alternatives"
-        widget: "list"
-        fields:
-          - label: "Product"
-            name: "product"
-            widget: "relation"
-            collection: "reviews"
-            search_fields: ["title", "product.name"]
-            value_field: "{{slug}}"
-            display_fields: ["title"]
-
-          - {label: "Image", name: "image", widget: "image"}
-          - {label: "Rating", name: "rating", widget: "number", value_type: "float", min: 0, max: 5, step: 0.1}
-          - {label: "Price", name: "price", widget: "number", value_type: "float"}
-      - label: "FAQs"
-        name: "faqs"
-        widget: "list"
-        fields:
-          - {label: "Question", name: "question", widget: "string"}
-          - {label: "Answer", name: "answer", widget: "text"}
-
+          - { label: "Overall", name: "overall", widget: "number", min: 0, max: 5, step: 0.1 }
+          - { label: "Value", name: "valueForMoney", widget: "number", min: 0, max: 5, step: 0.1 }
+      - { label: "Pros", name: "pros", widget: "list" }
+      - { label: "Cons", name: "cons", widget: "list" }
+      - { label: "Verdict", name: "verdict", widget: "text" }
 
   - name: "team"
     label: "Team Members"
     folder: "src/content/team"
     create: true
-    slug: "{{fields.name | slug}}"
+    slug: "{{name | slug}}"
     fields:
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Credentials", name: "credentials", widget: "string"}
-      - {label: "Bio", name: "bio", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false, default: "/images/placeholder.svg"}
-      - {label: "Expertise", name: "expertise", widget: "list"}
-      - {label: "LinkedIn", name: "linkedin", widget: "string", required: false}
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "text" }
+      - { label: "Image", name: "image", widget: "image", required: false }
 
   - name: "pages"
     label: "Pages"
@@ -460,21 +311,21 @@ collections:
         label: "About Page"
         name: "about"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Founded Year", name: "foundedYear", widget: "number"}
-          - {label: "Content", name: "body", widget: "markdown"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Founded Year", name: "foundedYear", widget: "number" }
+          - { label: "Content", name: "body", widget: "markdown" }
 
       - file: "src/content/pages/contact.md"
         label: "Contact Page"
         name: "contact"
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Description", name: "description", widget: "text"}
-          - {label: "Email", name: "email", widget: "string"}
-          - {label: "Phone", name: "phone", widget: "string"}
-          - {label: "Address", name: "address", widget: "string"}
-          - {label: "Office Hours", name: "officeHours", widget: "list", fields: [
-              {label: "Day", name: "day", widget: "string"},
-              {label: "Hours", name: "hours", widget: "string"}
-            ]}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Address", name: "address", widget: "string" }
+          - name: "officeHours"
+            label: "Office Hours"
+            widget: "list"
+            fields:
+              - { label: "Day", name: "day", widget: "string" }
+              - { label: "Hours", name: "hours", widget: "string" }
