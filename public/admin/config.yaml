@@ -1,13 +1,11 @@
-#local_backend: true
-
 backend:
-  name: github
+  name: git-gateway
   repo: "affilirator/thekitchen-pot" # Replace with your GitHub username and repository name
   branch: main
 
 
 site_url: https://thekitchenpot.com
-display_url: https://thekitchenpot.com
+display_url: thekitchenpot.com
 #logo_url: https://www.bestofvacuum.com/images/logo.svg
 show_preview_links: true
 publish_mode: editorial_workflow
