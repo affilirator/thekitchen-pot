@@ -19,7 +19,6 @@ collections:
     label: "WordPress Posts"
     preview_path: "/blog/{{slug}}/"
     folder: "src/content/blog"
-    filter: { field: "source", value: "wordpress" }
     description: "Blog posts and articles imported from Wordpress. You can only make edits on these. New posts cannot be made here. Instead, use the New CMS Posts below."
     create: false
     #publish: false
@@ -46,8 +45,7 @@ collections:
   - name: "cmsblog"
     label: "New CMS Posts"
     preview_path: "/blog/{{slug}}/"
-    folder: "src/content/blog"
-    filter: { field: "source", value: "decap" }
+    folder: "src/content/new"
     description: "New articles added via the headless CMS"
     create: true
     slug: "{{slug}}"
