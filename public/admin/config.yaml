@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: affilirator/thekitchen-pot # Replace with your GitHub username and repository name
   branch: main
   use_graphql: true
