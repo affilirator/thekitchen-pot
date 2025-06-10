@@ -61,7 +61,9 @@ const pageNumbers = Array.from(
             <div class="aspect-video overflow-hidden">
               <Image
                 src={post.data.image.src}
-                inferSize
+                width={post.data.image.width}
+                height={post.data.image.height}
+                
                 alt={post.data.title}
                 class="w-full h-full object-cover"
               />
