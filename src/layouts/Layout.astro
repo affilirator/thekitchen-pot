@@ -6,6 +6,7 @@ import '@fontsource-variable/montserrat';
 import '@fontsource/bebas-neue';
 import "@fontsource/open-sans";
 import '@/styles/globals.css';
+import { siteConfig } from '@/data/site';
 
 interface Props {
     title: string;
@@ -24,7 +25,7 @@ const {
 
 // Base URL for canonical links and OG images
 // Base URL for canonical links and OG images
-const baseUrl = "https://thekitchenpot.com";
+const baseUrl = import.meta.env.SITE;
 const canonicalURL = new URL(Astro.url.pathname, baseUrl).href;
 const socialImageURL = new URL(image, baseUrl).href;
 
@@ -32,6 +33,7 @@ const socialImageURL = new URL(image, baseUrl).href;
 const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    '@id': `${siteConfig.url}/#organization`,
     name: "The Kitchen Pot",
     url: baseUrl,
     logo: `${baseUrl}/logo.png`,

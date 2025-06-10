@@ -87,6 +87,7 @@ const articleSchema = {
     publisher: {
         "@type": "Organization",
         name: siteConfig.name,
+        '@id': `${siteConfig.url}/#organization`,
         logo: {
             "@type": "ImageObject",
             url: "https://thekitchenpot.com/logo.png",
