@@ -7,21 +7,19 @@ const navItems = [
   { href: '/blog/', text: 'Blog' },
   { href: '/about/', text: 'About' },
   { href: '/contact-us/', text: 'Contact' },
- {
-    text: 'Resources',
-    children: [
-      { href: '/blog/category/kitchenware/', text: 'Kitchenware' },
-      { href: '/blog/category/bakeware/', text: 'Bakeware' },
-      { href: '/blog/category/how-to-guides/', text: 'Guides' },
-    ]
-  },
-  
+  { href: '/resources/', text: 'Resources' },
+];
+
+const resourceLinks = [
+  { href: '/blog/category/kitchenware/', text: 'Kitchenware' },
+  { href: '/blog/category/bakeware/', text: 'Bakeware' },
+  { href: '/blog/category/how-to-guides/', text: 'Guides' },
 ];
 
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="bg-gradient-to-r from-teal-600 via-teal-700 to-emerald-600 text-white top-0 z-30 backdrop-blur-sm border-b border-white/10 shadow-lg">
+<header class="bg-gradient-to-r from-teal-600 via-teal-700 to-emerald-600 text-white top-0 z-50 backdrop-blur-sm border-b border-white/10 shadow-lg">
   <div class="container mx-auto px-4 py-3 relative overflow-hidden">
     <div class="absolute inset-0 bg-grid-white/10 mask-gradient"></div>
     <div class="flex justify-between items-center">
@@ -30,28 +28,10 @@ const currentPath = Astro.url.pathname;
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex lg:flex space-x-8 z-50" aria-label="Main Navigation">
         {navItems.map((item) => (
-          item.children ? (
-            <div class="relative group">
-              <button class="nav-button group" aria-expanded="false">
-                <span>{item.text}</span>
-                <Icon name="mdi:chevron-down" class="w-4 h-4" />
-              </button>
-              <ul class="dropdown-menu z-50">
-                {item.children.map((child) => (
-                  <li>
-                    <a href={child.href} class="block px-4 py-3 hover:bg-teal-50/50 rounded-md hover:translate-x-1 transition-all" aria-current={currentPath === child.href ? 'page' : undefined}>
-                      {child.text}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : (
-            <a href={item.href} class="nav-link group" aria-current={currentPath === item.href ? 'page' : undefined}>
-              <span class="relative z-10">{item.text}</span>
-              <div class="absolute inset-0 bg-white/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity group-hover:scale-105"></div>
-            </a>
-          )
+          <a href={item.href} class="nav-link group" aria-current={currentPath === item.href ? 'page' : undefined}>
+            <span class="relative z-10">{item.text}</span>
+            <div class="absolute inset-0 bg-white/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity group-hover:scale-105"></div>
+          </a>
         ))}
       </nav>
 
@@ -91,27 +71,14 @@ const currentPath = Astro.url.pathname;
       <div class="rounded-xl bg-white/10 backdrop-blur-md p-4 border border-white/10 shadow-2xl">
         <nav class="flex flex-col space-y-3" aria-label="Mobile Navigation">
           {navItems.map((item) => (
-            item.children ? (
-              <div class="space-y-2">
-                <button class="flex items-center justify-between w-full text-left hover:bg-white/10 rounded-lg px-3 py-2 transition-all focus:ring-2 focus:ring-white/20 focus:outline-none" aria-expanded="false">
-                  <span>{item.text}</span>
-                  <Icon name="mdi:chevron-down" class="w-4 h-4" />
-                </button>
-                <ul class="pl-4 space-y-2 hidden">
-                  {item.children.map((child) => (
-                    <li>
-                      <a href={child.href} class="block px-3 py-2 hover:bg-white/10 rounded-lg hover:translate-x-1 transition-all" aria-current={currentPath === child.href ? 'page' : undefined}>
-                        {child.text}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : (
-              <a href={item.href} class="px-3 py-2 hover:bg-white/10 rounded-lg hover:translate-x-1 transition-all block" aria-current={currentPath === item.href ? 'page' : undefined}>
-                {item.text}
-              </a>
-            )
+            <a href={item.href} class="px-3 py-2 hover:bg-white/10 rounded-lg hover:translate-x-1 transition-all block" aria-current={currentPath === item.href ? 'page' : undefined}>
+              {item.text}
+            </a>
+          ))}
+          {resourceLinks.map((link) => (
+            <a href={link.href} class="px-3 py-2 hover:bg-white/10 rounded-lg hover:translate-x-1 transition-all block pl-6 text-sm" aria-current={currentPath === link.href ? 'page' : undefined}>
+              {link.text}
+            </a>
           ))}
         </nav>
         
@@ -147,16 +114,8 @@ const currentPath = Astro.url.pathname;
                     linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
   }
 
-  .nav-button {
-    @apply flex items-center space-x-1 hover:text-white/90 hover:scale-105 transition-all focus:outline-none focus:ring-2 focus:ring-white/20 rounded-lg px-3 py-2 relative;
-  }
-
   .nav-link {
     @apply relative px-3 py-2 hover:text-white/90 transition-all focus:outline-none rounded-lg;
-  }
-
-  .dropdown-menu {
-    @apply absolute left-0 mt-2 w-56 bg-white/90 backdrop-blur-md text-teal-900 rounded-lg shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all border border-white/20 transform group-hover:translate-y-0 translate-y-2 z-50;
   }
 
   .search-input {
@@ -177,15 +136,5 @@ const currentPath = Astro.url.pathname;
         mobileMenu.classList.toggle('hidden');
       });
     }
-    
-    // Mobile dropdown toggles
-    document.querySelectorAll('#mobile-menu button[aria-expanded]').forEach(toggle => {
-      toggle.addEventListener('click', () => {
-        const expanded = toggle.getAttribute('aria-expanded') === 'true';
-        toggle.setAttribute('aria-expanded', (!expanded).toString());
-        const dropdown = toggle.nextElementSibling;
-        dropdown?.classList.toggle('hidden');
-      });
-    });
   });
 </script>
