@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/chicken-2.jpg
+image: src/content/blog/images/chicken-2.jpg
 coverAlt: How Much Does a Chicken Breast Weigh
 description: >-
   If you've ever wondered about the weight of a chicken breast, you're not

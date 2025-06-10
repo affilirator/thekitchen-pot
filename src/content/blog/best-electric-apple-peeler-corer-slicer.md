@@ -9,7 +9,7 @@ source: Electric Peeler Corer Slicer
 slug: best-electric-apple-peeler-corer-slicer
 pubDate: 2020-06-23
 modDate: 2025-02-10
-image: /images/Apple-peelers.jpeg
+image: src/content/blog/images/Apple-peelers.jpeg
 category: Kitchenware
 author: Boniface Muriuki
 authorImage: /images/authors/chris-thompson.png

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Offset-Smokers.jpg
+image: src/content/blog/images/Best-Offset-Smokers.jpg
 coverAlt: 6 Best Offset Smoker for Beginners- All-Inclusive Guide
 description: >-
   Are you a novice BBQ enthusiast eager to impress your family with delicious

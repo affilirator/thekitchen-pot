@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/6089d78980cdeef3b1fbd4e092e3b5bc.jpg
+image: src/content/blog/images/6089d78980cdeef3b1fbd4e092e3b5bc.jpg
 coverAlt: How to Organize Pots and Pans - 3 Proven Techniques to Declutter Your Kitchen
 description: >-
   Are you feeling overwhelmed by a cluttered kitchen? Managing pots and pans in

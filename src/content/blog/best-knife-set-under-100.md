@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Knife-set-under-100.jpg
+image: src/content/blog/images/Knife-set-under-100.jpg
 coverAlt: Best Knife Set Under 100 - With a Comprehensive Buying Guide
 description: >-
   When it comes to finding the best knife set under $100, it's important to

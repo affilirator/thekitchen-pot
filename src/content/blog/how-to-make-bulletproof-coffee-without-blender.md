@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-Make-Bulletproof-Coffee-Without-Blender.jpg
+image: src/content/blog/images/How-to-Make-Bulletproof-Coffee-Without-Blender.jpg
 coverAlt: "How to Make Bulletproof Coffee Without Blender\_- A Complete Guide"
 description: >-
   If you're a coffee-lover, you'll be captivated by the unique taste of

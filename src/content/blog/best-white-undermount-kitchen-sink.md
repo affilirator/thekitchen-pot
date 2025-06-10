@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/PR14922BI14515_10125012_BE_40_40_1B_SZ2.jpg
+image: src/content/blog/images/PR14922BI14515_10125012_BE_40_40_1B_SZ2.jpg
 coverAlt: Best White Undermount Kitchen Sink - A Complete Guide
 description: >-
   If you're considering remodeling your kitchen and changing out the sink,

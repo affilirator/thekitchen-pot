@@ -1,5 +1,5 @@
 ---
-title: 5 Best Air Fryers under $100
+title: 5 Best Air Fryers under title - 5 Best Air Fryers under $100
 slug: best-air-fryers-under-100
 pubDate: 2020-04-08
 modDate: 2025-02-03
@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/best-air-fryers-under-100.jpg
+image: src/content/blog/images/best-air-fryers-under-100.jpg
 coverAlt: 5 Best Air Fryers under $100
 description: >-
   Are you tired of lengthy cooking processes and looking for a healthier
@@ -29,7 +29,8 @@ category: Cookware Equipment
 seo: >-
   Are you looking for the best air fryers under $100? This article will offer a
   comprehensive buying guide with a well-researched list of the 5 best air
-  fryers.
+  fryers.00
+
 ---
 
 Are you tired of long cooking procedures? Well, best [air fryers](https://en.wikipedia.org/wiki/Air_fryer) under $100 will definitely revolutionize your kitchen experience!

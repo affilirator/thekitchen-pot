@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Nuwave-oven-how-it-works.jpg
+image: src/content/blog/images/Nuwave-oven-how-it-works.jpg
 coverAlt: 5 Incredible Tips on How to Use a Nuwave Oven
 description: >-
   If you love cooking and are always on the lookout for appliances that can make

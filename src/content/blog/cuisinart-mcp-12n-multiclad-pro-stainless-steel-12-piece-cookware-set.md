@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/71DwqGSnhEL._AC_SL1500_.jpg
+image: src/content/blog/images/71DwqGSnhEL._AC_SL1500_.jpg
 coverAlt: Cuisinart MCP-12n Multiclad Pro Stainless Steel 12-Piece Cookware Set Review
 description: >-
   The Cuisinart MCP-12n Multiclad Pro Stainless Steel 12-Piece Cookware Set is a

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-Make-any-Meat-Tender.jpg
+image: src/content/blog/images/How-to-Make-any-Meat-Tender.jpg
 coverAlt: How Does a Meat Tenderizer Work?10 Best Meat Tenderizers
 description: >-
   Encountering tough and chewy meat can be frustrating and take away the joy of

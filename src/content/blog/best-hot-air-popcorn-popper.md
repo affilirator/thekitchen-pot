@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/popcorn.jpg
+image: src/content/blog/images/popcorn.jpg
 coverAlt: 8 Best Hot Air Popcorn Popper for the Money
 description: >-
   Are you looking for a healthier way to make popcorn? Consider purchasing the

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Featured.jpg
+image: src/content/blog/images/Featured.jpg
 coverAlt: 10 Best Sous Vide Power Precision Cooker - Everything You Need to Know
 description: >-
   Have you ever wondered how fancy hotels achieve moist, flavorful, and evenly

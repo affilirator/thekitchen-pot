@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-Season-Red-Copper-Pan.jpg
+image: src/content/blog/images/How-to-Season-Red-Copper-Pan.jpg
 coverAlt: How to Season Red Copper Pan in 5 Simple Steps
 description: >-
   If you are a cooking enthusiast looking for an elegant and effective pan,

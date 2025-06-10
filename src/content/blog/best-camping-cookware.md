@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/best-camping-cookware-sets.jpg
+image: src/content/blog/images/best-camping-cookware-sets.jpg
 coverAlt: '6 Best Camping Cookware: Ultralight Cookware to Make Camping Easy'
 description: >-
   If you love camping and hiking, it's essential to have the best camping

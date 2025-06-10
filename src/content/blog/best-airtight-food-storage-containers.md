@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Airtight-Storage.jpg
+image: src/content/blog/images/Best-Airtight-Storage.jpg
 coverAlt: 6 Best Airtight Food Storage Containers for the Money
 description: >-
   Are you struggling to keep your food items fresh and crunchy? Do you want to

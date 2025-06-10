@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/true-convection-oven.jpg
+image: src/content/blog/images/true-convection-oven.jpg
 coverAlt: How to Bake Cookies in a Convection Oven Perfectly - A Detailed Guide
 description: >-
   If you're looking to bake perfect cookies in a convection oven, this article

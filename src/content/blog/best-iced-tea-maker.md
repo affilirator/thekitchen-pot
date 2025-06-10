@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/best-iced-tea.jpg
+image: src/content/blog/images/best-iced-tea.jpg
 coverAlt: 8 Best Iced Tea Maker With a Glass Pitcher
 description: >-
   When summer visitors arrive, welcoming them with refreshing iced tea is a

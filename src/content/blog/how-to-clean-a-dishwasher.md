@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-clean-a-dishwasher.jpg
+image: src/content/blog/images/How-to-clean-a-dishwasher.jpg
 coverAlt: How to Clean a Dishwasher in 5 Easy Steps - A Definitive Guide
 description: >-
   It's important to keep your dishwasher clean to maintain its efficiency and

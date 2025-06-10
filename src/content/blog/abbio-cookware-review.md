@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/abbio-cookware-set.png
+image: src/content/blog/images/abbio-cookware-set.png
 coverAlt: 'Abbio Cookware: 5 Reasons to Buy These Pans'
 description: >-
   Are you looking for quality cookware that won't break the bank? Abbio Cookware

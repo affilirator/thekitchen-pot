@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/nutribullet-vs-ninja-1.jpg
+image: src/content/blog/images/nutribullet-vs-ninja-1.jpg
 coverAlt: NutriBullet vs Ninja Blender Reviews- Which is Better?
 description: >-
   If you're a smoothie lover looking to choose between NutriBullet and Ninja

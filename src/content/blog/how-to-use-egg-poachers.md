@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/poached-egg.jpg
+image: src/content/blog/images/poached-egg.jpg
 coverAlt: 'How to Use Egg Poachers: Top 3 Reliable Techniques'
 description: >-
   If you're tired of the traditional, tiresome method of poaching eggs, using an

@@ -16,7 +16,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/how-to-use-a-smoker-box.jpg
+image: src/content/blog/images/how-to-use-a-smoker-box.jpg
 coverAlt: >-
   How to Use a Smoker Box on a Gas Grill - 2 Unique Methods and a Comprehensive
   Guide

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Steamer-Basket.jpg
+image: src/content/blog/images/Best-Steamer-Basket.jpg
 coverAlt: 9 Best Steamer Basket for Instant Pot and How to Use It
 description: >-
   If you're looking to enhance your cooking experience with your instant pot,

@@ -9,7 +9,7 @@ source: Heat Resistant Gloves
 slug: 10-best-heat-resistant-gloves-for-cooking
 pubDate: 2025-05-01
 modDate: 2025-02-19
-image: /images/Best-heat-resistant-gloves.jpg
+image: src/content/blog/images/Best-heat-resistant-gloves.jpg
 category: Bakeware
 author: Boniface Muriuki
 authorImage: /images/authors/chris-thompson.png

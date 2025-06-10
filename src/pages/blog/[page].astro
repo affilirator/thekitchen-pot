@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Layout from '@/layouts/Layout.astro';
 import type { CollectionEntry } from 'astro:content';
 import Sidebar from '@/components/blog/Sidebar.astro';
+import { Image, Picture } from 'astro:assets';
 
 export async function getStaticPaths() {
   const allPosts = await getCollection('blog');
@@ -58,8 +59,9 @@ const pageNumbers = Array.from(
         <article class="bg-white shadow-md rounded-lg overflow-hidden transition-transform hover:scale-[1.02] duration-200">
           {post.data.image && (
             <div class="aspect-video overflow-hidden">
-              <img
+              <Image
                 src={post.data.image}
+                inferSize
                 alt={post.data.title}
                 class="w-full h-full object-cover"
               />

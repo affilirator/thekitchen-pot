@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/under-cabinet-range-hood.jpg
+image: src/content/blog/images/under-cabinet-range-hood.jpg
 coverAlt: 8 Best Under Cabinet Range Hoods
 description: >-
   Having a well-equipped kitchen is essential for cooking enthusiasts.

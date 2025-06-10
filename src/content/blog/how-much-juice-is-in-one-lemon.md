@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-Much-Juice-Is-In-One-Lemon-1021x500-1.jpg
+image: src/content/blog/images/How-Much-Juice-Is-In-One-Lemon-1021x500-1.jpg
 coverAlt: How Much Juice is in One Lemon?
 description: >-
   Lemons are a versatile fruit with many crucial roles, from cleaning cookware

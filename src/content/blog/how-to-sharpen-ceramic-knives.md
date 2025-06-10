@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-Sharpen-Ceramic-Knives-690x430-1.jpg
+image: src/content/blog/images/How-to-Sharpen-Ceramic-Knives-690x430-1.jpg
 coverAlt: How to Sharpen Ceramic Knives - A Comprehensive Guide
 description: >-
   Sharpening ceramic knives can be a challenging task due to their extreme

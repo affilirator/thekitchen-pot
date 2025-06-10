@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-use-a-bamboo-steamer-2.jpg
+image: src/content/blog/images/How-to-use-a-bamboo-steamer-2.jpg
 coverAlt: How to Use a Bamboo Steamer
 description: >-
   Steaming is a wonderful way to cook your meals, preserving their natural

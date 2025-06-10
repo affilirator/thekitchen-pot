@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Rice-Cooker-for-Brown-Rice.jpg
+image: src/content/blog/images/Best-Rice-Cooker-for-Brown-Rice.jpg
 coverAlt: 7 Best Rice Cooker for Brown Rice - With a Buying Guide
 description: >-
   If you love cooking but struggle with preparing brown rice, you're not alone.

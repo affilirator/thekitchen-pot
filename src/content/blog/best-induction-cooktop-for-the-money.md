@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Induction-Cooktop.jpg
+image: src/content/blog/images/Best-Induction-Cooktop.jpg
 coverAlt: 5 Best Induction Cooktop for the Money - Buying Guide
 description: >-
   Induction cooking has transformed the way we prepare meals, offering faster

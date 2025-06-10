@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/milk-1.jpg
+image: src/content/blog/images/milk-1.jpg
 coverAlt: 10 Best Substitutes for Whole Milk (And How to Use Them)
 description: >-
   If you find yourself in a pinch without whole milk while baking or cooking,

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Masterbuilt-1.jpg
+image: src/content/blog/images/Masterbuilt-1.jpg
 coverAlt: How to Use Masterbuilt Electric Smoker - 5 Simple Steps
 description: >-
   If you're new to using the Masterbuilt electric smoker, don't worry! This

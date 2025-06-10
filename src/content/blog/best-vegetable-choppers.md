@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Vegetable-chopper-2.jpeg
+image: src/content/blog/images/Vegetable-chopper-2.jpeg
 coverAlt: 6 Best Vegetable Choppers - With a Comprehensive Buying Guide
 description: >-
   When preparing meals with a variety of vegetables, having the best vegetable

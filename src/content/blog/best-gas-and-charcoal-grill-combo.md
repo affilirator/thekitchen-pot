@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/The-5-Best-Gas-Charcoal-Grill-Combos-1024x536-1.jpg
+image: src/content/blog/images/The-5-Best-Gas-Charcoal-Grill-Combos-1024x536-1.jpg
 coverAlt: Best Gas and Charcoal Grill Combo for The Money
 description: >-
   As summer approaches, it's the perfect time for grilling season! Whether

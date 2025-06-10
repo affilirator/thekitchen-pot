@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/81e4CsbJrfL._AC_SL1500_.jpg
+image: src/content/blog/images/81e4CsbJrfL._AC_SL1500_.jpg
 coverAlt: 6 Best Magnetic Knife Strips - Honest Guide
 description: >-
   Working in a busy kitchen can be challenging, especially when dealing with

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/creamcheese-1.jpg
+image: src/content/blog/images/creamcheese-1.jpg
 coverAlt: Can You Freeze Cream Cheese? 2 Proven Methods to Use
 description: >-
   If you find yourself with cream cheese you can't use due to an emergency,

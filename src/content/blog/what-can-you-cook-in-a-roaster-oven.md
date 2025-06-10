@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Roaster-Oven.jpg
+image: src/content/blog/images/Roaster-Oven.jpg
 coverAlt: What Can You Cook In a Roaster Oven? 9 Incredible Foods
 description: >-
   The quintessential Thanksgiving dinner often features a perfectly roasted

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Homemade-Double-Boiler-500x334-2.jpg
+image: src/content/blog/images/Homemade-Double-Boiler-500x334-2.jpg
 coverAlt: How to Use a Double Boiler
 description: >-
   If you've ever struggled with melting chocolate over high heat, you're not

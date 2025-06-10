@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Blue-Diamond.jpg
+image: src/content/blog/images/Blue-Diamond.jpg
 coverAlt: Blue Diamond Cookware Review- Everything You Need to Know
 description: >-
   Owning a high-quality cookware set like Blue Diamond can enhance your cooking

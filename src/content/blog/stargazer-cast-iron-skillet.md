@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/stargazer-skillet-review-bottom-stamp-1.jpg
+image: src/content/blog/images/stargazer-skillet-review-bottom-stamp-1.jpg
 coverAlt: Stargazer Cast Iron Skillet - Is This the Best Skillet?
 description: >-
   The Stargazer cast iron skillet may not have a shiny finish, but it performs

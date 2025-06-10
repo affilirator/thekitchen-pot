@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Bakeware-set.png
+image: src/content/blog/images/Bakeware-set.png
 coverAlt: 5 Best Bakeware Sets for Beginners - A Comprehensive Guide
 description: >-
   Baking is not just a task, it's an art that connects your mind and body. The

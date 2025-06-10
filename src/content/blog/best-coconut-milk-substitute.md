@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/coconut-milk-substitute-1.jpg
+image: src/content/blog/images/coconut-milk-substitute-1.jpg
 coverAlt: 12 Best Coconut Milk Substitute for Unique Recipes
 description: >-
   If you're in need of a coconut milk substitute, this article provides 12

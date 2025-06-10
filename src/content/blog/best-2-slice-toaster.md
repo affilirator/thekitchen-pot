@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/toaster.jpg
+image: src/content/blog/images/toaster.jpg
 coverAlt: Best 2 Slice Toaster - Is It Worth Your Money?
 description: >-
   Waking up to the aroma of freshly toasted bread is a delightful experience

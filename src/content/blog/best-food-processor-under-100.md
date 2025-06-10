@@ -14,13 +14,12 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/The-Best-Food-Processor-Under-100.1..jpg
+image: src/content/blog/images/The-Best-Food-Processor-Under-100.1..jpg
 coverAlt: 6 Best Food Processor Under $ 100
 description: >-
   It can be overwhelming to find an affordable food processor that meets your
   needs, but this article aims to simplify the process for you. By carefully
-  reviewing the best food processors under $100, it provides a detailed analysis
-  of each product's pros and cons,
+  reviewing the best food processors under title: 6 Best Food Processor Under $ 100
 tags:
   - best-blenders
   - best-food-processors
@@ -29,7 +28,8 @@ category: Kitchenware
 seo: >-
   It is essential to have the best food processor in your kitchen if you want
   fun-filled cooking escapades. It helps you to grind, slice, and dice your
-  food. Here's an all-inclusive buying guide
+  food. Here's an all-inclusive buying guide00, it provides a detailed analysis
+  of each product's pros and cons
 ---
 
 It is [essential](https://thekitchenpot.com/blog/coolest-kitchen-appliances-to-buy//) to have the best food processor in your kitchen if you want fun-filled cooking escapades. It helps you to grind, slice, and dice your food items without a hassle, thus saving you energy and time.

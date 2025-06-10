@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Sushi-making-kit-1.jpg
+image: src/content/blog/images/Sushi-making-kit-1.jpg
 coverAlt: 6 Best Sushi Making Kit -Your Ultimate Buyers Guide
 description: >-
   If you love sushi but find it expensive to dine out frequently, consider

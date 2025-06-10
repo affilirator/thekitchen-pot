@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/how-to-cook-frozen-fries.jpg
+image: src/content/blog/images/how-to-cook-frozen-fries.jpg
 coverAlt: How to Cook Frozen French Fries in an Air Fryer - A Complete Guide
 description: >-
   Are you tired of the same old French fries from fast food restaurants? Learn

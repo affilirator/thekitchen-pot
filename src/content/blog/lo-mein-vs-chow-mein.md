@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Chow-Mein.jpg
+image: src/content/blog/images/Chow-Mein.jpg
 coverAlt: Lo Mein vs. Chow Mein - Are They Really Different?
 description: >-
   Chinese dishes like Lo Mein, Chow Mein, and Chop Suey are gaining popularity

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/how-to-open-coconut-2647735.jpg
+image: src/content/blog/images/how-to-open-coconut-2647735.jpg
 coverAlt: How to Crack Open a Coconut - 2 Most Effective Methods to Use
 description: >-
   Coconuts offer numerous health benefits with their rich fatty acids, fiber,

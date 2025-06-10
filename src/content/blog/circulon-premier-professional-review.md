@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/cicrulon-premier-proffesional-cookware-pots-and-pans.jpg
+image: src/content/blog/images/cicrulon-premier-proffesional-cookware-pots-and-pans.jpg
 coverAlt: Circulon Premier Professional Review - An Honest Guide
 description: >-
   Circulon Premier Professional cookware is a popular choice among cooking

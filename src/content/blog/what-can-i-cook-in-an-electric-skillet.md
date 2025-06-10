@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/What-to-cook-in-an-electric-skillet.jpg
+image: src/content/blog/images/What-to-cook-in-an-electric-skillet.jpg
 coverAlt: What Can I Cook in an Electric Skillet? 5 Irresistible Recipes
 description: >-
   Acquiring an electric skillet can truly enhance your cooking experience,

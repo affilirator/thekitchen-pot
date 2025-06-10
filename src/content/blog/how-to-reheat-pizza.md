@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Reheat-pizza.jpg
+image: src/content/blog/images/Reheat-pizza.jpg
 coverAlt: How to Reheat Pizza - 3 Reliable Methods
 description: >-
   If you've ever felt the pain of throwing away leftover pizza, this article is

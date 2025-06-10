@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/raw-chicken-in-fridge.jpg
+image: src/content/blog/images/raw-chicken-in-fridge.jpg
 coverAlt: How Long Does Chicken Last in the Fridge
 description: >-
   When buying a fridge, the goal is to reduce visits to the market, but be aware

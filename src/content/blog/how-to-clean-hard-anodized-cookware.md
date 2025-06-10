@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-Clean-Hard-Anodized-Cookware.jpg
+image: src/content/blog/images/How-to-Clean-Hard-Anodized-Cookware.jpg
 coverAlt: "How to Clean Hard Anodized Cookware\_- 3 Proven Techniques"
 description: >-
   For cooking enthusiasts, hard anodized cookware is a true blessing, offering

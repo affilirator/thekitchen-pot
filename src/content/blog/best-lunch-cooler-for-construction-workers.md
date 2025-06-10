@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/shutterstock_1395214505-2-1.jpg
+image: src/content/blog/images/shutterstock_1395214505-2-1.jpg
 coverAlt: 8 Best Lunch Cooler for Construction Workers
 description: >-
   Construction workers face strenuous duties and tough conditions, often feeling

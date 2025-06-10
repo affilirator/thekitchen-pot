@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/b8ab755f8711fe53cb72cf04ede49c5c-1.jpg
+image: src/content/blog/images/b8ab755f8711fe53cb72cf04ede49c5c-1.jpg
 coverAlt: Xtrema Cookware Review -Is it Really Non-Toxic?
 description: >-
   If you're a passionate cook concerned about the safety of non-stick pans,

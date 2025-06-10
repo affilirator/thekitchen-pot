@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/81N6CY3sqTL.jpg
+image: src/content/blog/images/81N6CY3sqTL.jpg
 coverAlt: HadinEEon Milk Frother Review - Is It Worth Your Money?
 description: >-
   If you're a latte and cappuccino lover, you know that the texture of the milk

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/how-to-use-an-electric-smoker.jpg
+image: src/content/blog/images/how-to-use-an-electric-smoker.jpg
 coverAlt: How to Use an Electric Smoker - A Reliable and Comprehensive Guide
 description: >-
   Smoking is an ancient cooking technique that dates back to the Old Stone Age,

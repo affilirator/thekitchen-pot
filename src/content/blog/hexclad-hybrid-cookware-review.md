@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/81vmEsqF5tL._AC_SL1475_-1-1.jpg
+image: src/content/blog/images/81vmEsqF5tL._AC_SL1475_-1-1.jpg
 coverAlt: HexClad Hybrid Cookware Reviews - Is It Worth Your Money?
 description: >-
   HexClad is a reputable brand known for its high-quality nonstick pans and

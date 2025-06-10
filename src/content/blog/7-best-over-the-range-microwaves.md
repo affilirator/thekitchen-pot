@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Over-the-range-microwaves.png
+image: src/content/blog/images/Over-the-range-microwaves.png
 coverAlt: 7 Best Over The Range Microwaves For Every Kitchen
 description: >-
   Over-the-range microwaves are essential for saving kitchen space and

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/top-best-woks.jpg
+image: src/content/blog/images/top-best-woks.jpg
 coverAlt: 9 Best Wok for Electric Stove
 description: >-
   Did you know that a wok is a versatile piece of cookware that can help you

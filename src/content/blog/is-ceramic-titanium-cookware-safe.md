@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/ceramic-titanium-safety-scaled.jpg
+image: src/content/blog/images/ceramic-titanium-safety-scaled.jpg
 coverAlt: Is Ceramic-Titanium Cookware Safe? Everything You Need to Know
 description: >-
   In this comprehensive guide on ceramic-titanium cookware, you'll find answers

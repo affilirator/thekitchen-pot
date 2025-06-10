@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-ductless-range-hoods.jpg
+image: src/content/blog/images/Best-ductless-range-hoods.jpg
 coverAlt: 6 Best Ductless Range Hood - With a Comprehensive Buyers Guide
 description: >-
   Technological advancements have revolutionized home equipment, especially in

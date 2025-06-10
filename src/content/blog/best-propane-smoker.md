@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/BEST-PROPANE-SMOKERS.png
+image: src/content/blog/images/BEST-PROPANE-SMOKERS.png
 coverAlt: 7 Best Propane Smoker - With a Comprehensive Buying Guide
 description: >-
   If you're looking for a convenient way to cook with a delicious smoky flavor,

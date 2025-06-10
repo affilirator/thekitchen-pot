@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Meat-slicers.jpg
+image: src/content/blog/images/Meat-slicers.jpg
 coverAlt: 8 Best Meat Slicer for Home Use
 description: >-
   If you're looking to streamline your cooking experience, investing in the best

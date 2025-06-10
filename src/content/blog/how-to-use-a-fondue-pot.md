@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/how-to-use-a-fondue-pot.jpg
+image: src/content/blog/images/how-to-use-a-fondue-pot.jpg
 coverAlt: How to Use a Fondue Pot -3 Unique Recipes
 description: >-
   A fondue pot is a versatile kitchen appliance with Swiss origins, perfect for

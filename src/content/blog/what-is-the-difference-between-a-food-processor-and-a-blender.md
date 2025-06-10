@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/blenders-vs-food-processors.jpg
+image: src/content/blog/images/blenders-vs-food-processors.jpg
 coverAlt: What Is The Difference Between A Food Processor And A Blender?
 description: >-
   Are you confused about the difference between a food processor and a blender?

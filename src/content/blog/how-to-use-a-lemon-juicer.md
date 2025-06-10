@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Lemon-juicer.jpg
+image: src/content/blog/images/Lemon-juicer.jpg
 coverAlt: How to Use a Lemon Juicer Perfectly - 3 Best Methods
 description: >-
   For many cooks, using a lemon squeezer can be a challenging task, leading to

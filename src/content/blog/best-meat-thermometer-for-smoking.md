@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/best-meat-thermometer-for-smoker-grill.jpg
+image: src/content/blog/images/best-meat-thermometer-for-smoker-grill.jpg
 coverAlt: 9 Best Meat Thermometer for Smoking
 description: >-
   If you're tired of dry overcooked meat ruining your BBQ experience, it's time

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-blender-for-protein-shakes.jpg
+image: src/content/blog/images/Best-blender-for-protein-shakes.jpg
 coverAlt: Best Blender for Protein Shakes - Is It Worth It?
 description: >-
   If you're in search of the best blender for protein shakes, it's essential to

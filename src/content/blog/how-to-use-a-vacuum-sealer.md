@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/2-How-to-Use-a-vacuum-sealer-edited-1.jpg
+image: src/content/blog/images/2-How-to-Use-a-vacuum-sealer-edited-1.jpg
 coverAlt: How to Use a Vacuum Sealer in 5 Simple Steps
 description: >-
   Having a vacuum sealer can be a game-changer, especially when it comes to

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Hand-Mixer.jpg
+image: src/content/blog/images/Best-Hand-Mixer.jpg
 coverAlt: 6 Best Hand Mixers - With a Comprehensive Buyers Guide
 description: >-
   If you're looking to enhance your baking experience, investing in the best

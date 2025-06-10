@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Group_10_1512x.jpg
+image: src/content/blog/images/Group_10_1512x.jpg
 coverAlt: 360 Cookware Reviews - Is It Worth the Money?
 description: >-
   360 Cookware is hand-crafted in a Green E-Certified factory in West Bend,

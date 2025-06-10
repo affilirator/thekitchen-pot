@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Induction-cooktop.jpg
+image: src/content/blog/images/Induction-cooktop.jpg
 coverAlt: How To Use Non Induction Cookware On Induction Cooktop
 description: >-
   We understand the frustration of buying cookware that doesn't work with your

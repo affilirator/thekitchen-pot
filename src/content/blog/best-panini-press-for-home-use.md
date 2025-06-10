@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Panini-Press.jpg
+image: src/content/blog/images/Best-Panini-Press.jpg
 coverAlt: 6 Best Panini Press for Home Use - A Comprehensive Guide
 description: >-
   Are you tired of boring, cold sandwiches? Say goodbye to uninspiring meals and

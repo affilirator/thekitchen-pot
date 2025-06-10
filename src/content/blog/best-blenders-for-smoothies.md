@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Blender-for-Smoothies.jpg
+image: src/content/blog/images/Best-Blender-for-Smoothies.jpg
 coverAlt: 6 Best Blenders for Smoothies - Why You Need One
 description: >-
   Blending your own smoothies at home can be a delightful experience, especially

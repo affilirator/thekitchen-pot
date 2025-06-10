@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/hot-dog-steamer.jpg
+image: src/content/blog/images/hot-dog-steamer.jpg
 coverAlt: 10 Best Hot Dog Steamer and Bun Warmer - A Complete Buying Guide
 description: >-
   If you're a hot dog enthusiast, having the best hot dog steamer and bun warmer

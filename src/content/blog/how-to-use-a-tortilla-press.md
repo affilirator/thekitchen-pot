@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-Use-a-Tortilla-Press.jpg
+image: src/content/blog/images/How-to-Use-a-Tortilla-Press.jpg
 coverAlt: How to Use a Tortilla Press for the Best Tortillas
 description: >-
   Homemade tortillas are a delicious treat that adds a special touch to any

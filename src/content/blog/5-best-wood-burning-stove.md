@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-burner.jpg
+image: src/content/blog/images/Best-burner.jpg
 coverAlt: 6 Best Wood Burning Stoves - Why They Are Necessary
 description: >-
   If you're tired of high energy bills during the winter and want a more

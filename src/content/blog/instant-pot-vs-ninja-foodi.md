@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Instant-Pot-vs-Ninja-Foodi.jpg
+image: src/content/blog/images/Instant-Pot-vs-Ninja-Foodi.jpg
 coverAlt: 'Instant Pot Vs Ninja Foodi: Which is Better for Your Kitchen?'
 description: >-
   If you're feeling overwhelmed with kitchen tasks, consider investing in either

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Cornstarch.jpg
+image: src/content/blog/images/Cornstarch.jpg
 coverAlt: What to Use Instead of Cornstarch - 5 Healthy Substitutes
 description: >-
   If you're unable to access cornstarch for your cooking needs, fret not, as

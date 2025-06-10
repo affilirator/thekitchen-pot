@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/best-masticating-juicer.jpg
+image: src/content/blog/images/best-masticating-juicer.jpg
 coverAlt: 6 Best Commercial Masticating Juicers for the Money
 description: >-
   Starting your day with a healthy breakfast is essential, and a glass of juice

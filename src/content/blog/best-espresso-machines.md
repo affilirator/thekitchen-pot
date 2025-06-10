@@ -14,13 +14,12 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-espresso-machine.jpg
+image: src/content/blog/images/Best-espresso-machine.jpg
 coverAlt: 6 Best Espresso Machines for Commercial and Home Use
 description: >-
   Are you feeling overwhelmed by the variety of espresso machines available?
   Don't worry, you can find your ideal espresso machine within your budget!
-  Whether it's under $100 or over $2000, there are choices for everyone. Owning
-  an espresso machine
+  Whether it's under title: 6 Best Espresso Machines for Commercial and Home Use
 tags:
   - best-coffee-maker-with-grinder
   - best-espresso-and-cappuccino-maker
@@ -29,7 +28,9 @@ category: Beverages Equipment
 seo: >-
   Are you among the majority that believes that the best espresso machines are a
   reserve of cafes and restaurants? Well, you can get this machine at affordable
-  rates for home use. This is a guide.
+  rates for home use. This is a guide.00 or over $2000, there are choices for everyone. Owning
+  an espresso machine
+
 ---
 
 Are you among the majority that believes that the best [espresso machines](https://en.wikipedia.org/wiki/Espresso_machine) are a reserve of cafes and restaurants?

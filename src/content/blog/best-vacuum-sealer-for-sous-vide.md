@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/best-vacuum-sealer.jpg
+image: src/content/blog/images/best-vacuum-sealer.jpg
 coverAlt: 8 Best Vacuum Sealer for Sous Vide - A Comprehensive Guide
 description: >-
   If you love cooking using sous vide, having the best vacuum sealer for sous

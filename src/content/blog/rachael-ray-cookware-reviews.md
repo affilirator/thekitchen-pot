@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/81qGGSN2YzL._AC_SL1500_-2.jpg
+image: src/content/blog/images/81qGGSN2YzL._AC_SL1500_-2.jpg
 coverAlt: 'Rachael Ray Cookware Reviews: Great Value Pots'
 description: >-
   When it comes to choosing quality cookware, investing in a Rachael Ray set can

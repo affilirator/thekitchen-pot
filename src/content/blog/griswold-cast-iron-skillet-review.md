@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Griswold-cast-iron-skillet-size-10-1.jpg
+image: src/content/blog/images/Griswold-cast-iron-skillet-size-10-1.jpg
 coverAlt: Griswold Cast Iron Skillet Reviews -Are They Really Worth It?
 description: >-
   The Griswold cast iron skillet is highly sought after due to its exceptional

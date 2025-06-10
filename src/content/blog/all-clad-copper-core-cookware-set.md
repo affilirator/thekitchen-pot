@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/61NGo5lAE0L._AC_SX466_.jpg
+image: src/content/blog/images/61NGo5lAE0L._AC_SX466_.jpg
 coverAlt: All-Clad Copper Core Cookware Set - How Unique Is It?
 description: >-
   The All-Clad Copper Core Cookware Set, though expensive, is heavy and durable,

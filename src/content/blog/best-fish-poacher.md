@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Fish-Poacher.jpg
+image: src/content/blog/images/Best-Fish-Poacher.jpg
 coverAlt: 10 Best Fish Poacher - Which One is Best for You?
 description: >-
   If you love cooking fish, investing in the best fish poacher can revolutionize

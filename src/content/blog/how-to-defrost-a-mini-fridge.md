@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-To-Defrost-a-Mini-Fridge.jpg
+image: src/content/blog/images/How-To-Defrost-a-Mini-Fridge.jpg
 coverAlt: How to Defrost a Mini Fridge - 2 Superior Methods
 description: >-
   If you've recently purchased a mini fridge for cold beverages, it's important

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/51pTwk6iiRL._AC_SL1000_.jpg
+image: src/content/blog/images/51pTwk6iiRL._AC_SL1000_.jpg
 coverAlt: Pots and Pans Rack- This Is How to Choose the Best
 description: >-
   Did you know that a cluttered kitchen can increase the risk of accidents by

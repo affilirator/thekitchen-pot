@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/default-cover.jpg
+image: src/content/blog/images/default-cover.jpg
 coverAlt: The Best Porcelain Kitchen Sink With Drainboard
 description: >-
   Looking for a new kitchen sink can be overwhelming, but with the right

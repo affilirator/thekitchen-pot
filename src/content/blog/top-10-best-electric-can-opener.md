@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Electric-Can-Openers.png
+image: src/content/blog/images/Best-Electric-Can-Openers.png
 coverAlt: Top 10 Best Electric Can Openers - Why You Should Own One
 description: >-
   If you're tired of struggling with manual can openers and want to simplify

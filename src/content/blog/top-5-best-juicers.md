@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Juicer.jpg
+image: src/content/blog/images/Best-Juicer.jpg
 coverAlt: Top 6 Best Juicers - With a Comprehensive Buyers Guide
 description: >-
   Investing in the best juicer can bring unmatched convenience and allow you to

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/how-to-season-a-stainless-steel-pan.jpg
+image: src/content/blog/images/how-to-season-a-stainless-steel-pan.jpg
 coverAlt: How to Season Stainless Steel Pans - The Ultimate Guide (4 Steps)
 description: >-
   When using your stainless steel pans for the first time, it's important to

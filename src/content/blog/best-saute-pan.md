@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-saute-pan.jpg
+image: src/content/blog/images/Best-saute-pan.jpg
 coverAlt: 9 Best Sauté Pans With Lids- a Comprehensive Buying Guide
 description: >-
   When it comes to enhancing your culinary skills, having the best sauté pan is

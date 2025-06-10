@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/under-500.jpg
+image: src/content/blog/images/under-500.jpg
 coverAlt: 8 Best Gas Grills Under 500 - Tested and Proven
 description: >-
   Are you in search of quality gas grills under $500? Look no further! Our

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/inst.jpg
+image: src/content/blog/images/inst.jpg
 coverAlt: Instant Pot vs Pressure Cooker - Everything You Need to Know
 description: >-
   Are you torn between choosing an instant pot or a pressure cooker? We

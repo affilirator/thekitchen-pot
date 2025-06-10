@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/81wYwEXTswL._AC_SL1500_.jpg
+image: src/content/blog/images/81wYwEXTswL._AC_SL1500_.jpg
 coverAlt: Ninja Foodi Cookware Set Reviews - Premium Neverstick Pans
 description: >-
   Investing in a high-quality cookware set is essential for any serious chef.

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Top-Awesome-Electric-Potato-Peelers-for-Your-Budget.jpg
+image: src/content/blog/images/Top-Awesome-Electric-Potato-Peelers-for-Your-Budget.jpg
 coverAlt: 8 Best Electric Potato Peeler - With a Comprehensive Buying Guide
 description: >-
   If you're tired of the manual task of peeling potatoes, investing in the best

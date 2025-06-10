@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Keurig.jpg
+image: src/content/blog/images/Keurig.jpg
 coverAlt: Top 5 Keurig Coffee Makers- Everything You Need to Know
 description: >-
   If you're looking for the perfect cup of coffee to start your day, investing

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Cast-Iron-on-Glass-Top.jpg
+image: src/content/blog/images/Cast-Iron-on-Glass-Top.jpg
 coverAlt: How to Protect Glass Top Stove from Cast Iron Cookware
 description: >-
   Glass top stoves can add elegance to your kitchen, but can be difficult to

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-bread-proofing-baskets.png
+image: src/content/blog/images/Best-bread-proofing-baskets.png
 coverAlt: 5 Best Bread Proofing Basket Reviews
 description: >-
   Becoming a baker can be a compelling journey, whether as a career or hobby.

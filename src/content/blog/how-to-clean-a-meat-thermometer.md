@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/pop-meat-thermometers-1636735566.jpg
+image: src/content/blog/images/pop-meat-thermometers-1636735566.jpg
 coverAlt: How To Clean A Meat Thermometer in 4 Steps- Back To Basics
 description: >-
   If you're a BBQ enthusiast, ensuring perfect doneness every time is crucial,

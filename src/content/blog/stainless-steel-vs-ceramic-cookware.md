@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Ceramic-Cookware-Vs-Stainless-Steel-Cookware.jpg
+image: src/content/blog/images/Ceramic-Cookware-Vs-Stainless-Steel-Cookware.jpg
 coverAlt: 'Stainless Steel vs Ceramic cookware: Which is Best For You?'
 description: >-
   Choosing between stainless steel and ceramic cookware can be a daunting task

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Le-Creuset-Price.jpg
+image: src/content/blog/images/Le-Creuset-Price.jpg
 coverAlt: Le Creuset Cast Iron Skillet - Is it Worth It?
 description: >-
   Le Creuset cast iron skillets are not cheap. But are they worth the

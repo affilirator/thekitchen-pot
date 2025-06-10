@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Pizza-Stone.jpg
+image: src/content/blog/images/Best-Pizza-Stone.jpg
 coverAlt: 6 Best Pizza Stones for Irresistible pizzas- An All-Inclusive Guide
 description: >-
   Are you looking to save money while still enjoying your favorite pizza?

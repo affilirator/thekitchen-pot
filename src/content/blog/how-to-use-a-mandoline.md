@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-use-a-mandoline.jpg
+image: src/content/blog/images/How-to-use-a-mandoline.jpg
 coverAlt: 'How to Use a Mandoline Perfectly: A Complete Guide'
 description: >-
   If you're feeling unsure about how to use a mandoline, don't worry, we've got

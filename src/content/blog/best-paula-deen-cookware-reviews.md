@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Paula-Deen-Cookware.jpg
+image: src/content/blog/images/Paula-Deen-Cookware.jpg
 coverAlt: 5 Best Paula Deen Cookware Reviews - Including Frequently Asked Questions
 description: >-
   If you love cooking and appreciate sophisticated kitchenware, the Paula Deen

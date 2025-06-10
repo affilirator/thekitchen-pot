@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Smoker-box-for-gas-grills.jpg
+image: src/content/blog/images/Smoker-box-for-gas-grills.jpg
 coverAlt: 8 Best Smoker Box for Gas Grill
 description: >-
   Did you know that you can turn your gas grill into smokers with the best

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Sardel_FinalEdit_40119-13-1.jpg
+image: src/content/blog/images/Sardel_FinalEdit_40119-13-1.jpg
 coverAlt: Sardel Cookware Review - Is this Direct-to-Consumer Brand Worth Your Money?
 description: >-
   No kitchen is complete without a stainless steel cookware set, and Sardel has

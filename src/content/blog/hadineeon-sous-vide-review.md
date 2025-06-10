@@ -15,7 +15,7 @@ authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
 image: >-
-  /images/HadinEEon-Sous-Vide-IPX7-Waterproof-1000W-Fast-Heating-and-Quiet-Operation-Cooking-Machine_-White-HadinEEon-1631587269-1.jpg
+  src/content/blog/images/HadinEEon-Sous-Vide-IPX7-Waterproof-1000W-Fast-Heating-and-Quiet-Operation-Cooking-Machine_-White-HadinEEon-1631587269-1.jpg
 coverAlt: HadinEEon Sous Vide - Is this the Best Alternative to Anova?
 description: >-
   Looking to elevate your cooking game? The HadinEEon Sous Vide Precision Cooker

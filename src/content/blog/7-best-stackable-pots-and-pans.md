@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/81vRJO2S0PL._AC_SL1500_.jpg
+image: src/content/blog/images/81vRJO2S0PL._AC_SL1500_.jpg
 coverAlt: 7 Best stackable pots and pans for the Money
 description: >-
   Are you looking to optimize your kitchen space? Consider investing in

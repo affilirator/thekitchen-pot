@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Side-by-Side-Refrigerator.jpg
+image: src/content/blog/images/Best-Side-by-Side-Refrigerator.jpg
 coverAlt: 9 Best Side By Side Refrigerator - Why You Should Own One
 description: >-
   When it comes to refrigerators, the best side by side refrigerator offers

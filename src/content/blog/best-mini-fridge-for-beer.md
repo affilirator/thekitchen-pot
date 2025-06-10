@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-mini-fridge-for-beer.jpg
+image: src/content/blog/images/Best-mini-fridge-for-beer.jpg
 coverAlt: "6 Best Mini Fridge for Beer\_for the Most Refreshing Beers"
 description: >-
   If you love enjoying a cold beer on a hot summer day, having the best mini

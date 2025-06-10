@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Dinnerware-Set.jpg
+image: src/content/blog/images/Best-Dinnerware-Set.jpg
 coverAlt: 8 Best Dinnerware Sets - With an All-Inclusive Buying Guide
 description: >-
   When it comes to serving your guests, the presentation of your meals is just

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Pancake-Griddle.jpg
+image: src/content/blog/images/Best-Pancake-Griddle.jpg
 coverAlt: 10 Best Griddle Pan for Pancakes for the Money
 description: >-
   Are you looking for the perfect griddle pan to make delicious pancakes? This

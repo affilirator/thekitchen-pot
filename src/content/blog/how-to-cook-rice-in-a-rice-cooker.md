@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/ricecooker-2x1-fullres-4876-630x420-2.jpg
+image: src/content/blog/images/ricecooker-2x1-fullres-4876-630x420-2.jpg
 coverAlt: How to Cook Rice in a Rice Cooker
 description: >-
   If you've been struggling with your new rice cooker and feeling overwhelmed by

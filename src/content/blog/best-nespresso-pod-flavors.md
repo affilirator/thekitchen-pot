@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Nespresso-Capsules.jpg
+image: src/content/blog/images/Best-Nespresso-Capsules.jpg
 coverAlt: 9 Best Nespresso Pod Flavors and How to Use Them
 description: >-
   Many people enjoy the process of making coffee at home, and for those with a

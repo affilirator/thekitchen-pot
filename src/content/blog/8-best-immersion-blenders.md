@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Immersion-Blenders.jpg
+image: src/content/blog/images/Best-Immersion-Blenders.jpg
 coverAlt: 8 Best Immersion Blenders - With a Comprehensive Buyers Guide
 description: >-
   When it comes to living healthy and incorporating antioxidants into your diet,

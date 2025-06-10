@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Calphalon-Contemporary-Nonstick-Cookware​.jpg
+image: src/content/blog/images/Calphalon-Contemporary-Nonstick-Cookware​.jpg
 coverAlt: Top 9 Best Nonstick Pans-With a Buying Guide
 description: >-
   Finding the perfect nonstick pan can be a daunting task, especially when

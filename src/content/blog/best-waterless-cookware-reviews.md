@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Waterless-Cooking.jpg
+image: src/content/blog/images/Waterless-Cooking.jpg
 coverAlt: 8 Best Waterless Cookware Sets Reviews for the Money
 description: >-
   Waterless cooking is a unique technique that minimizes the use of water when

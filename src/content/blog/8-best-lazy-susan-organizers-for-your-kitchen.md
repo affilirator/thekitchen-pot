@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Lazy-Susan-Organizers.jpg
+image: src/content/blog/images/Best-Lazy-Susan-Organizers.jpg
 coverAlt: 8 Best Lazy Susan Organizers for Your Kitchen
 description: >-
   Are you feeling overwhelmed by the clutter in your kitchen? The constant

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/best-waffle-maker-with-removable-plates.jpeg
+image: src/content/blog/images/best-waffle-maker-with-removable-plates.jpeg
 coverAlt: Best Waffle Maker with Removable Plates - With a Buyers Guide
 description: >-
   If you love the heavenly smell of freshly baked waffles, choosing the best

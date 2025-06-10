@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Cleaning-ceramic.jpg
+image: src/content/blog/images/Cleaning-ceramic.jpg
 coverAlt: How to Clean Ceramic Pan - 3 Interesting Techniques That Work
 description: >-
   Have you ever wondered about the history of ceramic cookware and how it has

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Metal-Spatula-for-Your-Kitchen.jpg
+image: src/content/blog/images/Best-Metal-Spatula-for-Your-Kitchen.jpg
 coverAlt: 6 Best Metal Spatula Sets - Which One is Right for You?
 description: >-
   Spatulas may seem simple, but they are essential tools in any kitchen. They

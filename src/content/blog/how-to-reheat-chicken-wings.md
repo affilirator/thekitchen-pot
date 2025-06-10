@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-reheat-chicken-wings.jpg
+image: src/content/blog/images/How-to-reheat-chicken-wings.jpg
 coverAlt: How to Reheat Chicken Wings - 5 Reliable Techniques Guide
 description: >-
   Are you worried about how to reheat your delicious chicken wings without

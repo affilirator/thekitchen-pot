@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-ceramic-cookware.jpg
+image: src/content/blog/images/Best-ceramic-cookware.jpg
 coverAlt: 8 Best Ceramic Cookware Set - With a Complete Buying Guide
 description: >-
   Are you feeling overwhelmed trying to find the best ceramic cookware set? It

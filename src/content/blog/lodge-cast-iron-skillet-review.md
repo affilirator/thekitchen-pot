@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Lodge-cast.jpg
+image: src/content/blog/images/Lodge-cast.jpg
 coverAlt: Lodge Cast Iron Skillet Review - 6 Reasons Why It Is Popular
 description: >-
   Lodge cast iron is a popular cookware in the US. Let's find out the reasons

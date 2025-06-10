@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/how-to-clean-an-electric-kettle.jpg
+image: src/content/blog/images/how-to-clean-an-electric-kettle.jpg
 coverAlt: How to Clean an Electric Kettle - 4 Proven Techniques
 description: >-
   If you've noticed brown residue in your electric kettle, don't worry, it's

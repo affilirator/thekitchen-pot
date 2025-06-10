@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Pressure_Cooking_Today_Instant_Pot_Duo_Nova_Review_0013-800-1.jpg
+image: src/content/blog/images/Pressure_Cooking_Today_Instant_Pot_Duo_Nova_Review_0013-800-1.jpg
 coverAlt: How Many Watts Does An Instant Pot Use?
 description: >-
   Many people are worried about the energy consumption of electric appliances,

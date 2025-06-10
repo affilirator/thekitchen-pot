@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/best-oil-for-air-fryer.jpg
+image: src/content/blog/images/best-oil-for-air-fryer.jpg
 coverAlt: 10 Best Oil for Air Fryer -What is So Special About Them?
 description: >-
   Buying the best oil for air fryers is essential for enhancing your cooking

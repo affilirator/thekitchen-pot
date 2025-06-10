@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best_Electric_Fillet_Knife-1.jpg
+image: src/content/blog/images/Best_Electric_Fillet_Knife-1.jpg
 coverAlt: Best Electric Fillet Knife - Proven Tips on How to Choose One
 description: >-
   When it comes to fish filleting, investing in the best electric fillet knife

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/stamped.jpg
+image: src/content/blog/images/stamped.jpg
 coverAlt: 'Forged vs. Stamped Knives: Which is Better for You?'
 description: >-
   Investing in a good knife set is essential for any homeowner, as knives play a

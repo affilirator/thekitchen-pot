@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Knife-Sharpener.jpg
+image: src/content/blog/images/Knife-Sharpener.jpg
 coverAlt: 7 Best Knife Sharpener - Which One is Best for You?
 description: >-
   Having the best knife sharpener in your kitchen can significantly reduce your

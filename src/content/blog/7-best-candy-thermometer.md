@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Reviews-of-Best-Candy-Thermometer.png
+image: src/content/blog/images/Reviews-of-Best-Candy-Thermometer.png
 coverAlt: 7 Best Candy Thermometer - With a Comprehensive Buyers Guide
 description: >-
   If you're looking to improve your candy-making skills, a candy thermometer is

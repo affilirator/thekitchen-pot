@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Sausages-1.jpg
+image: src/content/blog/images/Sausages-1.jpg
 coverAlt: How to Cook Sausages in the Oven
 description: >-
   If you're in a hurry and hungry, consider cooking sausages in the oven for a

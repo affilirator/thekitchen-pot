@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/816ZmLJKXqS._AC_SL1500_-2.jpg
+image: src/content/blog/images/816ZmLJKXqS._AC_SL1500_-2.jpg
 coverAlt: Best Cookware Set Under $200
 description: >-
   If you're on a limited budget and can't afford the high-end cookware sets that

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-Use-Oster-Rice-Cooker.jpg
+image: src/content/blog/images/How-to-Use-Oster-Rice-Cooker.jpg
 coverAlt: How to Use an Oster Rice Cooker - A Comprehensive Guide
 description: >-
   Did you know that approximately 3.5 billion people globally depend on rice for

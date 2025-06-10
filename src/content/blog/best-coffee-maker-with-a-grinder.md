@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Coffee-Makers-with-Grinders-Reviews-.jpg
+image: src/content/blog/images/Best-Coffee-Makers-with-Grinders-Reviews-.jpg
 coverAlt: Best Coffee Maker with a Grinder
 description: >-
   Are you looking for the perfect way to start your day with a delicious cup of

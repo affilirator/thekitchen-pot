@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/you-can-hack-your-keurig-to-brew-stronger-coffee-1597666419.jpg
+image: src/content/blog/images/you-can-hack-your-keurig-to-brew-stronger-coffee-1597666419.jpg
 coverAlt: How to Use a Keurig Coffee Maker Machine
 description: >-
   If you're struggling to operate your Keurig Coffee Maker Machine, don't worry.

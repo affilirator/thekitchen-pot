@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/how-long-do-potatoes-last-1020x510-1.jpg
+image: src/content/blog/images/how-long-do-potatoes-last-1020x510-1.jpg
 coverAlt: How Long Do Potatoes Last? Unique Storage Tips
 description: >-
   Potatoes are a staple in many households but understanding how to store them

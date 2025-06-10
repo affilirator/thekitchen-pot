@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Tea-Kettle-for-Gas-Stove.jpg
+image: src/content/blog/images/Tea-Kettle-for-Gas-Stove.jpg
 coverAlt: Best Tea Kettle for Gas Stove - A Guide
 description: >-
   If you're in search of the best tea kettle for a gas stove, look no further!

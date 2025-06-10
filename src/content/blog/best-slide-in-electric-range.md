@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Electric-range.jpeg
+image: src/content/blog/images/Electric-range.jpeg
 coverAlt: 8 Best Slide-In Electric Range Under 100
 description: >-
   Looking for the best slide-in electric range to enhance your kitchen? This

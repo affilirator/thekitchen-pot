@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/61l3cbNN9mL._AC_SL1024_-1.jpg
+image: src/content/blog/images/61l3cbNN9mL._AC_SL1024_-1.jpg
 coverAlt: Red Copper Cookware Reviews - Are They Really Nonstick?
 description: >-
   In the world of red copper cookware, there is a lot of hype and confusion.

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-Egg-Cooker.jpg
+image: src/content/blog/images/Best-Egg-Cooker.jpg
 coverAlt: Best Hard Boiled Egg Cooker and How it Works
 description: >-
   Are you in search of the perfect hard boiled egg cooker? Look no further! This

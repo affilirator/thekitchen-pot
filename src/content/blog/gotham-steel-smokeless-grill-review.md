@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Gotham-Steel-Smokeless-Grill.jpg
+image: src/content/blog/images/Gotham-Steel-Smokeless-Grill.jpg
 coverAlt: Gotham Steel Smokeless Grill Review - Is It Really Smokeless?
 description: >-
   If you're new to grilling and looking for the perfect smokeless grill, the

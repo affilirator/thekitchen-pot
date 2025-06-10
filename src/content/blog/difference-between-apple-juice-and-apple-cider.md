@@ -15,7 +15,7 @@ authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
 image: >-
-  /images/what-is-the-difference-between-apple-juice-and-apple-cider-chowhound.png
+  src/content/blog/images/what-is-the-difference-between-apple-juice-and-apple-cider-chowhound.png
 coverAlt: What Is the Difference Between Apple Juice and Apple Cider?
 description: >-
   When fall arrives, it's the perfect time to indulge in juicing, with apples

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/cleaning-an-air-fryer-basket-scaled.jpg
+image: src/content/blog/images/cleaning-an-air-fryer-basket-scaled.jpg
 coverAlt: How to Clean an Air Fryer basket -Simple Yet Effective Techniques
 description: >-
   If you've been struggling with how to clean your air fryer basket, worry no

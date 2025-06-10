@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/best-kitchen-gadgets..jpg
+image: src/content/blog/images/best-kitchen-gadgets..jpg
 coverAlt: 12 Coolest Kitchen Appliances for the Money
 description: >-
   Did you know that Americans spend a significant amount of time in the kitchen,

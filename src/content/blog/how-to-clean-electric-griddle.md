@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Clean-a-griddle.jpg
+image: src/content/blog/images/Clean-a-griddle.jpg
 coverAlt: How to Clean Electric Griddle Fast - A Complete Guide
 description: >-
   Are you struggling with cleaning your electric griddle after preparing

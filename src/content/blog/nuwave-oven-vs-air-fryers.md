@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Air-Fryer-Vs-Nuwave-Oven-1.jpg
+image: src/content/blog/images/Air-Fryer-Vs-Nuwave-Oven-1.jpg
 coverAlt: NuWave Oven vs Air Fryers - Which is Better?
 description: >-
   In the world of cooking appliances, the emergence of air fryers and nuwave

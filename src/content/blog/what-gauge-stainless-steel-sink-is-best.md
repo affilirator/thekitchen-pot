@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-gauge.jpg
+image: src/content/blog/images/Best-gauge.jpg
 coverAlt: What Gauge Stainless Steel Sink Is Best? 16 vs 18 Inches Complete Guide
 description: >-
   Stainless steel sinks are a popular choice for many kitchens, with 16-inch and

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Top-5-Ice-Makers.jpg
+image: src/content/blog/images/Top-5-Ice-Makers.jpg
 coverAlt: 5 Best Ice Maker for Home Use - Why You Should Own One
 description: >-
   If you find yourself constantly needing ice, investing in the best ice maker

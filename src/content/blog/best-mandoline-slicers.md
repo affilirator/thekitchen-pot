@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Mandoline-slicer.jpg
+image: src/content/blog/images/Mandoline-slicer.jpg
 coverAlt: 10 Best Mandoline Slicers - With a Comprehensive Buyers' Guide
 description: >-
   If you're in search of the perfect mandoline slicer for uniform vegetable

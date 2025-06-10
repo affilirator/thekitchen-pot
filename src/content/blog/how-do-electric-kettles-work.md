@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/default-cover.jpg
+image: src/content/blog/images/default-cover.jpg
 coverAlt: How Do Electric Kettles Work? Complete Guide
 description: >-
   Owning an electric kettle is essential for any tea lover, as it quickly boils

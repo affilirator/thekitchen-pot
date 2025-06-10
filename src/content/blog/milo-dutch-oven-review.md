@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Milo-Dutch-Oven.jpg
+image: src/content/blog/images/Milo-Dutch-Oven.jpg
 coverAlt: Milo Dutch Oven Review -  Why It Is Worth Your Money
 description: >-
   If you're looking for a high-quality Dutch oven that won't break the bank, the

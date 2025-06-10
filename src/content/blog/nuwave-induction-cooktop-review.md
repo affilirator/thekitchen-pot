@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Nuwave-Induction-Cooktop.jpg
+image: src/content/blog/images/Nuwave-Induction-Cooktop.jpg
 coverAlt: NuWave Induction Cooktop Review - 3 Reasons You Should Have It
 description: >-
   Cooking from your kitchen can sometimes feel monotonous, especially if you're

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-stockpot-with-a-lid.jpg
+image: src/content/blog/images/Best-stockpot-with-a-lid.jpg
 coverAlt: 8 Best Stockpot with a Lid -Your Ultimate Buying Guide
 description: >-
   This content might contain affiliate links. We use affiliate links to support

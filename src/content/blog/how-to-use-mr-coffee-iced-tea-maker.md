@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Coffee-Coffee.jpg
+image: src/content/blog/images/Coffee-Coffee.jpg
 coverAlt: How to Use Mr. Coffee Iced Tea Maker - 6 Simple Steps
 description: >-
   Fall/autumn is a time of joy, with warm weather and beautiful sunrises to

@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/8-Best-Cookware-for-Induction-Cooktop.jpg
+image: src/content/blog/images/8-Best-Cookware-for-Induction-Cooktop.jpg
 coverAlt: 8 Best Cookware for Induction Cooktop for the Money
 description: >-
   If you're feeling overwhelmed by the vast options of cookware for induction

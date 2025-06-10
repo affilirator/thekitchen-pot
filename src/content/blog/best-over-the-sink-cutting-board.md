@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/cutting-boards.jpg
+image: src/content/blog/images/cutting-boards.jpg
 coverAlt: 10 Best Over the Sink Cutting Board to Make Food Prep a Breeze
 description: >-
   If you're looking to expand your cutting space and make meal prep more

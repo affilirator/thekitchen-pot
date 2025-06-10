@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/salt.jpg
+image: src/content/blog/images/salt.jpg
 coverAlt: 8 Best Salt and Pepper Grinders for the Money
 description: >-
   Are you looking for an effortless way to enhance the flavor of your food?

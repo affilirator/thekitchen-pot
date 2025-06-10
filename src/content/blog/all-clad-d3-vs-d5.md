@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/all-clad-d3-vs-d5-vs-d7.png
+image: src/content/blog/images/all-clad-d3-vs-d5-vs-d7.png
 coverAlt: 'All-Clad D3 vs D5: Which is Better?'
 description: >-
   If you're considering investing in an All-Clad cookware set, you'll likely

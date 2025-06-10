@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/7-best-infrared-grills.jpg
+image: src/content/blog/images/7-best-infrared-grills.jpg
 coverAlt: 7 Best Infrared Grills for the Money
 description: >-
   If you're a fan of perfectly grilled barbecue, the best infrared grills for

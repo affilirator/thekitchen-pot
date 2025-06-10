@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/How-to-clean-stainless-steel-pans.jpg
+image: src/content/blog/images/How-to-clean-stainless-steel-pans.jpg
 coverAlt: How to Clean Stainless Steel Pans - 5 Unique Methods
 description: >-
   Taking care of your stainless steel pans is crucial for their longevity and

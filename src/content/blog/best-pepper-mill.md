@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Best-pepper-mills.jpg
+image: src/content/blog/images/Best-pepper-mills.jpg
 coverAlt: 10 Best Pepper Mill - With a Comprehensive Buyer's Guide
 description: >-
   If you're looking to enhance the flavor of your dishes with freshly ground

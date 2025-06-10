@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/IMG_7772-measuring-liquids-vertical-683x1024-1.jpg
+image: src/content/blog/images/IMG_7772-measuring-liquids-vertical-683x1024-1.jpg
 coverAlt: How Many Ounces in a Quart? An All-Inclusive Guide
 description: >-
   If you find yourself struggling with unfamiliar measuring units in cooking,

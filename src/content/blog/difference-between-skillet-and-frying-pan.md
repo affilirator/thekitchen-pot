@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Frypan-vs-Saute-Pan_compressed.png
+image: src/content/blog/images/Frypan-vs-Saute-Pan_compressed.png
 coverAlt: Difference between Skillet and Frying Pan - Everything You Need to Know
 description: >-
   Confused about the difference between a skillet and a frying pan? This article

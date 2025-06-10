@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/Wusthof-kitchen-knife-buying-guide-FB.png
+image: src/content/blog/images/Wusthof-kitchen-knife-buying-guide-FB.png
 coverAlt: Wusthof Knives Review - The Ultimate Buying Guide
 description: >-
   Is buying a Wusthof knife worth it? This article offers a comprehensive

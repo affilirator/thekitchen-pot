@@ -14,7 +14,7 @@ authorBio: >-
 authorId: kitchenpot1
 authorImage: /images/authors/chris-thompson.png
 authorImageAlt: kitchenpot1
-image: /images/61W4eHvksrL._AC_SL1500_.jpg
+image: src/content/blog/images/61W4eHvksrL._AC_SL1500_.jpg
 coverAlt: All-Clad D3 Cookware Set Review - Why You Should Own One
 description: >-
   If you're looking for cookware that exudes sophistication, the All-Clad D3 set
