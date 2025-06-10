@@ -15,6 +15,8 @@ const { posts } = Astro.props;
           <Image
             src={post.data.image.src}
             alt={post.data.title}
+            inferSize
+            format='webp'
             class="w-20 h-20 object-cover rounded-md group-hover:opacity-90 transition-opacity"
           />
         )}
