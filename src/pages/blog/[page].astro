@@ -60,7 +60,7 @@ const pageNumbers = Array.from(
           {post.data.image && (
             <div class="aspect-video overflow-hidden">
               <Image
-                src={post.data.image}
+                src={post.data.image.src}
                 inferSize
                 alt={post.data.title}
                 class="w-full h-full object-cover"
