@@ -5,17 +5,16 @@ import { Image } from 'astro:assets';
 import featureImg from "@/assets/images/feature-image.png";
 
 interface Props {
-   imagePath: string;
-   altText: string;
-   name: string;
-   age: number;
+   
+   name?: string;
+   age?: number;
    featureImage?: string;
-   headline: string;
-   attention: string;
-   interest: string;
-   desire: string;
-   ctaText: string;
-   ctaLink: string;
+   headline?: string;
+   attention?: string;
+   interest?: string;
+   desire?: string;
+   ctaText?: string;
+   ctaLink?: string;
    
 }
 
@@ -29,11 +28,10 @@ const {
   ctaText = "Explore Space-Saving Bakeware",
   ctaLink = "/cookware",
   featureImage = featureImg.src,
-  imagePath
+  
 } = Astro.props;
 
-const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif}');
-if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif}"`);
+
 
 // In a real implementation, fetch from content collection:
 // const bakewarePosts = (await getCollection('blog'))

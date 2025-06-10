@@ -8,6 +8,7 @@ import bakewareImg2 from "@/assets/images/bakeware-2.png"
 import bakewareImg3 from "@/assets/images/bakeware-3.png";
 import bakewareTools2 from "@/assets/images/bakeware-tools-1.png";
 import { Picture } from 'astro:assets';
+import SpaceSavingCookware from "./SpaceSaving.astro"
 
 // Fetch bakeware blog posts
 const bakewarePosts = (await getCollection('blog', ({ data }) => 
@@ -82,6 +83,10 @@ const bakewareCopy = {
                 <Picture
                   src={bakewareToolsImg} 
                   alt="Nesting bakeware set" 
+                  width={165}
+                  height={140}
+                  formats={['webp']}
+                  fallbackFormat={'jpg'}
                   class="w-full h-full object-cover rounded-xl"
                 />
               </div>
@@ -89,13 +94,21 @@ const bakewareCopy = {
                 <Picture
                   src={bakewareImg} 
                   alt="Compact baking pan" 
+                  width={165}
+                  height={140}
+                  formats={['webp']}
+                  fallbackFormat={'jpg'}
                   class="w-full h-full object-cover rounded-xl"
                 />
               </div>
               <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
                 <Picture 
                   src={bakewareImg2}
-                  alt="Stackable bakeware" 
+                  alt="Stackable bakeware reviews" 
+                  width={165}
+                  height={140}
+                  formats={['webp']}
+                  fallbackFormat={'jpg'}
                   class="w-full h-full object-cover rounded-xl"
                 />
               </div>
@@ -103,6 +116,10 @@ const bakewareCopy = {
                 <Picture
                   src={bakewareImg3} 
                   alt="Multi-purpose bakeware" 
+                  width={165}
+                  height={140}
+                  formats={['webp']}
+                  fallbackFormat={'jpg'}
                   class="w-full h-full object-cover rounded-xl"
                 />
               </div>
@@ -142,6 +159,11 @@ const bakewareCopy = {
             <p class="text-gray-600">Designed for compact ovens with even heat distribution for perfect results</p>
           </div>
         </div>
+        <SpaceSavingCookware />
+
+
+
+
       </div>
       
       <!-- Right Column - Blog Posts -->
