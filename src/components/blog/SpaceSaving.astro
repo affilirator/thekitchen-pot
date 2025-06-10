@@ -1,16 +1,10 @@
 ---
-// src/components/SpaceSavingCookware.astro
-//import type { ImageMetadata } from 'astro';
-//import type { CollectionConfig } from 'astro:content';
 import { Image } from 'astro:assets';
 import featureImg from "@/assets/images/feature-image.png";
 import { getCollection } from 'astro:content';
 import type { BlogPost } from '@/types/blog';
 
 interface Props {
-   
-   name?: string;
-   age?: number;
    featureImage?: string;
    headline?: string;
    attention?: string;
@@ -18,10 +12,7 @@ interface Props {
    desire?: string;
    ctaText?: string;
    ctaLink?: string;
-   
 }
-
-
 
 const {
   headline = "Big Baking in Tiny Kitchens",
@@ -31,133 +22,139 @@ const {
   ctaText = "Explore Space-Saving Bakeware",
   ctaLink = "/cookware",
   featureImage = featureImg.src,
-  
 } = Astro.props;
-
-
 
 // In a real implementation, fetch from content collection:
 const bakewarePosts: BlogPost[] = (await getCollection('blog'))
   .filter(post => post.data.category === 'Bakeware')
-  .slice(0, 5);
-
-
-/*const bakewarePosts = [
-  {
-    title: "5 Collapsible Bakeware Marvels",
-    excerpt: "Transform your storage game with these space-wizards",
-    image: "/images/blog/collapsible.jpg",
-    url: "/blog/collapsible-bakeware"
-  },
-  {
-    title: "Stack Like a Pro: Vertical Baking",
-    excerpt: "Maximize your 12\" of vertical space efficiently",
-    image: "/images/blog/stacking.jpg",
-    url: "/blog/vertical-baking"
-  },
-  {
-    title: "Multi-Function Magic",
-    excerpt: "One pan, seven baking functions revealed",
-    image: "/images/blog/multifunction.jpg",
-    url: "/blog/multi-function-bakeware"
-  },
-  {
-    title: "Nano-Kitchen Baking Hacks",
-    excerpt: "Professional results in under 50 sq ft",
-    image: "/images/blog/nano-kitchen.jpg",
-    url: "/blog/nano-kitchen-hacks"
-  },
-  {
-    title: "The Minimalist Baker's Toolkit",
-    excerpt: "Only 3 pieces you actually need",
-    image: "/images/blog/minimalist.jpg",
-    url: "/blog/minimalist-baking"
-  }
-];
-*/
+  .slice(0, 3);
 ---
 
-<style is:global>
-  .galaxy-bg {
-    background: radial-gradient(circle at top, #1a202c, #0d1117);
-  }
-  .orbit-hover {
-    transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-  }
-  .orbit-hover:hover {
-    transform: rotate(5deg) scale(1.03);
-  }
-</style>
-
-<div class="galaxy-bg text-white  overflow-hidden border border-slate-700 shadow-[0_0_60px_-15px_rgba(109,40,217,0.3)]">
-  <div class="grid grid-cols-1 lg:grid-cols-[1fr_0.8fr] gap-10 p-8">
-    <!-- Left Column - AIDA Content -->
-    <div class="space-y-6">
-      <h1 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-400 to-cyan-300 bg-clip-text text-transparent tracking-tight">
-        {headline}
-      </h1>
-      
-      <div class="space-y-5 text-slate-200">
-        <p class="text-xl py-2 border-l-4 border-purple-500 pl-4 italic">
-          {attention}
-        </p>
+<section class="hero-section relative overflow-hidden bg-gradient-to-b from-slate-900 to-slate-800 text-white">
+  <!-- Background pattern -->
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC40Ij48cGF0aCBkPSJNMzYgMzRjMC0yLjIgMS44LTQgNC00czQgMS44IDQgNC0xLjggNC00IDQtNC0xLjgtNC00eiIvPjwvZz48L2c+PC9zdmc+')] bg-repeat"></div>
+  </div>
+  
+  <!-- Gradient overlay -->
+  <div class="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-cyan-900/20"></div>
+  
+  <div class="container mx-auto px-4 py-16 md:py-24 relative z-10">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <!-- Left content -->
+      <div class="space-y-8">
+        <div class="inline-block">
+          <span class="bg-gradient-to-r from-purple-500 to-cyan-400 px-4 py-1 rounded-full text-sm font-medium tracking-wider">
+            SPACE-SAVING SOLUTIONS
+          </span>
+        </div>
         
-        <p class="text-lg leading-relaxed">
-          {interest}
-        </p>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
+          {headline}
+        </h1>
         
-        <p class="text-lg leading-relaxed bg-slate-800/40 p-5 rounded-xl border border-slate-700">
-          {desire}
-        </p>
-      </div>
-      
-      <a href={ctaLink} class="inline-block mt-4 px-8 py-4 rounded-full bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-700 hover:to-cyan-600 text-white font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-        {ctaText} &rarr;
-      </a>
-    </div>
-
-    <!-- Right Column -->
-    <div class="grid grid-rows-[auto_1fr] gap-8">
-      <!-- Upper Section - Feature Image -->
-      <div class="overflow-hidden rounded-2xl border border-slate-700 shadow-xl">
-        <Image
-          src={featureImg} 
-          alt="Space-saving bakeware in tiny kitchen"
-          class="w-full h-64 object-cover orbit-hover"
-          format={'webp'}
+        <div class="space-y-6">
+          <div class="flex items-start">
+            <div class="h-10 w-1 bg-gradient-to-b from-purple-500 to-cyan-400 rounded-full mr-4 mt-1"></div>
+            <p class="text-xl font-medium text-slate-200">
+              {attention}
+            </p>
+          </div>
           
-          width={600}
-          height={400}
-        />
-      </div>
-
-      <!-- Lower Section - Blog Posts 
-      <div>
-        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-          </svg>
-          Bakeware Innovations
-        </h2>
+          <p class="text-lg text-slate-300 leading-relaxed">
+            {interest}
+          </p>
+          
+          <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 shadow-lg">
+            <p class="text-lg text-slate-200 leading-relaxed">
+              {desire}
+            </p>
+          </div>
+        </div>
         
-        <div class="space-y-5">
+        <div class="flex flex-col sm:flex-row gap-4 pt-4">
+          <a href={ctaLink} class="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-gradient-to-r from-purple-600 to-cyan-500 text-white font-medium text-lg transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25 focus:ring-4 focus:ring-purple-500/30 focus:outline-none">
+            {ctaText}
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+          
+          <a href="#learn-more" class="inline-flex items-center justify-center px-8 py-4 rounded-lg border border-white/20 bg-white/5 backdrop-blur-sm text-white font-medium text-lg transition-all duration-300 hover:bg-white/10">
+            Learn More
+          </a>
+        </div>
+      </div>
+      
+      <!-- Right content -->
+      <div class="relative">
+        <!-- Decorative elements -->
+        <div class="absolute -top-10 -right-10 w-40 h-40 bg-purple-500/20 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-cyan-500/20 rounded-full blur-3xl"></div>
+        
+        <!-- Image container -->
+        <div class="relative z-10 rounded-2xl overflow-hidden border border-white/10 shadow-2xl shadow-purple-500/10">
+          <div class="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-cyan-500/20 mix-blend-overlay"></div>
+          <Image
+            src={featureImg}
+            alt="Space-saving bakeware in tiny kitchen"
+            class="w-full h-auto object-cover aspect-[4/3]"
+            format="webp"
+            width={800}
+            height={600}
+            loading="eager"
+          />
+        </div>
+        
+        <!-- Stats -->
+        <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white/10 backdrop-blur-md border border-white/10 rounded-xl p-4 w-4/5 grid grid-cols-3 gap-4">
+          <div class="text-center">
+            <p class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-cyan-300 bg-clip-text text-transparent">50%</p>
+            <p class="text-xs text-slate-300">Space Saved</p>
+          </div>
+          <div class="text-center border-x border-white/10">
+            <p class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-cyan-300 bg-clip-text text-transparent">12+</p>
+            <p class="text-xs text-slate-300">Products</p>
+          </div>
+          <div class="text-center">
+            <p class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-cyan-300 bg-clip-text text-transparent">4.9★</p>
+            <p class="text-xs text-slate-300">Rating</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Featured posts -->
+    {bakewarePosts.length > 0 && (
+      <div class="mt-24" id="learn-more">
+        <div class="flex items-center justify-between mb-8">
+          <h2 class="text-2xl font-bold">Featured Articles</h2>
+          <a href="/blog/category/bakeware" class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1 transition-colors">
+            View all
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           {bakewarePosts.map((post) => (
-            <a href={post.id} class="group block orbit-hover">
-              <div class="flex gap-4 items-start p-3 hover:bg-slate-800/40 rounded-xl transition-all">
-                <div class="flex-shrink-0">
-                  <img 
-                    src={post.data.image.src} 
-                    alt={post.data.title}
-                    class="w-20 h-20 object-cover rounded-lg border border-slate-700"
-                    width={80}
-                    height={80}
-                  />
-                </div>
-                <div>
-                  <h3 class="font-bold group-hover:text-cyan-300 transition-colors">
+            <a href={`/blog/${post.slug}`} class="group">
+              <div class="h-full bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/10 hover:border-white/20">
+                {post.data.image && (
+                  <div class="h-48 overflow-hidden">
+                    <img 
+                      src={post.data.image.src} 
+                      alt={post.data.title}
+                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                )}
+                <div class="p-6">
+                  <h3 class="font-bold text-lg mb-2 group-hover:text-cyan-300 transition-colors">
                     {post.data.title}
                   </h3>
-                  <p class="text-sm text-slate-400 mt-1">
+                  <p class="text-sm text-slate-400">
                     {post.data.description}
                   </p>
                 </div>
@@ -166,10 +163,6 @@ const bakewarePosts: BlogPost[] = (await getCollection('blog'))
           ))}
         </div>
       </div>
-      -->
-
-
-
-    </div>
+    )}
   </div>
-</div>
+</section>

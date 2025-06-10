@@ -6,7 +6,7 @@ const bakewarePosts: BlogPost[] = (await getCollection('blog'))
   .filter(post => post.data.category === 'Bakeware')
   .slice(0, 5);
 ---
-<div class="bg-gradient-to-t from-slate-700 via-slate-800 to-gray-700/70">
+<div class="bg-gradient-to-t from-slate-700/30 via-slate-800/20 to-gray-700/10">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
@@ -14,7 +14,7 @@ const bakewarePosts: BlogPost[] = (await getCollection('blog'))
           Bakeware Innovations
         </h2>
         
-        <div class="space-y-5">
+        <div class="space-y-6">
           {bakewarePosts.map((post) => (
             <a href={post.id} class="group block orbit-hover">
               <div class="flex gap-4 items-start p-3 hover:bg-slate-800/40 rounded-xl transition-all">

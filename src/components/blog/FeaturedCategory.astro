@@ -1,15 +1,13 @@
 ---
-// src/components/SpaceSavingBakeware.astro
 import { getCollection } from 'astro:content';
-import BaseLayout from '@/layouts/Layout.astro';
-import bakewareToolsImg from "@/assets/images/bakeware-tools.png";
-import bakewareImg from "@/assets/images/bakeware-1.png";
-import bakewareImg2 from "@/assets/images/bakeware-2.png"
-import bakewareImg3 from "@/assets/images/bakeware-3.png";
-import bakewareTools2 from "@/assets/images/bakeware-tools-1.png";
 import { Picture } from 'astro:assets';
 import ColumnPosts from './ColumnPosts.astro';
 
+// Import images
+import bakewareToolsImg from "@/assets/images/bakeware-tools.png";
+import bakewareImg from "@/assets/images/bakeware-1.png";
+import bakewareImg2 from "@/assets/images/bakeware-2.png";
+import bakewareImg3 from "@/assets/images/bakeware-3.png";
 
 // Fetch bakeware blog posts
 const bakewarePosts = (await getCollection('blog', ({ data }) => 
@@ -29,241 +27,180 @@ const bakewareCopy = {
   ],
   action: "Ready to reclaim your tiny kitchen and whisk away baking frustrations?"
 };
+
+// Feature items
+const features = [
+  {
+    icon: "M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z",
+    title: "Space-Efficient Design",
+    description: "Nesting and stacking capabilities reduce storage needs by up to 70%"
+  },
+  {
+    icon: "M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z",
+    title: "Multi-Functional",
+    description: "Each piece serves multiple purposes - bake, roast, serve, and store"
+  },
+  {
+    icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+    title: "Oven-Safe",
+    description: "Designed for compact ovens with even heat distribution for perfect results"
+  }
+];
+
+// Image gallery
+const images = [
+  { src: bakewareToolsImg, alt: "Nesting bakeware set" },
+  { src: bakewareImg, alt: "Compact baking pan" },
+  { src: bakewareImg2, alt: "Stackable bakeware reviews" },
+  { src: bakewareImg3, alt: "Multi-purpose bakeware" }
+];
 ---
 
-<!--  <BaseLayout title="Space-Saving Bakeware for Tiny Kitchens"> -->
-  <div class="max-w-7xl mx-auto px-4 py-12 md:py-16">
-    <!-- Hero Section -->
-    <section class="text-center mb-16">
-      <h1 class="text-4xl md:text-5xl font-bold text-amber-800 mb-4">
-        Tiny Kitchen <span class="text-amber-600">Baking Revolution</span>
-      </h1>
-      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-        Space-saving bakeware designed for compact living
-      </p>
-    </section>
+<div class="max-w-7xl mx-auto px-4 py-12 md:py-16">
+  <!-- Hero Section -->
+  <section class="text-center mb-16">
+    <h1 class="text-4xl md:text-5xl font-bold text-amber-800 mb-4">
+      Tiny Kitchen <span class="text-amber-600">Baking Revolution</span>
+    </h1>
+    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+      Space-saving bakeware designed for compact living
+    </p>
+  </section>
 
-    <!-- Main Content - Two Columns -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-      <!-- Left Column - Main Content -->
-      <div class="lg:col-span-2">
-        <div class="bg-gradient-to-br from-amber-50 to-amber-100 rounded-3xl p-8 mb-10">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h2 class="text-2xl font-bold text-amber-800 mb-4">The Tiny Kitchen Baking Dilemma</h2>
-              <p class="text-gray-700 mb-6">
-                {bakewareCopy.attention}
-              </p>
-              <p class="text-gray-700 mb-6">
-                {bakewareCopy.interest}
-              </p>
-              
-              <div class="space-y-4 mb-8">
-                {bakewareCopy.desire.map((item, index) => (
-                  <div key={index} class="flex items-start">
-                    <div class="flex-shrink-0 mt-1 mr-4 text-amber-600">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <p class="text-gray-800" set:html={item}></p>
+  <!-- Main Content - Two Columns -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+    <!-- Left Column - Main Content -->
+    <div class="lg:col-span-2">
+      <div class="bg-gradient-to-br from-amber-50 to-amber-100 rounded-3xl p-8 mb-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h2 class="text-2xl font-bold text-amber-800 mb-4">The Tiny Kitchen Baking Dilemma</h2>
+            <p class="text-gray-700 mb-6">{bakewareCopy.attention}</p>
+            <p class="text-gray-700 mb-6">{bakewareCopy.interest}</p>
+            
+            <div class="space-y-4 mb-8">
+              {bakewareCopy.desire.map((item) => (
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1 mr-4 text-amber-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                    </svg>
                   </div>
-                ))}
-              </div>
-              
-              <a 
-                href="/category/bakeware/" 
-                class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full transition-all transform hover:-translate-y-1 shadow-lg"
-              >
-                Explore Space-Saving Bakeware →
-              </a>
+                  <p class="text-gray-800" set:html={item}></p>
+                </div>
+              ))}
             </div>
             
-            <div class="grid grid-cols-2 gap-4">
-              <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
-                <Picture
-                  src={bakewareToolsImg} 
-                  alt="Nesting bakeware set" 
-                  width={165}
-                  height={140}
-                  formats={['webp']}
-                  fallbackFormat={'jpg'}
-                  class="w-full h-full object-cover rounded-xl"
-                />
-              </div>
-              <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
-                <Picture
-                  src={bakewareImg} 
-                  alt="Compact baking pan" 
-                  width={165}
-                  height={140}
-                  formats={['webp']}
-                  fallbackFormat={'jpg'}
-                  class="w-full h-full object-cover rounded-xl"
-                />
-              </div>
-              <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
-                <Picture 
-                  src={bakewareImg2}
-                  alt="Stackable bakeware reviews" 
-                  width={165}
-                  height={140}
-                  formats={['webp']}
-                  fallbackFormat={'jpg'}
-                  class="w-full h-full object-cover rounded-xl"
-                />
-              </div>
-              <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
-                <Picture
-                  src={bakewareImg3} 
-                  alt="Multi-purpose bakeware" 
-                  width={165}
-                  height={140}
-                  formats={['webp']}
-                  fallbackFormat={'jpg'}
-                  class="w-full h-full object-cover rounded-xl"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Feature Section -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-          <div class="bg-white p-6 rounded-2xl shadow-sm border border-amber-50">
-            <div class="text-amber-600 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Space-Efficient Design</h3>
-            <p class="text-gray-600">Nesting and stacking capabilities reduce storage needs by up to 70%</p>
+            <a 
+              href="/category/bakeware/" 
+              class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full transition-all transform hover:-translate-y-1 shadow-lg"
+            >
+              Explore Space-Saving Bakeware →
+            </a>
           </div>
           
-          <div class="bg-white p-6 rounded-2xl shadow-sm border border-amber-50">
-            <div class="text-amber-600 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Multi-Functional</h3>
-            <p class="text-gray-600">Each piece serves multiple purposes - bake, roast, serve, and store</p>
-          </div>
-          
-          <div class="bg-white p-6 rounded-2xl shadow-sm border border-amber-50">
-            <div class="text-amber-600 mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Oven-Safe</h3>
-            <p class="text-gray-600">Designed for compact ovens with even heat distribution for perfect results</p>
+          <div class="grid grid-cols-2 gap-4">
+            {images.map(img => (
+              <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
+                <Picture
+                  src={img.src} 
+                  alt={img.alt} 
+                  width={165}
+                  height={140}
+                  formats={['webp']}
+                  fallbackFormat={'jpg'}
+                  class="w-full h-full object-cover rounded-xl"
+                />
+              </div>
+            ))}
           </div>
         </div>
-        
-
-
-
-
       </div>
       
-      <!-- Right Column - Blog Posts -->
-      <div class="space-y-10">
-        <!-- Upper Section - Featured Post -->
-        <div class="bg-gradient-to-br from-amber-100 to-amber-200 rounded-3xl p-6">
-          <h2 class="text-2xl font-bold text-amber-800 mb-4">Featured Post</h2>
-          <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
-            <div class="h-48 bg-gradient-to-r from-amber-300 to-amber-400"></div>
-            <div class="p-6">
-              <span class="text-xs font-semibold text-amber-600 uppercase tracking-wide mb-2">
-                Bakeware Tips
-              </span>
-              <h3 class="text-xl font-bold text-gray-900 mb-3">
-                Maximizing 18" Oven Space
-              </h3>
-              <p class="text-gray-600 mb-4">
-                Learn how to bake like a pro in your tiny kitchen with our space-saving strategies.
-              </p>
-              <a 
-                href="#" 
-                class="text-amber-600 hover:text-amber-800 font-medium inline-flex items-center"
-              >
-                Read more
-                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                </svg>
-              </a>
+      <!-- Feature Section -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+        {features.map(feature => (
+          <div class="bg-white p-6 rounded-2xl shadow-sm border border-amber-50">
+            <div class="text-amber-600 mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={feature.icon} />
+              </svg>
             </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">{feature.title}</h3>
+            <p class="text-gray-600">{feature.description}</p>
           </div>
-        </div>
-        
-        <!-- Lower Section - Blog Posts -->
-        <div class="bg-slate-900 rounded-3xl p-6 shadow-sm border border-amber-50">
-          <h2 class="text-2xl font-bold text-amber-800 mb-4">Bakeware Articles</h2>
-           <ColumnPosts />
-          <div class="space-y-6">
-           
-            {/*{bakewarePosts.map((post, index) => (
-              <a key={index} href={`/blog/${post.id}/`} class="group block">
-                <div class="flex items-start">
-                  <div class="flex-shrink-0 w-20 h-20 bg-gradient-to-r from-amber-100 to-amber-200 rounded-xl mr-4"></div>
-                  <div>
-                    <h3 class="font-bold text-gray-900 group-hover:text-amber-600 transition-colors">
-                      {post.data.title}
-                    </h3>
-                    <p class="text-sm text-gray-600 mt-1">
-                      {post.data.description}
-                    </p>
-                    <div class="flex items-center mt-2 text-sm text-amber-600">
-                      <span>Read more</span>
-                      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            ))}*/}
-          </div>
-          
-          <a 
-            href="/category/bakeware/" 
-            class="mt-6 inline-flex items-center text-amber-600 hover:text-amber-800 font-medium"
-          >
-            View all bakeware articles
-            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </a>
-        </div>
+        ))}
       </div>
     </div>
     
-    <!-- Final CTA -->
-    <section class="bg-gradient-to-r from-amber-500 to-amber-600 rounded-3xl p-8 md:p-12 text-center mt-16">
-      <h2 class="text-2xl md:text-3xl font-bold text-white mb-6">
-        Transform Your Tiny Kitchen Today
-      </h2>
-      <p class="text-amber-100 max-w-5xl mx-auto mb-8">
-        Join thousands of tiny home owners who've reclaimed their kitchen space with our smart bakeware solutions.
-      </p>
-      <div class="flex flex-wrap justify-center gap-4">
+    <!-- Right Column - Blog Posts -->
+    <div class="space-y-10">
+      <!-- Featured Post -->
+      <div class="bg-gradient-to-br from-amber-100 to-amber-200 rounded-3xl p-6">
+        <h2 class="text-2xl font-bold text-amber-800 mb-4">Featured Post</h2>
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+          <div class="h-48 bg-gradient-to-r from-amber-300 to-amber-400"></div>
+          <div class="p-6">
+            <span class="text-xs font-semibold text-amber-600 uppercase tracking-wide mb-2">
+              Bakeware Tips
+            </span>
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+              Maximizing 18" Oven Space
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Learn how to bake like a pro in your tiny kitchen with our space-saving strategies.
+            </p>
+            <a href="#" class="text-amber-600 hover:text-amber-800 font-medium inline-flex items-center">
+              Read more
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Blog Posts -->
+      <div class="bg-slate-900 rounded-3xl p-6 shadow-sm border border-amber-50">
+        <h2 class="text-2xl font-bold text-amber-800 mb-4">Bakeware Articles</h2>
+        <ColumnPosts />
         <a 
-          href="/category/bakeware" 
-          class="bg-white text-amber-700 hover:bg-amber-50 font-bold py-4 px-8 rounded-full transition-all transform hover:-translate-y-1 shadow-lg"
+          href="/category/bakeware/" 
+          class="mt-6 inline-flex items-center text-amber-600 hover:text-amber-800 font-medium"
         >
-          Shop Bakeware Collection
-        </a>
-        <a 
-          href="/blog/tiny-kitchen-tips" 
-          class="border-2 border-white text-white hover:bg-amber-700 font-bold py-4 px-8 rounded-full transition-all"
-        >
-          View Space-Saving Tips
+          View all bakeware articles
+          <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
         </a>
       </div>
-    </section>
+    </div>
   </div>
-
+  
+  <!-- Final CTA -->
+  <section class="bg-gradient-to-r from-amber-500 to-amber-600 rounded-3xl p-8 md:p-12 text-center mt-16">
+    <h2 class="text-2xl md:text-3xl font-bold text-white mb-6">
+      Transform Your Tiny Kitchen Today
+    </h2>
+    <p class="text-amber-100 max-w-5xl mx-auto mb-8">
+      Join thousands of tiny home owners who've reclaimed their kitchen space with our smart bakeware solutions.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a 
+        href="/category/bakeware" 
+        class="bg-white text-amber-700 hover:bg-amber-50 font-bold py-4 px-8 rounded-full transition-all transform hover:-translate-y-1 shadow-lg"
+      >
+        Shop Bakeware Collection
+      </a>
+      <a 
+        href="/blog/tiny-kitchen-tips" 
+        class="border-2 border-white text-white hover:bg-amber-700 font-bold py-4 px-8 rounded-full transition-all"
+      >
+        View Space-Saving Tips
+      </a>
+    </div>
+  </section>
+</div>
 
 <style is:global>
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
