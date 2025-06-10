@@ -9,7 +9,7 @@ const featuredPost = blogPosts.length > 0 ? blogPosts[0] : null;
 const otherPosts = blogPosts.length > 1 ? blogPosts.slice(1, 5) : [];
 ---
 
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 p-4 max-w5xl mx-auto">
+<div class="min-h-screen grid grid-cols-1 sm:grid-cols-2 gap-6 p-4 max-w5xl mx-auto">
   <!-- Left column: Main content about space-saving bakeware -->
   <div class="sm:col-span-1 sm:row-span-2 bg-white shadow-lg rounded-lg p-6">
     <h1 class="text-3xl font-bold mb-4">Space-Saving Bakeware</h1>
@@ -64,10 +64,10 @@ const otherPosts = blogPosts.length > 1 ? blogPosts.slice(1, 5) : [];
                 <div class="flex-shrink-0 w-1/3">
                   <Image
                     src={post.data.image}
-                    width={92}
-                    height={92}
+                    width={32}
+                    height={32}
                     alt={post.data.title}
-                    class="w-full h-24 object-cover rounded-lg"
+                    class="w-full object-fit rounded-lg"
                   />
                 </div>
                 <div class="flex-grow">
