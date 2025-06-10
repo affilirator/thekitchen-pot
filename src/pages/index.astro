@@ -6,6 +6,7 @@ import Newsletter from '@/components/Newsletter.astro';
 import WhyChooseUs from '@/components/WhyChooseUs.astro';
 import { Image } from 'astro:assets';
 import SpaceSavingCookware from "@/components/blog/SpaceSaving.astro";
+import AboutHero from '@/components/AboutHero.astro';
 
 
 import heroImage from "@/data/assets/images/multipurpose-kitchen-appliances.jpg"
@@ -31,6 +32,7 @@ import FeatureCategory from '@/components/blog/FeaturedCategory.astro';
       <SpaceSavingCookware />
       <!-- Hero section with enhanced backdrop -->
       <div class="relative z-10 backdrop-blur-[2px]">
+        <AboutHero />
         <Hero />
       </div>
       <FeatureCategory />

@@ -63,10 +63,11 @@ export default {
       fontFamily: {
         sans: ["Open Sans", "sans-serif"],
         display: ["Bebas Neue", "sans-serif"],
+        serif: ["Inter", "sans-serif"],
       },
       backgroundImage: {
         "hero-pattern":
-          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1623544726893-be7e56c8f4fc?q=80&w=2070')",
+          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/background-image.jpg')",
         'grid-slate-100': 'linear-gradient(to right, rgb(241 245 249 / 0.1) 1px, transparent 1px),\n linear-gradient(to bottom, rgb(241 245 249 / 0.1) 1px, transparent 1px)',
       },
       backgroundSize: {
