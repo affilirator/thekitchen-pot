@@ -1,7 +1,7 @@
 ---
 import Layout from './Layout.astro';
 import { Icon } from 'astro-icon/components';
-import { Image } from 'astro:assets';
+import { Image, Picture } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import Breadcrumbs from '../components/ui/Breadcrumbs.astro';
 // import { Image } from 'astro:assets';
@@ -139,20 +139,17 @@ const monthYear = new Date().toLocaleDateString('en-US', {
       )}
     </header>
 
-    {frontmatter.image && (
-      <Image
-        src={`/../..${frontmatter.image}`}
-        alt={frontmatter.title}
-        width={768}
-        height={520}
-        format='webp'
-
-
-decoding="sync"
-
-        class="w-full h-auto  object-cover rounded-lg mb-8 shadow-lg"
-      />
-    )}
+{frontmatter.image && (
+  <Picture
+    src={frontmatter.image}
+    alt={frontmatter.title}
+    width={768}
+    height={520}
+    format="webp"
+    decoding="sync"
+    class="w-full h-auto object-cover rounded-lg mb-8 shadow-lg"
+  />
+)}
 
     <div class="blog-content">
       <slot />
