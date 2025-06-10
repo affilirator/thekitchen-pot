@@ -72,7 +72,7 @@ const articleSchema = {
     "@id": `${Astro.request.url}#article`,
     headline: frontmatter.title,
     description: frontmatter.description,
-    image: frontmatter.image,
+    image: frontmatter.image.src,
     datePublished: frontmatter.pubDate,
     dateModified: currentDateInfo.dateTimeValue, // Use datetimevalue for dateModified
     author: {
