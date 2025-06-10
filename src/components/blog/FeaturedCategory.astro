@@ -2,6 +2,12 @@
 // src/components/SpaceSavingBakeware.astro
 import { getCollection } from 'astro:content';
 import BaseLayout from '@/layouts/Layout.astro';
+import bakewareToolsImg from "@/assets/images/bakeware-tools.png";
+import bakewareImg from "@/assets/images/bakeware-1.png";
+import bakewareImg2 from "@/assets/images/bakeware-2.png"
+import bakewareImg3 from "@/assets/images/bakeware-3.png";
+import bakewareTools2 from "@/assets/images/bakeware-tools-1.png";
+import { Picture } from 'astro:assets';
 
 // Fetch bakeware blog posts
 const bakewarePosts = (await getCollection('blog', ({ data }) => 
@@ -64,7 +70,7 @@ const bakewareCopy = {
               </div>
               
               <a 
-                href="/category/bakeware" 
+                href="/category/bakeware/" 
                 class="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full transition-all transform hover:-translate-y-1 shadow-lg"
               >
                 Explore Space-Saving Bakeware →
@@ -73,29 +79,29 @@ const bakewareCopy = {
             
             <div class="grid grid-cols-2 gap-4">
               <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1608190003443-86b2636f1c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                <Picture
+                  src={bakewareToolsImg} 
                   alt="Nesting bakeware set" 
                   class="w-full h-full object-cover rounded-xl"
                 />
               </div>
               <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1560180474-e8563fd75bab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                <Picture
+                  src={bakewareImg} 
                   alt="Compact baking pan" 
                   class="w-full h-full object-cover rounded-xl"
                 />
               </div>
               <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                <Picture 
+                  src={bakewareImg2}
                   alt="Stackable bakeware" 
                   class="w-full h-full object-cover rounded-xl"
                 />
               </div>
               <div class="bg-white rounded-2xl aspect-square flex items-center justify-center p-4 shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1603532648955-a039f2e6da76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" 
+                <Picture
+                  src={bakewareImg3} 
                   alt="Multi-purpose bakeware" 
                   class="w-full h-full object-cover rounded-xl"
                 />
@@ -196,7 +202,7 @@ const bakewareCopy = {
           </div>
           
           <a 
-            href="/category/bakeware" 
+            href="/category/bakeware/" 
             class="mt-6 inline-flex items-center text-amber-600 hover:text-amber-800 font-medium"
           >
             View all bakeware articles
@@ -213,7 +219,7 @@ const bakewareCopy = {
       <h2 class="text-2xl md:text-3xl font-bold text-white mb-6">
         Transform Your Tiny Kitchen Today
       </h2>
-      <p class="text-amber-100 max-w-2xl mx-auto mb-8">
+      <p class="text-amber-100 max-w-5xl mx-auto mb-8">
         Join thousands of tiny home owners who've reclaimed their kitchen space with our smart bakeware solutions.
       </p>
       <div class="flex flex-wrap justify-center gap-4">
