@@ -58,7 +58,7 @@ const otherPosts = blogPosts.length > 1 ? blogPosts.slice(1, 5) : [];
     {otherPosts.length > 0 ? (
       <div class="space-y-4">
         {otherPosts.map(post => (
-          <a href={`/blog/${post.id}`} class="block">
+          <a href={`/blog/${post.id}/`} class="block">
             <div class="bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition duration-300">
               <div class="flex gap-4">
                 <div class="flex-shrink-0 w-1/3">
