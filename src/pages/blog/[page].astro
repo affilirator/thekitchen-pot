@@ -83,7 +83,7 @@ const pageNumbers = Array.from(
             <p class="text-gray-600 mb-4 line-clamp-3">{post.data.description}</p>
             <a
               href={`/blog/${post.id}/`}
-              class="inline-flex p-2 rounded-full bg-teal-400 items-center text-blue-100 hover:text-blue-100 font-medium"
+              class="inline-flex p-2 rounded-full bg-gray-800/70 items-center text-blue-100 hover:text-blue-100 font-medium"
             >
               Read more
               <svg
@@ -165,7 +165,7 @@ const pageNumbers = Array.from(
           </div>
 
           <a
-            href={currentPage < totalPages ? `/blog/${currentPage + 1}` : undefined}
+            href={currentPage < totalPages ? `/blog/${currentPage + 1}/` : undefined}
             class={`px-4 py-2 text-sm font-medium rounded-md ${
               currentPage === totalPages
                 ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
