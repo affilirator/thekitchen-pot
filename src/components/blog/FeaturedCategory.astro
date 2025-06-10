@@ -1,7 +1,7 @@
 ---
 // src/components/SpaceSavingBakeware.astro
 import { getCollection } from 'astro:content';
-import BaseLayout from '../layouts/Layout.astro';
+import BaseLayout from '@/layouts/Layout.astro';
 
 // Fetch bakeware blog posts
 const bakewarePosts = (await getCollection('blog', ({ data }) => 
@@ -173,7 +173,7 @@ const bakewareCopy = {
           <h2 class="text-2xl font-bold text-amber-800 mb-4">Bakeware Articles</h2>
           <div class="space-y-6">
             {bakewarePosts.map((post, index) => (
-              <a key={index} href={`/blog/${post.slug}`} class="group block">
+              <a key={index} href={`/blog/${post.id}/`} class="group block">
                 <div class="flex items-start">
                   <div class="flex-shrink-0 w-20 h-20 bg-gradient-to-r from-amber-100 to-amber-200 rounded-xl mr-4"></div>
                   <div>
@@ -181,7 +181,7 @@ const bakewareCopy = {
                       {post.data.title}
                     </h3>
                     <p class="text-sm text-gray-600 mt-1">
-                      {post.data.description || post.data.excerpt}
+                      {post.data.description}
                     </p>
                     <div class="flex items-center mt-2 text-sm text-amber-600">
                       <span>Read more</span>
