@@ -109,7 +109,7 @@ const pageNumbers = Array.from(
       <nav class="flex justify-center items-center mt-12" aria-label="Pagination">
         <div class="flex items-center gap-2">
           <a
-            href={currentPage > 1 ? `/blog/${currentPage - 1}` : undefined}
+            href={currentPage > 1 ? `/blog/${currentPage - 1}/` : undefined}
             class={`px-4 py-2 text-sm font-medium rounded-md ${
               currentPage === 1
                 ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
@@ -124,7 +124,7 @@ const pageNumbers = Array.from(
             {startPage > 1 && (
               <>
                 <a
-                  href="/blog/1"
+                  href="/blog/1/"
                   class="px-4 py-2 text-sm font-medium rounded-md bg-white text-gray-700 hover:bg-gray-50"
                 >
                   1
@@ -137,7 +137,7 @@ const pageNumbers = Array.from(
 
             {pageNumbers.map((pageNum) => (
               <a
-                href={`/blog/${pageNum}`}
+                href={`/blog/${pageNum}/`}
                 class={`px-4 py-2 text-sm font-medium rounded-md ${
                   currentPage === pageNum
                     ? 'bg-blue-500 text-white'
@@ -155,7 +155,7 @@ const pageNumbers = Array.from(
                   <span class="px-3 py-2 text-gray-500">...</span>
                 )}
                 <a
-                  href={`/blog/${totalPages}`}
+                  href={`/blog/${totalPages}/`}
                   class="px-4 py-2 text-sm font-medium rounded-md bg-white text-gray-700 hover:bg-gray-50"
                 >
                   {totalPages}
