@@ -3,6 +3,7 @@
 import type { ImageMetadata } from 'astro';
 import { Image } from 'astro:assets';
 import featureImg from "@/assets/images/feature-image.png";
+import { getCollection } from 'astro:content';
 
 interface Props {
    
@@ -34,10 +35,10 @@ const {
 
 
 // In a real implementation, fetch from content collection:
-// const bakewarePosts = (await getCollection('blog'))
-//   .filter(post => post.data.category === 'bakeware')
-//   .slice(0, 5);
-const bakewarePosts = [
+const bakewarePosts = (await getCollection('blog'))
+  .filter(post => post.data.category === 'Bakeware')
+  .slice(0, 5);
+/*const bakewarePosts = [
   {
     title: "5 Collapsible Bakeware Marvels",
     excerpt: "Transform your storage game with these space-wizards",
@@ -69,6 +70,7 @@ const bakewarePosts = [
     url: "/blog/minimalist-baking"
   }
 ];
+*/
 ---
 
 <style is:global>
@@ -83,7 +85,7 @@ const bakewarePosts = [
   }
 </style>
 
-<div class="galaxy-bg text-white rounded-2xl overflow-hidden border border-slate-700 shadow-[0_0_60px_-15px_rgba(109,40,217,0.3)]">
+<div class="galaxy-bg text-white  overflow-hidden border border-slate-700 shadow-[0_0_60px_-15px_rgba(109,40,217,0.3)]">
   <div class="grid grid-cols-1 lg:grid-cols-[1fr_0.8fr] gap-10 p-8">
     <!-- Left Column - AIDA Content -->
     <div class="space-y-6">
