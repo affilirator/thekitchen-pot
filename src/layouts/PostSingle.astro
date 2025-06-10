@@ -70,6 +70,7 @@ const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     "@id": `${Astro.request.url}#article`,
+    "url": Astro.request.url,
     headline: frontmatter.title,
     description: frontmatter.description,
     image: frontmatter.image.src,
@@ -94,6 +95,10 @@ const articleSchema = {
     mainEntityOfPage: {
         "@type": "WebPage",
         "@id": Astro.url.href,
+        breadcrumb: {
+          "@type": 'BreadcrumbList',
+          '@id': `${Astro.request.url}#rich-snippet`
+        }
     },
 };
 
