@@ -7,7 +7,7 @@ const navItems = [
   { href: '/blog/', text: 'Blog' },
   { href: '/about/', text: 'About' },
   { href: '/contact-us/', text: 'Contact' },
-  {
+ {
     text: 'Resources',
     children: [
       { href: '/blog/category/kitchenware/', text: 'Kitchenware' },
@@ -15,6 +15,7 @@ const navItems = [
       { href: '/blog/category/how-to-guides/', text: 'Guides' },
     ]
   },
+  
 ];
 
 const currentPath = Astro.url.pathname;
@@ -27,7 +28,7 @@ const currentPath = Astro.url.pathname;
       <Logo />
 
       <!-- Desktop Navigation -->
-      <nav class="hidden md:flex space-x-8 z-10" aria-label="Main Navigation">
+      <nav class="hidden md:flex lg:flex space-x-8 z-50" aria-label="Main Navigation">
         {navItems.map((item) => (
           item.children ? (
             <div class="relative group">
@@ -35,7 +36,7 @@ const currentPath = Astro.url.pathname;
                 <span>{item.text}</span>
                 <Icon name="mdi:chevron-down" class="w-4 h-4" />
               </button>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu z-50">
                 {item.children.map((child) => (
                   <li>
                     <a href={child.href} class="block px-4 py-3 hover:bg-teal-50/50 rounded-md hover:translate-x-1 transition-all" aria-current={currentPath === child.href ? 'page' : undefined}>
