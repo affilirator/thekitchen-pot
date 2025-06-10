@@ -20,7 +20,7 @@ const { name = "", image, bio, socialLinks, url } = Astro.props;
 const authorUrl = url || createAuthorSlug(name);
 ---
 
-<div class="bg-white border border-gray-200 rounded-lg shadow-md p-4 sm:p-6 mt-8 hover:shadow-lg transition-shadow duration-300" itemscope itemtype="http://schema.org/Person" itemid=`${siteConfig.url}${authorUrl}`>
+<div class="bg-white border border-gray-200 rounded-lg shadow-md p-4 sm:p-6 mt-8 hover:shadow-lg transition-shadow duration-300" itemscope itemtype="http://schema.org/Person" itemid=`${siteConfig.url}${authorUrl}#author`>
     <div class="flex flex-col sm:flex-row items-center sm:items-start gap-4 sm:gap-6">
         <a href={authorUrl} class="block flex-shrink-0 group">
             <img
