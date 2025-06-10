@@ -9,7 +9,7 @@ const { posts } = Astro.props;
 <ul class="space-y-4">
   {posts.map((post) => (
     <li class="group">
-      <a href={`/blog/${post.slug}/`} class="flex gap-3 items-start">
+      <a href={`/blog/${post.id}/`} class="flex gap-3 items-start">
         {post.data.image && (
           <img
             src={post.data.image}
@@ -22,7 +22,7 @@ const { posts } = Astro.props;
             {post.data.title}
           </h3>
           <time class="text-xs text-gray-500">
-            {new Date(post.data.publishDate).toLocaleDateString('en-US', {
+            {new Date(post.data.modDate).toLocaleDateString('en-US', {
               year: 'numeric',
               month: 'long',
               day: 'numeric'

@@ -7,7 +7,7 @@ import Sidebar from '@/components/blog/Sidebar.astro';
 export async function getStaticPaths() {
   const allPosts = await getCollection('blog');
   const sortedPosts = allPosts.sort((a, b) => {
-    return new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime();
+    return new Date(b.data.modDate).getTime() - new Date(a.data.pubDate).getTime();
   });
 
   const itemsPerPage = 6;
@@ -43,7 +43,9 @@ const pageNumbers = Array.from(
 );
 ---
 
-<Layout title={`Blog - Page ${page}`}>
+<Layout title={`Blog - Page ${page}`}
+ description='Latest posts from us to you.'
+>
   <main class="container mx-auto px-4 py-8">
     <div class="flex flex-col lg:flex-row gap-8">
       <!-- Main Content -->
@@ -67,8 +69,8 @@ const pageNumbers = Array.from(
             <h2 class="text-xl font-semibold mb-2 line-clamp-2">
               {post.data.title}
             </h2>
-            <time class="text-sm text-gray-500 mb-2 block">
-              {new Date(post.data.pubDate).toLocaleDateString('en-US', {
+            <time class="text-sm text-gray-600 mb-2 block">
+              {new Date(post.data.modDate).toLocaleDateString('en-US', {
                 year: 'numeric',
                 month: 'long',
                 day: 'numeric'
@@ -77,7 +79,7 @@ const pageNumbers = Array.from(
             <p class="text-gray-600 mb-4 line-clamp-3">{post.data.description}</p>
             <a
               href={`/blog/${post.id}/`}
-              class="inline-flex items-center text-blue-500 hover:text-blue-700 font-medium"
+              class="inline-flex p-2 rounded-full bg-teal-400 items-center text-blue-100 hover:text-blue-100 font-medium"
             >
               Read more
               <svg
@@ -175,7 +177,7 @@ const pageNumbers = Array.from(
       </div>
 
       <!-- Sidebar -->
-      <Sidebar allPosts={sortedPosts} />
+      <Sidebar allPosts={posts} />
     </div>
   </main>
 </Layout>
