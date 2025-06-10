@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { Picture, Image } from 'astro:assets';
-import bakewareImg from "@/assets/images/the-kitchen-pot-bakeware.png
+import bakewareImg from "@/assets/images/the-kitchen-pot-bakeware.png"
 
 // Fetch blog posts from the 'blog' collection with category 'Bakeware', sorted by date descending
 const blogPosts = await getCollection('blog', post => post.data.category === 'Bakeware');

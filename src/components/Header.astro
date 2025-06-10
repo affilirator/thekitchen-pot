@@ -21,23 +21,25 @@ const navItems = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="bg-teal-600 text-white top-0 z-50">
-  <div class="container mx-auto px-4 py-4">
+<header class="bg-gradient-to-r from-teal-600 via-teal-500 to-emerald-500 text-white sticky top-0 z-50 backdrop-blur-sm bg-opacity-90 border-b border-white/10 shadow-lg">
+  <div class="container mx-auto px-4 py-3 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-white/10 mask-gradient"></div>
     <div class="header-nav flex justify-between items-center">
       <Logo />
 
-      <nav class="hidden md:flex space-x-6" aria-label="Main Navigation">
+      <nav class="hidden md:flex space-x-8" aria-label="Main Navigation">
         {navItems.map((item) => (
           item.children ? (
             <div class="relative group">
-              <button class="flex items-center space-x-1 hover:text-teal-200 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-300 rounded-md px-2 py-1" aria-expanded="false">
+              <button class="flex items-center space-x-1 hover:text-white/90 hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white/20 rounded-lg px-3 py-2 relative group" aria-expanded="false">
+                <div class="absolute inset-0 bg-white/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <span>{item.text}</span>
                 <Icon name="mdi:chevron-down" class="w-4 h-4" />
               </button>
-              <ul class="absolute left-0 mt-2 w-48 bg-white text-teal-900 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out">
+              <ul class="absolute left-0 mt-2 w-56 bg-white/90 backdrop-blur-md text-teal-900 rounded-lg shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out border border-white/20 transform group-hover:translate-y-0 translate-y-2">
                 {item.children.map((child) => (
                   <li>
-                    <a href={child.href} class="block px-4 py-2 hover:bg-blue-100 transition-colors rounded-md" aria-current={currentPath === child.href ? 'page' : undefined}>
+                    <a href={child.href} class="block px-4 py-3 hover:bg-teal-50/50 transition-all duration-300 rounded-md hover:translate-x-1" aria-current={currentPath === child.href ? 'page' : undefined}>
                       {child.text}
                     </a>
                   </li>
@@ -45,7 +47,9 @@ const currentPath = Astro.url.pathname;
               </ul>
             </div>
           ) : (
-            <a href={item.href} class="hover:text-teal-200 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-300 rounded-md px-2 py-1" aria-current={currentPath === item.href ? 'page' : undefined}>
+            <a href={item.href} class="relative px-3 py-2 hover:text-white/90 transition-all duration-300 focus:outline-none group rounded-lg" aria-current={currentPath === item.href ? 'page' : undefined}>
+              <span class="relative z-10">{item.text}</span>
+              <div class="absolute inset-0 bg-white/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 group-hover:scale-105"></div>
               {item.text}
             </a>
           )
@@ -61,9 +65,9 @@ const currentPath = Astro.url.pathname;
               id="search"
               name="search"
               placeholder="Search..."
-              class="bg-teal-700 text-white placeholder-teal-300 rounded-full py-1 px-4 pr-10 focus:outline-none focus:ring-2 focus:ring-teal-300"
+              class="bg-white/10 text-white placeholder-white/60 rounded-full py-2 px-5 pr-12 focus:outline-none focus:ring-2 focus:ring-white/20 transition-all duration-300 hover:bg-white/20 w-64"
             />
-            <button type="submit" class="absolute right-0 top-0 mt-1 mr-3" aria-label="Submit search">
+            <button type="submit" class="absolute right-0 top-0 mt-2 mr-4 transition-transform duration-300 hover:scale-110" aria-label="Submit search">
               <Icon name="mdi:magnify" class="w-5 h-5 text-teal-300" />
             </button>
           </div>
@@ -71,7 +75,7 @@ const currentPath = Astro.url.pathname;
 
         <button
           id="mobile-menu-toggle"
-          class="md:hidden text-white focus:outline-none focus:ring-2 focus:ring-teal-300 rounded-md p-1"
+          class="md:hidden text-white focus:outline-none focus:ring-2 focus:ring-white/20 rounded-lg p-2 hover:bg-white/10 transition-all duration-300"
           aria-expanded="false"
           aria-controls="mobile-menu"
         >
@@ -81,19 +85,20 @@ const currentPath = Astro.url.pathname;
       </div>
     </div>
 
-    <div id="mobile-menu" class="md:hidden mt-4 hidden">
-      <nav class="flex flex-col space-y-2" aria-label="Mobile Navigation">
+    <div id="mobile-menu" class="md:hidden mt-4 hidden transform transition-all duration-300 ease-in-out">
+      <div class="relative rounded-xl bg-white/10 backdrop-blur-md p-4 border border-white/10 shadow-2xl">
+      <nav class="flex flex-col space-y-3" aria-label="Mobile Navigation">
         {navItems.map((item) => (
           item.children ? (
             <div class="space-y-2">
-              <button class="flex items-center justify-between w-full text-left hover:text-teal-200 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-300 rounded-md px-2 py-1" aria-expanded="false">
+              <button class="flex items-center justify-between w-full text-left hover:text-white/90 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-white/20 rounded-lg px-3 py-2 hover:bg-white/10" aria-expanded="false">
                 <span>{item.text}</span>
                 <Icon name="mdi:chevron-down" class="w-4 h-4" />
               </button>
               <ul class="pl-4 space-y-2 hidden">
                 {item.children.map((child) => (
                   <li>
-                    <a href={child.href} class="block hover:text-teal-200 transition-colors rounded-md px-2 py-1" aria-current={currentPath === child.href ? 'page' : undefined}>
+                    <a href={child.href} class="block hover:text-white/90 transition-all duration-300 rounded-lg px-3 py-2 hover:bg-white/10 hover:translate-x-1" aria-current={currentPath === child.href ? 'page' : undefined}>
                       {child.text}
                     </a>
                   </li>
@@ -101,13 +106,13 @@ const currentPath = Astro.url.pathname;
               </ul>
             </div>
           ) : (
-            <a href={item.href} class="hover:text-teal-200 transition-colors rounded-md px-2 py-1" aria-current={currentPath === item.href ? 'page' : undefined}>
+            <a href={item.href} class="hover:text-white/90 transition-all duration-300 rounded-lg px-3 py-2 hover:bg-white/10 hover:translate-x-1" aria-current={currentPath === item.href ? 'page' : undefined}>
               {item.text}
             </a>
           )
         ))}
       </nav>
-      <form class="mt-4">
+      <form class="mt-6">
         <label for="mobile-search" class="sr-only">Search</label>
         <div class="relative">
           <input
@@ -115,16 +120,29 @@ const currentPath = Astro.url.pathname;
             id="mobile-search"
             name="search"
             placeholder="Search..."
-            class="w-full bg-teal-700 text-white placeholder-teal-300 rounded-full py-2 px-4 pr-10 focus:outline-none focus:ring-2 focus:ring-teal-300"
+            class="w-full bg-white/10 text-white placeholder-white/60 rounded-full py-2 px-5 pr-12 focus:outline-none focus:ring-2 focus:ring-white/20 transition-all duration-300 hover:bg-white/20"
           />
           <button type="submit" class="absolute right-0 top-0 mt-2 mr-3" aria-label="Submit search">
             <Icon name="mdi:magnify" class="w-5 h-5 text-teal-300" />
           </button>
         </div>
       </form>
+      </div>
     </div>
   </div>
 </header>
+
+<style>
+  .mask-gradient {
+    mask-image: linear-gradient(to bottom, transparent, black 1rem, black, transparent);
+  }
+  
+  .bg-grid-white/10 {
+    background-size: 20px 20px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  }
+</style>
 
 <script>
   const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
