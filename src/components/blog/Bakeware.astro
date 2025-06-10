@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { Picture, Image } from 'astro:assets';
+import bakewareImg from "@/assets/images/the-kitchen-pot-bakeware.png
 
 // Fetch blog posts from the 'blog' collection with category 'Bakeware', sorted by date descending
 const blogPosts = await getCollection('blog', post => post.data.category === 'Bakeware');
@@ -20,7 +21,7 @@ const otherPosts = blogPosts.length > 1 ? blogPosts.slice(1, 5) : [];
       </p>
       <div class="relative rounded-2xl overflow-hidden mb-8 transform group-hover:scale-[1.02] transition-transform duration-300">
         <Image
-          src="https://images.unsplash.com/photo-1603561594819-5d0c7a4f1e1f"
+          src={bakewareImg}
           alt="Bakeware"
           width={512}
           height={384}
