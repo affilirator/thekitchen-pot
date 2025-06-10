@@ -21,13 +21,13 @@ const navItems = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="bg-gradient-to-r from-teal-600 via-teal-500 to-emerald-500 text-white sticky top-0 z-50 backdrop-blur-sm bg-opacity-90 border-b border-white/10 shadow-lg">
+<header class="bg-gradient-to-r from-teal-600 via-teal-700 to-emerald-600 text-white top-0 z-30 backdrop-blur-sm bg-opacity-90 border-b border-white/10 shadow-lg">
   <div class="container mx-auto px-4 py-3 relative overflow-hidden">
     <div class="absolute inset-0 bg-grid-white/10 mask-gradient"></div>
     <div class="header-nav flex justify-between items-center">
       <Logo />
 
-      <nav class="hidden md:flex space-x-8" aria-label="Main Navigation">
+      <nav class="hidden md:flex space-x-8 z-50" aria-label="Main Navigation">
         {navItems.map((item) => (
           item.children ? (
             <div class="relative group">

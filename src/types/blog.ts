@@ -3,7 +3,7 @@ import type { ImageMetadata } from 'astro';
 
 export interface BlogPost {
   id: string;
-  //slug: string;
+  slug?: string;
   data: {
     title: string;
     slug: string;
