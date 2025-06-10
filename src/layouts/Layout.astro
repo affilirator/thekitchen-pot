@@ -63,6 +63,7 @@ const organizationSchema = {
     <link rel="canonical" href={canonicalURL} />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/atom+xml" title={title} href="/rss.xml" />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
 
     <!-- SEO and Social Media Meta Tags -->
     <meta name="robots" content="index, follow" />
@@ -78,6 +79,14 @@ const organizationSchema = {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
 
+    <link
+            rel="preload"
+            href="/fonts/inter-v19-latin-regular.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin
+        />
+
 
 
     <!-- Schema.org Markup -->
@@ -87,7 +96,7 @@ const organizationSchema = {
     />
 </head>
 
-<body class="w-full antialiased overflow-x-hidden">
+<body class="w-full font-sans antialiased overflow-x-hidden">
     <!-- <NewNav /> -->
     <Header />
     <main>

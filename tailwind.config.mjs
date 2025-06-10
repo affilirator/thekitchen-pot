@@ -61,9 +61,9 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["Open Sans", "sans-serif"],
-        display: ["Bebas Neue", "sans-serif"],
-        serif: ["Inter", "sans-serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
+        display: ["Merriweather", "serif"],
+        serif: ["Noto Sans JP", "sans-serif"],
       },
       backgroundImage: {
         "hero-pattern":
