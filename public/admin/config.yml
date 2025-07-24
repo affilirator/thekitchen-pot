@@ -1,18 +1,19 @@
 backend:
   name: git-gateway
-  repo: affilirator/thekitchen-pot
+  repo: thekitchen-pot/thekitchen-pot # affilirator/thekitchen-pot
   branch: main
   base_url: https://thekitchenpot.com
+  squash_merges: true
   # client_secret: 7f474a98bd6b11bd307723d6bc699e353dc0bca2
-  #https://github.com/thekitchen-pot/thekitchen-pot
-  #NecClientScr=Iv23liGxmTCwuyoQb5kz
-  #Newcleitdsrc=53969d5e88980cb7dcd9ed73701c6ca8ee77970c
+  # https://github.com/thekitchen-pot/thekitchen-pot
+  # NecClientScr=Iv23liGxmTCwuyoQb5kz
+  # Newcleitdsrc=53969d5e88980cb7dcd9ed73701c6ca8ee77970c
 
 site_url: https://thekitchenpot.com
 display_url: thekitchenpot.com
 # logo_url: https://www.bestofvacuum.com/images/logo.svg
 show_preview_links: true
-publish_mode: editorial_workflow
+publish_mode: simple
 media_folder: "images"
 public_folder: "/images"
 
@@ -34,9 +35,16 @@ collections:
           default: "{{fields.pubDate}}",
         }
       - {
+          label: "Filter",
+          name: "filter",
+          widget: "hidden",
+          default: "wordpress",
+        }
+      - {
           label: "Source",
           name: "source",
           widget: "string",
+          hint: "This field must always be set to 'wordpress' for your website to function optimally.",
           default: "wordpress",
         }
       - { label: "URL Slug", name: "slug", widget: "string", required: true }
@@ -50,6 +58,7 @@ collections:
           label: "Publication Date",
           name: "pubDate",
           widget: "datetime",
+          required: true,
           date_format: "YYYY-MM-DD",
         }
       - {
@@ -130,6 +139,7 @@ collections:
           label: "Publication Date",
           name: "pubDate",
           widget: "datetime",
+          required: true,
           date_format: "YYYY-MM-DD",
         }
       - {
@@ -161,8 +171,15 @@ collections:
           default: "/images/blog/default-cover.jpg",
         }
       - {
-          label: "Description",
+          label: "Excerpt",
           name: "excerpt",
+          widget: "text",
+          pattern: [".{50,160}", "SEO description (50-160 characters)"],
+        }
+      - {
+          label: "Description",
+          name: "description",
+          default: "Your excerpt",
           widget: "text",
           pattern: [".{50,160}", "SEO description (50-160 characters)"],
         }
@@ -172,15 +189,16 @@ collections:
           widget: "relation",
           collection: "categories",
           search_fields: ["slug", "title"],
-          value_field: "slug",
+          value_field: "title",
           display_fields: ["title"],
-          default: "kitchenware",
+          default: "Kitchenware",
           required: true,
         }
       - label: "Tags"
         name: "tags"
         label_singular: "Tag"
         widget: "list"
+        required: true
         summary: "{{fields.tag}}"
         field: { label: Tag, name: tag, widget: string }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -588,6 +606,8 @@ collections:
           default: "Person",
           hint: "Used for structured data markup",
         }
+
+  
 
   - name: "reviews"
     label: "Reviews"

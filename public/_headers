@@ -1,10 +1,6 @@
-/admin/*
-  X-Robots-Tag: noindex, nofollow
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer
-  cache-control: no-cache, no-store, must-revalidate
 
-https://dev.thekitchenpot.com/*
+
+/*.dev/*
   X-Robots-Tag: noindex, nofollow
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
@@ -16,7 +12,7 @@ https://dev.thekitchenpot.com/*
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
 
-https://kitchenpots.netlify.app/*
+/*.app/*
   X-Robots-Tag: noindex, nofollow
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
@@ -26,3 +22,8 @@ https://kitchenpots.netlify.app/*
   Cross-Origin-Embedder-Policy: require-corp
   Cross-Origin-Opener-Policy: same-origin
   Cross-Origin-Resource-Policy: same-origin
+
+/admin/*
+  X-Robots-Tag: noindex, nofollow
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer

@@ -1,6 +1,3 @@
----
-export const prerender = false;
----
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,6 +9,24 @@ export const prerender = false;
     <title>The Kitchen Pot Content Manager</title>
   </head>
   <body>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      CMS.registerEditorComponent({
+          id: 'button-link',
+          label: 'CTA Button',
+          fields: [
+            { name: 'text', label: 'Button Text', widget: 'string' },
+            { name: 'url', label: 'Destination URL', widget: 'string' }
+          ],
+          pattern: /<a\s+href="(.+?)"\s*>(.+?)<\/a>/,
+          fromBlock: match => ({ url: match[1], text: match[2] }),
+          toBlock: data => `<a href="${data.url}" class="btn-cta">${data.text}</a>`,
+          toPreview: data => `<a href="${data.url}" class="btn-cta">${data.text}</a>`
+        });
+
+
+</script>
+    </script>
 
 
     <script src="https://unpkg.com/decap-cms@^3.1.2/dist/decap-cms.js"></script>

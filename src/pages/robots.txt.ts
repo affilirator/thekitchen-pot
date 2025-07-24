@@ -2,7 +2,8 @@
 import type { APIRoute } from "astro";
 
 // Constants moved outside the function for better memory usage
-const DEFAULT_SITE_URL = "https://thekitchenpot.com";
+const site = import.meta.env.SITE;
+const DEFAULT_SITE_URL = site;
 const NO_INDEX_PATHS = [
   "/blog/tag/*",
   "/blog/example-post",
@@ -11,9 +12,11 @@ const NO_INDEX_PATHS = [
   "*thekitchenpots.netlify.app/*",
   "/tag/*",
   "/goto/*",
+  "https://*.app",
+  "https://*.dev",
   "/search/*",
   "*dev.thekitchenpot.com/*",
-  "/?",
+  "https://*?*",
   "*.pages.dev/*",
   "*kff.pages.dev/*",
 ] as const;
@@ -32,7 +35,7 @@ const RESPONSE_HEADERS = {
 
 export const GET: APIRoute = ({ site }) => {
   try {
-    const siteUrl = import.meta.env.SITE_URL || DEFAULT_SITE_URL;
+    const siteUrl = import.meta.env.SITE || DEFAULT_SITE_URL;
     const robotsTxtContent = generateRobotsTxt(siteUrl);
 
     return new Response(robotsTxtContent, {
