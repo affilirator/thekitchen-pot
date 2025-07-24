@@ -9,7 +9,7 @@ const NO_INDEX_PATHS = [
   "/blog/example-post",
   "/category/*",
   "/api/*",
-  "*thekitchenpots.netlify.app/*",
+  "/*thekitchenpots.netlify.app/*",
   "/blog/tag/*",
   "/goto/*",
   "https://*.app",
@@ -17,9 +17,9 @@ const NO_INDEX_PATHS = [
   "/search/*",
   "/*.dev.thekitchenpot.com/*",
   "https://*?*",
-  "*.pages.dev/*",
-  "*kff.pages.dev/*",
-  "/blog/[0-9]*/",
+  "/*.pages.dev/*",
+  "/*kff.pages.dev/*",
+  "/*/blog/[0-9]*/",
 ] as const;
 
 // Memoized function to generate robots.txt content
