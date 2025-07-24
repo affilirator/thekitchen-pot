@@ -153,6 +153,7 @@ const monthYear = new Date().toLocaleDateString('en-US', {
   <Picture
     src={frontmatter.image}
     alt={frontmatter.title}
+    fetchPriority='high'
     
     inferSize={true}
     formats={['webp', 'avif']}
