@@ -27,5 +27,7 @@
   X-Robots-Tag: noindex, nofollow
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
+/fonts/*
+  Cache-Control: public, max-age=31556952, immutable
 /*
   X-Robots-Tag: index, follow
